@@ -1,179 +1,179 @@
-[
+const moods = [
 {
     "term": "Adventurous",
     "scope_note": "Games that engage the player through exploration, risk-taking, and overcoming obstacles.",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "*The Legend of Zelda*, *Tomb Raider*, *Uncharted*.",
-    "use": [""],
-    "use_for":[""],
+    "use": [],
+    "use_for":[],
     "type": ""
 },
 {
     "term": "Aggressive",
     "scope_note": "Games in which the focus is on forceful, combative actions.",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "*Mad World*, *Mortal Kombat*, *Manhunt*.",
-    "use": [""],
-    "use_for":[""],
+    "use": [],
+    "use_for":[],
     "type": ""
 },{
     "term": "Apocalyptic",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Dark"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Bleak",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Dark"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Bright",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Light-hearted"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Calm",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Light-hearted"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Carefree",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Light-hearted"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Cheerful",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Light-hearted"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Competitive",
     "scope_note": "Games in which the focus is on competition between other players, either real or artificial.",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "*Super Smash Bros. Brawl*, *Unreal Tournament 3*, *Forza Motorsport 4*.",
-    "use": [""],
-    "use_for":[""],
+    "use": [],
+    "use_for":[],
     "type": ""
 },{
     "term": "Comradery",
     "scope_note": "Games in which positive social bonding occurs, either with other players or in-game characters.",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "*Brothers: A Tale of Two Sons*, *Grandia*, *Destiny*.",
-    "use": [""],
-    "use_for":[""],
+    "use": [],
+    "use_for":[],
     "type": ""
 },{
     "term": "Cozy",
     "scope_note": "Games that foster a sense of warmth, comfort, and relaxation, often through inviting environments, gentle gameplay, and soothing aesthetics.",
     "related_terms": ["Cute", "Light-hearted", "Peaceful"],
     "example": "*Animal Crossing: New Horizons*, *Harvest Moon: Light of Hope*.",
-    "use": [""],
-    "use_for":[""],
+    "use": [],
+    "use_for":[],
     "type": ""
 },{
     "term": "Creative",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Imaginative"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Cute",
     "scope_note": "Games with a charming, childish, and/or delightful quality.",
     "related_terms": ["Cozy"],
     "example": "*Pokemon Red/Blue*, *Kirby's Dreamland*, *Bubble Bobble*.",
-    "use": [""],
+    "use": [],
     "use_for":["Sweet"],
     "type": ""
 },{
     "term": "Cynical",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Dark"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Dark",
     "scope_note": "Games with a grim atmosphere that focus on dismal, glomy, and/or depressing circumstances.",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "*BioShock*, *Dark Souls*, *Batman: Arkham Asylum*.",
-    "use": [""],
+    "use": [],
     "use_for":["Apocalyptic", "Bleak", "Cynical", "Gloomy", "Gritty", "Somber"],
     "type": ""
 },{
     "term": "Disturbing",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Horror"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Eerie",
     "scope_note": "Games that create a sense of unease or discomfort, often through unsettling atmospheres, ambiguous threats, adn a feeling of something being subtly, but profoundly, wrong.",
     "related_terms": ["Horror"],
     "example": "*Oxenfree*, *What Remains of Edith Finch*",
-    "use": [""],
+    "use": [],
     "use_for":["Unsettling", "Liminal"],
     "type": ""
 },{
     "term": "Erotic",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Sensual"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Funny",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Humorous"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Gloomy",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Dark"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Gritty",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Dark"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Horror",
     "scope_note": "Games that frighten players by playing on primal fears, inducing feelings of horror and terror.",
     "related_terms": ["Eerie"],
     "example": "*Silent Hill*, *Resident Evil*, *Outlast*.",
-    "use": [""],
+    "use": [],
     "use_for":["Disturbing", "Macabre", "Paranoid", "Scary", "Unsettling"],
     "type": ""
 },{
@@ -181,248 +181,248 @@
     "scope_note": "Games that possess a funny, amusing quality.",
     "related_terms": ["Light-hearted"],
     "example": "*Strong Bad's Cool Game for Attractive People*, *Sam and Max Hit the Road*, *Monkey Island*",
-    "use": [""],
+    "use": [],
     "use_for":["Funny", "Silly", "Witty"],
     "type": ""
 },{
     "term": "Imaginative",
     "scope_note": "Games where the primary focus is creative expression of the player, through world-building, character-building, and/or creative problem-solving.",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "*LittleBigPlanet*, *Scribblenauts*, *Minecraft*, *Spore*.",
-    "use": [""],
+    "use": [],
     "use_for":["Creative"],
     "type": ""
 },{
     "term": "Immersive",
     "scope_note": "Games that mentally transport or transfix the player to the world or realm presented in the game.",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "*Dragon Age: Origins*, *Shenmue*, *Heavy Rain*.",
-    "use": [""],
-    "use_for":[""],
+    "use": [],
+    "use_for":[],
     "type": ""
 },{
     "term": "Intense",
     "scope_note": "Games with an extreme, high-energy tone, meant to inspire strong emotions in the player (stress, determination, a sense of urgency, etc.).",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "*Metal Gear Solid: Revengeance*, *Devil May Cry*, *God of War 2*.",
-    "use": [""],
-    "use_for":[""],
+    "use": [],
+    "use_for":[],
     "type": ""
 },{
     "term": "Light-hearted",
     "scope_note": "Games that possess a cheerful, carefree quality.",
     "related_terms": ["Cozy", "Humorous"],
     "example": "*Harvest Moon*, *Angry Birds*, *Peggle*.",
-    "use": [""],
+    "use": [],
     "use_for":["Bright","Carefree","Cheerful","Optimistic"],
     "type": ""
 },{
     "term": "Liminal",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Eerie"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Macabre",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Horror"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Meditative",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Peaceful"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Mellow",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Peaceful"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Mysterious",
     "scope_note": "Games that invoke curiostiy and/or suspense through the investigation of the unknown (a crime, a secret, a strange occurrence, etc.).",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "*Gabriel Knight*, *Myst*, *The Vanishing of Ethan Carter*.",
-    "use": [""],
+    "use": [],
     "use_for":["Suspenseful"],
     "type": ""
 },{
     "term": "Nostalgic",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Sentimental"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Offbeat",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Quirky"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Optimistic",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Light-hearted"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Paranoid",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Horror"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Peaceful",
     "scope_note": "Games that invoke a sense of calm.",
     "related_terms": ["Cozy"],
     "example": "*Flower*, *Journey*, *Zen Bound*.",
-    "use": [""],
+    "use": [],
     "use_for":["Calm", "Meditative", "Mellow", "Relaxed"],
     "type": ""
 },{
     "term": "Quirky",
     "scope_note": "Games with an unusual or peculiar quality.",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "*Braid*, *Paper Mario*, *Katamari Damacy*.",
-    "use": [""],
+    "use": [],
     "use_for":["Offbeat", "Whimsical"],
     "type": ""
 },{
     "term": "Relaxed",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Peaceful"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Romantic",
     "scope_note": "Games where a substantial focus is on romantic relationships and the pursuit of love.",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "*Sentimental Graffiti*, *Shin Megami Tensei*, *Persona 4*, *Hatoful Boyfriend*.",
-    "use": [""],
-    "use_for":[""],
+    "use": [],
+    "use_for":[],
     "type": ""
 },{
     "term": "Sad",
     "scope_note": "Games that evoke feelings of sorrow, loss, or melancholy.",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "*The Last of Us*, *Final Fantasy 7*.",
-    "use": [""],
-    "use_for":[""],
+    "use": [],
+    "use_for":[],
     "type": ""
 },{
     "term": "Sarcastic",
     "scope_note": "Games that have a sharp, satirical, caustic tone.",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
-    "use": [""],
+    "use": [],
     "use_for":["Satirical"],
     "type": "*Grand Theft Auto 3*, *Fallout 3*, Saints Row the Third*."
 },{
     "term": "Satirical",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Sarcastic"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Scary",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Horror"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Sensual",
     "scope_note": "Games that evoke physical or sensual pleasure.",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "*Bayonetta*, *Catherine*.",
-    "use": [""],
+    "use": [],
     "use_for":["Erotic", "Sexy"],
     "type": ""
 },{
     "term": "Sexy",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Sensual"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Silly",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Humorous"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Solitary",
     "scope_note": "Games in which the player feels isolated or alone.",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "*Metroid*, *Shadow of the Colossus*, *P.T.*",
-    "use": [""],
-    "use_for":[""],
+    "use": [],
+    "use_for":[],
     "type": ""
 },{
     "term": "Somber",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Dark"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Suspenseful",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Mysterious"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Sweet",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Cute"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Unsettling",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Eerie"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 },{
     "term": "Whimiscal",
     "scope_note": "",
-    "related_terms": [""],
+    "related_terms": [],
     "example": "",
     "use": ["Quirky"],
-    "use_for":[""],
+    "use_for":[],
     "type": ""
 }
 ]
