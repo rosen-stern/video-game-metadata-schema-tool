@@ -1,7 +1,26 @@
-   #cy {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0px;
-        left: 0px;
+.wrapper-graph{
+display:flex;
+height: 100%;
+width: 100%;
+gap: 10px;
+
+}
+
+#cy, #details {
+            background-color:floralwhite;
+        border: 5px solid burlywood;
+        border-radius: 10px;
+
+}
+
+#details {
+    width: 25%;
+    padding: 20px;
+    
+}
+
+#cy {
+        /* display: block; */
+        width: 75%;
+
     }

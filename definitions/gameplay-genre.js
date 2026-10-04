@@ -51,7 +51,7 @@ const gameplay_genres = [
     "type": ""
 },{
     "term": "Block Breaking",
-    "scope_note": "Games where the primary mechanci for advancement and scoring is the breaking of blocks, often with a ball controlled by a paddle.",
+    "scope_note": "Games where the primary mechanic for advancement and scoring is the breaking of blocks, often with a ball controlled by a paddle.",
     "related_terms": [],
     "example": "*Brickles* and *3-D Brickaway*.",
     "use": [],
