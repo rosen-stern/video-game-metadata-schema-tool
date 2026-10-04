@@ -1,0 +1,862 @@
+[{
+    "term": "Our world",
+    "scope_note": "Game worlds created to represent reality.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "World"
+},{
+    "term": "Alternate world",
+    "scope_note": "A fictional world with designs based in reality.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "World"
+},{
+    "term": "Imagined world",
+    "scope_note": "A self-consistent fictional setting with elements that differ from reality.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "World"
+},{
+    "term": "Prehistoric",
+    "scope_note": "Features early technologies; stone tools and fire. Employs a mix of perhistoric creatures, dinosaurs, and cavemen.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Time Period"
+},{
+    "term": "Ancient",
+    "scope_note": "Seen as the dawn of civilization with technologies containing Swords and Sandals. This time period is also known to be heavily steeped in mythology and god-lore.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Time Period"
+},{
+    "term": "Byzantine",
+    "scope_note": "The Byzantine period encompasses the Crusades, and is characterized by strong Roman and Greek influences. (Retrieved from history.com/topics/ancient-history/byzantine-empire)",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Time Period"
+},{
+    "term": "Cold War",
+    "scope_note": "The time period following the end of World War II (circa 1947 - 1991), in which tensions between the United States and the Soviet Union were high. IT is characterized by a clash of political ideals between democracy and communism.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Time Period"
+},{
+    "term": "Dark Ages",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Medieval"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Time Period"
+},{
+    "term": "Medieval",
+    "scope_note": "Castles are in abundance; the government style tends to focus on feudalism and in many cases there is a hereditary monarchy in place.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["Dark Ages"],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Time Period"
+},{
+    "term": "Reformation",
+    "scope_note": "The time period marked by 'religious, political, intellectual, and cultural upheaval' that split apart Catholic Europe during the 16th century. High profile individuals of this time include Martin Luther, Johbn Calvin, and Henry VIII. (Retrieved from history.com/topics/reformation)",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Time Period"
+},{
+    "term": "Renaissance",
+    "scope_note": "Time period when gunpowder is first introduced; cultures are more focused on philosophy and the arts.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Time Period"
+},{
+    "term": "Imperial",
+    "scope_note": "Pre-World War I period of colonization, discovery, industrialization, and travel.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Time Period"
+},{
+    "term": "Modern",
+    "scope_note": "A time of war and rebuilding of superpowers; World War II to the contemporary period.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Time Period"
+},{
+    "term": "Contemporary",
+    "scope_note": "The part of history still in living memory.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Time Period"
+},{
+    "term": "Futuristic",
+    "scope_note": "Focuses on interstellar exploration/colonization, interaction with alien species, and future empire building all while still having some relationship with Earth.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Time Period"
+},{
+    "term": "Western",
+    "scope_note": "The time period characterized by cowboys, outlaws, and saloons.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Time Period"
+},{
+    "term": "Unspecified",
+    "scope_note": "Not states clearly or exactly.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Time Period"
+},{
+    "term": "Year (YYYY)",
+    "scope_note": "In the style of the Gregorian calendar only if the specific year is present within the game. Also only use if Our World or Alternate World are selected.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Time Period"
+},{
+    "term": "Natural Environment",
+    "scope_note": "All living and nonliving things that are naturally on Earth.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":["Maze", "Outer Space", "Recreational Site", "Rural Area", "Sky", "Surface", "Underground", "Underwater"],
+    "type": "Place"
+},{
+    "term": "Maze",
+    "scope_note": "A 'confusing intricate network of passages.' (Retrieved from merriam-webster.com/dictionary/maze)",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Natural Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Nature Reserve",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Surface"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Outer Space",
+    "scope_note": "Void that exists between celestial bodies.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["Space", "Mars"],
+    "broader_term":"Natural Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Recreational site",
+    "scope_note": "A place for recreational activities.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["Amusement Park", "Aquarium", "Arcade", "Circus", "Park", "Playground", "Zoo"],
+    "broader_term":"Natural Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Religious site",
+    "scope_note": "A place of worship, usually for religions.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["Church"],
+    "broader_term":"Natural Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Rural Area",
+    "scope_note": "Geographic area that is located outside of the cities and towns.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["Rural", "Village", "Settlement"],
+    "broader_term":"Natural Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Sky",
+    "scope_note": "Everything that lies above the surface of earth, including the atmosphere, including outer space.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Natural Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Space",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Outer Space"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Surface",
+    "scope_note": "Natural environment on Earth that has not been significantly modified by humans.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["Nature Reserve", "Swamp", "Tundra", "Wilderness"],
+    "broader_term":"Natural Environment",
+    "narrower_term":["Beach", "Caves", "Forest", "Island", "Jungle", "Plains", "Volcano", "Water"],
+    "type": "Place"
+},{
+    "term": "Beach",
+    "scope_note": "Landform along the coast of an ocean, sea, lake, or river that consists of loose particles like sand or rock.",
+    "related_terms": ["Island"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Surface",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Caves",
+    "scope_note": "Hollow places in the ground, especially a large underground space that humans can enter.",
+    "related_terms": ["Underground"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Surface",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Forest",
+    "scope_note": "Area of land covered with trees or other woody vegetation.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Surface",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Island",
+    "scope_note": "A body of land surrounded entirely by the ocean. It is often tropical in climate, but varying environments may exist closer to its center.",
+    "related_terms": ["Beach"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Surface",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Jungle",
+    "scope_note": "An area of land covered with dense vegetation.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Surface",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Lake",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Water"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Ocean",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Water"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Plains",
+    "scope_note": "Flat region of land.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["Prairie"],
+    "broader_term":"Surface",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Prairie",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Plains"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "River",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Water"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Sea",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Water"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Volcano",
+    "scope_note": "A mountain with a crater or vent that allows contents from the Earth's core (like lava) to surface.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Surface",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Water",
+    "scope_note": "Transparent fluid which forms the world's streams, lakes, oceans, and rain, and is the major constituent of the fluids of living things.",
+    "related_terms": ["Underwater"],
+    "example": "",
+    "use": [""],
+    "use_for":["Lake", "Ocean", "River", "Sea"],
+    "broader_term":"Surface",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Swamp",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Surface"],
+    "use_for":[""],
+    "broader_term":"Natural Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Tundra",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Surface"],
+    "use_for":[""],
+    "broader_term":"Natural Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Wilderness",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Surface"],
+    "use_for":[""],
+    "broader_term":"Natural Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Underground",
+    "scope_note": "An area located beneath the ground/surface level where the majority of human activity typically occurs. It is often characterized as an area where there is no sunlight.",
+    "related_terms": ["Cave"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Natural Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Underwater",
+    "scope_note": "An area located beneath the water's surface level, in which marine and aquatic life thrive.",
+    "related_terms": ["Water"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Natural Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Built Environment",
+    "scope_note": "Material, spatial, and cultural product of human labor that combines physical elements and energy in forms for living, working, and playing.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":["Arena", "Castle", "Cyberspace", "Farm", "Home", "Hospital", "Mine", "Military Base", "Prison", "Restaurant", "Ruins", "School", "Scientific Laboratory", "Suburban", "Urban", "Vehicles"],
+    "type": "Place"
+},{
+    "term": "Aircraft",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Vehicles"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Amusement Park",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Recreational Site"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Apartment",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Home"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Aquarium",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Recreational Site"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Arcade",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Recreational Site"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Arena",
+    "scope_note": "An enclosed area, foten circular or oval-shaped for sporting events or other purposes.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["Stadium", "Coliseum"],
+    "broader_term":"Built Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Asylum",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Hospital"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Castle",
+    "scope_note": "A monumentally large building, often constructed with stone, that houses and protects royalty (Kings and Queens).",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Built Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Church",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Religious Site"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Circus",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Recreational Site"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "City",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Urban"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Coliseum",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Arena"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Cyberspace",
+    "scope_note": "Environment in which communication over computer network occurs.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Built Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Farm",
+    "scope_note": "Area of land that is devoted primarily to agricultural processes.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Built Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Fortress",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Military Base"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Jail",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Prison"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Home",
+    "scope_note": "Place used as permanent or semi-permanent residence for an individual, family, household, etc.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["House", "Apartment"],
+    "broader_term":"Built Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "House",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Home"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Mine",
+    "scope_note": "A pit or tunnel from which minerals (such as coal, gold, diamonds, etc.) are taken. (Retrieved from merriam-webster.com/dictionary/mine)",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Built Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Military Base",
+    "scope_note": "Facility owned and operated by the military that shelters military equipment and personnel, and facilitates training and operations.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["Fortress"],
+    "broader_term":"Built Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Prison",
+    "scope_note": "Facility in which inmates are confined and denied a variety of freedoms under the authority of state as a form of punishment",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["Jail"],
+    "broader_term":"Built Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Restaurant",
+    "scope_note": "An  establishment in which you may buy food that is cooked and prepared at that location. Patrons typically sit down and eat there, or get their food to go.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Built Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Ruins",
+    "scope_note": "Remains of humnan-made architecture: structures that were once complete, as time went by, have fallen into a state of partial or complete disrepair.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Built Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "School",
+    "scope_note": "Institution designed to teach students led by teachers.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Built Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Scientific Laboratory",
+    "scope_note": "Facility that provides controlled conditions for scientific or technological resaerch, experiments, measurements, etc.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["Labs", "Laboratory"],
+    "broader_term":"Built Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Settlement",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["Rural Area"],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Ship",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Vehicles"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Spaceship",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Vehicles"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Stadium",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Arena"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Submarine",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Vehicles"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Suburban",
+    "scope_note": "Geographic area that exists as part of a city or urban area or as a separate residential community within commuting distance of a city.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Built Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Subway",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Vehicles"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Train",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Vehicles"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Urban",
+    "scope_note": "Geographic area that is characterized by a high population density and vast human-built features.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["Town", "City"],
+    "broader_term":"Built Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Vehicles",
+    "scope_note": "Any object confirming to movement rules.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["Aircraft", "Ship", "Spaceship", "Submarine", "Subways", "Train"],
+    "broader_term":"Built Environment",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Village",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Rural Area"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Zoo",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Recreational Site"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Specific Location",
+    "scope_note": "Used to denote specific locations in game. Provide Continent, state or province, city or town.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+},{
+    "term": "Unspecified",
+    "scope_note": "Not stated clearly or exactly.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": "Place"
+}
+]

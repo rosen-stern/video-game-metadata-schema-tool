@@ -1,0 +1,1058 @@
+[{
+    "term": "The Strong Female Lead",
+    "scope_note": "A strong, independent female cahracter that is central to the story.",
+    "related_terms": ["The Affirmative Action Girl", "The Femme Fatale"],
+    "example": "Lara Croft from *Tomb Raider* and Bayonetta from *Bayonetta*",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+},
+{
+    "term": "The Ideal Hero",
+    "scope_note": "This male character often appears the same across many different games. For example, in many games there is a white male charactter with a buzz-cut and a strong jawline.",
+    "related_terms": [""],
+    "example": "Master Chief from the *Halo* franchise.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+}, 
+{
+    "term": "The Bold Explorer",
+    "scope_note": "This is a character driven by the quest to discover new lands, dieas, people, and experiences. This is different from The Conquerer in that they do not need to possess the new item, location, or idea. The experience is often enough.",
+    "related_terms": [""],
+    "example": "The protagonists of *Uncharted Waters*, specifically Ernst.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Collector",
+    "scope_note": "A character whose motivating factor is to collect all of something.",
+    "related_terms": [""],
+    "example": "The main antagonist in LittleBigPlanet.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Builder",
+    "scope_note": "A character whose motivating factor is to create or construct something, typically physical. This is often an empire or civilization that might also be for their private use.",
+    "related_terms": [""],
+    "example": "Some individual playing *Minecraft* and the Prince from Katamari Damacy.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Determinator",
+    "scope_note": "A character with relentless persistence and unyielding determination, often pushing through extreme adversity or impossible odds without giving up.",
+    "related_terms": ["The Revolutionary(ies)"],
+    "example": "Naruto from *Naruto Shippuden: Ultimate Ninja Storm 4* and Phoenix Wright from *Ace Attorney*.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Ranger",
+    "scope_note": "A person who spend most of their time in the outdoors and who is proficient at hunting, tracking, and wilderness survival.",
+    "related_terms": [""],
+    "example": "Anden Goodmanner from *A Dance with Rogues*.",
+    "use": [""],
+    "use_for":["The Hunter"], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Hunter",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["The Ranger"],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Average Individual",
+    "scope_note": "This character has no exceptional abilities.",
+    "related_terms": ["The Reluctant Hero"],
+    "example": "The protagonist from *Persona 3*",
+    "use": [""],
+    "use_for":["The Ordinary High School Student"], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Ordinary High School Student",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["The Average Individual"],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Chosen One",
+    "scope_note": "This character has been chosen by their people or divine beings to make a difference in the world.",
+    "related_terms": ["The Reluctant Hero", "The Sacrificial Lamb", "The Vessel/Conduit", "The Magic User"],
+    "example": "Link from *Zelda*",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Reluctant Hero",
+    "scope_note": "A character that does not want to take an active role in the story, but finds they should or must.",
+    "related_terms": ["The Chosen One", "The Sacrificial Lamb", "The Vessel/Conduit","The Magic User","The Average Individual"],
+    "example": "Chun Li from the *Street Fighter* franchise.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Secret Police",
+    "scope_note": "Police or police-like figures that use questionable or subversive methods to investifate possible crimes against the state or the main authority.",
+    "related_terms": ["The Evil Rich Person", "The Spy/Spymaster"],
+    "example": "Any government operative in *Deus X*.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Spy/Spymaster",
+    "scope_note": "An individual whose job it is to coordinate and gather information. Often an indispensible ally.",
+    "related_terms": ["The Evil Rich Person", "The Secret Police", "The Rogue/Stealth"],
+    "example": "Hiram Buttows from *Dishonor*.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Evil Rich Person",
+    "scope_note": "Money buys power. And power often corrupts.",
+    "related_terms": ["The Fat Bastard"],
+    "example": "The *Mario* series generally features wealthy, evil royalty.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Big Bad",
+    "scope_note": "This cahracter may or may not have powers, but he/she/it is the main antagonist of the story. This is usually the final boss in a game. Defeating The Big Bad will make the hero triumphant.",
+    "related_terms": ["The Demonic Foe", "The Antichrist", "The Eldritch Abomination", "The Overlord"],
+    "example": "the Lord of Terror from *Diablo*.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Sadistic Instructor",
+    "scope_note": "This character takes pleasure in making their pupil suffer. An example could be a particularly mean drill sergeant.",
+    "related_terms": [""],
+    "example": "Principal Hanya from *Persona 2*.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Dangerous Relative",
+    "scope_note": "This character is someone related to the main character or a trusted family friend or advisor. They represent a threat to the main character.",
+    "related_terms": [""],
+    "example": "Balin from *Dragon Age: Origins*.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Reluctant Villain",
+    "scope_note": "This character cannot achieve their goals within legal or moral restrictions, so they reluctantly take matters into their own hands. Conversely, they may also be following laws or moral restrictions to the letter, despite reservations.",
+    "related_terms": ["The Cursed Beast"],
+    "example": "Daisy Fitzroy from *BioShock Infinite*.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Outlaw",
+    "scope_note": "A character who operates outside of the law for good or evil.",
+    "related_terms": ["The Pirates", "The Revolutionary(ies)"],
+    "example": "the main character from *Red Dead Redemption*.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Unsettling Child",
+    "scope_note": "This character is a young child or adolescent that may or may not actually be creepy, but they project a creepy or unusual demeanor. Unlike the Deadly child, they may not be violent or skilled. ",
+    "related_terms": [""],
+    "example": "The Little Sisters from *BioShock*.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Deadly Child",
+    "scope_note": "This character is a young child or adolescent that may not seem dangerous at first glance, but they are either formidable fighters or have supernatural powers.",
+    "related_terms": [""],
+    "example": "The children who live in Little Lamplight in *Fallout 3* and Annie from *League of Legends*.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Convenient Orphan",
+    "scope_note": "This character has no parents or guardians to keep them in place when they are first introduced to the player.",
+    "related_terms": ["The Chosen One"],
+    "example": "Ellie from *The Last of Us*, Squall from *Final Fantasy 8*.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Amnesiac Hero",
+    "scope_note": "This character has no memory of events that took place immediately before the start of the story.",
+    "related_terms": [""],
+    "example": "Dust from *Dust: An Elysian Tail*, the main character of *Amnesia: The Dark Descent*.",
+    "use": [""],
+    "use_for":[""], 
+    "type": "Archetypal Pro/Antagonists"
+
+},
+{
+    "term": "The Cursed Beast",
+    "scope_note": "This character was once a human or human-like life form that was changed into an animal or monster that may be misunderstood by other characters.",
+    "related_terms": ["The Reluctant Villain"],
+    "example": "Kronos from *Kronos God of War* or any werewolf characters.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Exceptional Beings"
+},
+{
+    "term": "The Demonic Foe",
+    "scope_note": "A character that is from an underworld and represents a greater evil.",
+    "related_terms": ["The Big Bad"],
+    "example": "Magus of *Chrono Trigger*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Exceptional Beings"
+},{
+    "term": "The Antichrist",
+    "scope_note": "The character that is the highest member of an evil hierarchy, often from the underworld.",
+    "related_terms": ["The Big Bad"],
+    "example": "Sephiroth from *Final Fantasy VII*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Exceptional Beings"
+},{
+    "term": "The Eldritch Abomination",
+    "scope_note": "This character is a creature that has never been seen before, like Cthulhu.",
+    "related_terms": ["The Big Bad"],
+    "example": "The Reapers from the *Mass Effect* franchise.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Exceptional Beings"
+},{
+    "term": "The Threshold Guardian",
+    "scope_note": "This character possesses knowledge or has access to something that the main characters need to move forward in the story.",
+    "related_terms": ["The Librarian"],
+    "example": "Faralda from *The Elder Scrolls V: Skyrim*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Exceptional Beings"
+},{
+    "term": "The Living Statue",
+    "scope_note": "This is a character or characters that were once inanimate and then activated by another character.",
+    "related_terms": ["Mooks"],
+    "example": "The colossi in *Shadow of the Colossus*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Exceptional Beings"
+},{
+    "term": "The Disembodied Voice",
+    "scope_note": "This character may be a voice heard over an intercom or a supernatural being.",
+    "related_terms": ["The Threshold Guardian"],
+    "example": "Ness' father in *Earthbound*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Exceptional Beings"
+},{
+    "term": "The Undead",
+    "scope_note": "Any undead or otherwise supernaturally animated creature that was once alive.",
+    "related_terms": ["The Living Statue"],
+    "example": "Vampires and zombies.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Exceptional Beings"
+},{
+    "term": "The Runaway Royal",
+    "scope_note": "A person with noble lineage who skirts responsibility or wants to be free from their responsibilities.",
+    "related_terms": ["The Prince(ss) in Disguise"],
+    "example": "Marle from *Chrono Trigger*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Leaders"
+},
+{
+    "term": "The Prince(ss) in Disguise",
+    "scope_note": "A character that may or may not be aware of their royal blood, but is hidden for one reason or another.",
+    "related_terms": ["The Runaway Royal"],
+    "example": "Alistair in *Dragon Age: Origins* and Zelda (as Sheik) from the *Legend of Zelda: Ocarina of Time*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Leaders"
+},
+{
+    "term": "The Overlord",
+    "scope_note": "This character may represent some sort of evil and controls a vast army of minions. They may or may not be the main antagonist.",
+    "related_terms": [],
+    "example": "Dr. Robotnik from *Sonic the Hedgehog*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Leaders"
+},
+{
+    "term": "The Conqueror",
+    "scope_note": "A character whose primary objective is to possess and control lands, people, and resources in order to increase their power.",
+    "related_terms": ["The Overlord"],
+    "example": "Walhart from *Fire Emblem Awakening*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Leaders"
+},
+
+{
+    "term": "The Commander",
+    "scope_note": "A person in charge of a combat unit or armed forces.",
+    "related_terms": ["The War Veteran"],
+    "example": "Commander Shepard from the Mass Effect franchise.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Leaders"
+},
+{
+    "term": "The Animal Sidekick",
+    "scope_note": "A creature that accompanies the main character throughout the story.",
+    "related_terms": ["The Threshold Guardian", "The Sprite"],
+    "example": "Cedric the Owl from *King’s Quest V*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Allies"
+},{
+    "term": "The Adorable Minion(s)",
+    "scope_note": "An individual character or group of small creatures that work for a particular individual and their ultimate goal.",
+    "related_terms": ["The Mooks"],
+    "example": "The Tonberry and Moogle from the *Final Fantasy* franchise.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Allies"
+},{
+    "term": "The War Veteran",
+    "scope_note": "A character that has experienced combat and that experience of combat is formative to their personality.",
+    "related_terms": ["The Commander"],
+    "example": "Cole Phelps from *L.A. Noire*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Allies"
+},{
+    "term": "The Sacrificial Lamb",
+    "scope_note": "A character that is due to be sacrificed to a greater cause either by divine prophecy or as collateral damage.",
+    "related_terms": ["The Reluctant Hero", "The Vessel/Conduit"],
+    "example": "Zero from *Mega Man X*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Allies"
+},{
+    "term": "The Mooks",
+    "scope_note": "A commonly encountered and dispensable enemy employed by the antagonist character operating individually or in a larger group.",
+    "related_terms": ["The Horde", "The Adorable Minion(s)"],
+    "example": "The Storm Troopers from the *Star Wars* franchise.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Allies"
+},{
+    
+    "term": "The Hostages",
+    "scope_note": "Characters who are held captive by the antagonist in order to leverage the protagonist into doing the bidding of the antagonist. They generally require rescue.",
+    "related_terms": ["The Reluctant Hero", "The Vessel/Conduit"],
+    "example": "Promo Girl from the Resident *Evil 3: Nemesis* during Operation: Mad Jackal.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Allies"
+},{
+    "term": "The Funny Helper",
+    "scope_note": "A character that is not immediately perceived as useful and relied on by a storyteller for comic relief. However, their guidance or assistance for a quest makes them indispensable.",
+    "related_terms": ["The Animal Sidekick", "The Adorable Minion(s)"],
+    "example": "Navi from Legend of *Zelda: Ocarina Of Time*",
+    "use": [""],
+    "use_for":[""],
+    "type": "Allies"
+},{
+    "term": "The Vessel/Conduit",
+    "scope_note": "An individual chosen by divine intervention for some higher purpose. This purpose may include acting as a 'fifth element' (a physical embodiment of a concept) or host.",
+    "related_terms": ["The Reluctant Hero", "The Sacrificial Lamb", "The Magic User"],
+    "example": "Dorman in *Shadow of the Colossus*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Allies"
+},{
+    "term": "The Underworld God",
+    "scope_note": "A character who rules the underworld.",
+    "related_terms": ["The Demon Foe", "The Eldritch Abomination"],
+    "example": "The Seven Great Evils in the *Diablo* series.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Allies"
+},{ 
+    "term": "The Sprite",
+    "scope_note": "A small icon or creature that assists a character throughout their story and may offer special skills to a player such as enhancing an attack.",
+    "related_terms": ["The Animal Sidekick"],
+    "example": "Navi from *Legend of Zelda: Ocarina Of Time* and Pix from *League of Legends*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Allies"
+},{
+    "term": "The Morality Pet",
+    "scope_note": "A character that mediates another character’s morality.",
+    "related_terms": ["The Badass and Child Duo"],
+    "example": "Raphael’s daughter Amy from *Soul Calibur*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Allies"
+},{ 
+    "term": "The Designated Victim",
+    "scope_note": "A character who is perpetually in danger due to their innocence or naiveté and they are usually saved by the protagonist.",
+    "related_terms": ["The Reluctant Hero"],
+    "example": "Princess Peach from the *Mario* franchise.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Allies"
+},{ 
+    "term": "The Good All Along Character",
+    "scope_note": "A character who is believed to be evil at the beginning of the story, though investigation or new information is actually revealed to be an ally or 'good guy.'",
+    "related_terms": [""],
+    "example": "No example provided for this due to possible spoilers. Proceed with caution when assigning this trope.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Allies"
+},{ 
+    "term": "The Barbarian(s)",
+    "scope_note": "A group of people outside of the main society that usually live without technology and operate on a tribal system of governance.",
+    "related_terms": ["The Mooks"],
+    "example": "Centaurs in *World of Warcraft*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Philosophies and Cultures"
+},
+{ 
+    "term": "The Assimilator(s)",
+    "scope_note": "An individual or group of characters that holds a philosophical belief that everyone must be similar or the same.",
+    "related_terms": ["The Fundamentalist(s)", "The Evil Rich Person", "The Secret Police", "The Conqueror"],
+    "example": "The Geth from *Mass Effect* or The Borg from *Star Trek* franchise",
+    "use": [""],
+    "use_for":[""],
+    "type": "Philosophies and Cultures"
+},
+{ 
+    "term": "The Fundamentalist(s)",
+    "scope_note": "An individual or group of characters driven solely by the strength of their beliefs in politics or religion to the point of which they try to convert anyone to their point of view.",
+    "related_terms": ["The Revolutionary(ies)"],
+    "example": "The Qunari from *Dragon Age*",
+    "use": [""],
+    "use_for":[""],
+    "type": "Philosophies and Cultures"
+},
+{ 
+    "term": "The Heretic(s)",
+    "scope_note": "An individual or group of characters that go against the ideological flow of a larger group with possible risks to their well being.",
+    "related_terms": [""],
+    "example": "Nero from *Devil May Cry 4*",
+    "use": [""],
+    "use_for":[""],
+    "type": "Philosophies and Cultures"
+},
+{ 
+    "term": "The Isolationist(s)",
+    "scope_note": "An individual or small group of characters that believe they must stay separate from a larger population.",
+    "related_terms": ["The Evil Rich Person"],
+    "example": "The Mages' Collective from Dragon Age and the Gerudo tribe from *Legend of Zelda: Ocarina Of Time*",
+    "use": [""],
+    "use_for":[""],
+    "type": "Philosophies and Cultures"
+},
+{ 
+    "term": "The Revolutionary(ies)",
+    "scope_note": "A group or individual whose primary goal is to change the status quo.",
+    "related_terms": ["The Outlaw", "The Chosen One", "The Ideal Hero", "The Reluctant Hero"],
+    "example": "The Alliance from the *Star Wars* franchise.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Philosophies and Cultures"
+},
+{ 
+    "term": "The Pirate(s)",
+    "scope_note": "An individual or group of characters that steal large quantities of goods (government or private property), usually on some sort of large transport vessel.",
+    "related_terms": ["The Outlaw"],
+    "example": "The pirates from *The Pirates of the Caribbean* franchise.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Philosophies and Cultures"
+},
+{ 
+    "term": "The Otherworldly Visitor(s)",
+    "scope_note": "An individual or group of characters that come from a different world or time.",
+    "related_terms": ["The Conqueror"],
+    "example": "The Four Masks from Shadow Hearts",
+    "use": [""],
+    "use_for":[""],
+    "type": "Philosophies and Cultures"
+},
+{ 
+    "term": "The Horde",
+    "scope_note": "Typically an army or gathering that has strength in numbers and are enemy or other to the main protagonists.",
+    "related_terms": ["The Swarm"],
+    "example": "Orcs from The Lord of the Rings franchise",
+    "use": [""],
+    "use_for":[""],
+    "type": "Philosophies and Cultures"
+},
+{ 
+    "term": "The Swarm",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["The Horde"],
+    "use_for":[""],
+    "type": "Philosophies and Cultures"
+},
+{ 
+    "term": "The Brawler",
+    "scope_note": "A character that is quick to fight and often has a short temper.",
+    "related_terms": ["The Tank"],
+    "example": "Liquid Snake from *Metal Gear Solid*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Fighting style"
+},
+{
+    "term": "The Magic User",
+    "scope_note": "A wizard, witch, or other character that has supernatural powers.",
+    "related_terms": ["The Chosen One"],
+    "example": "Vivi from *Final Fantasy VII*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Fighting style"
+},
+{
+    "term": "The Girly Fighter",
+    "scope_note": "A character that uses methods that are based in gendered stereotypes (i.e. fighting with a skillet). This character may also have extreme flexibility or unlikely acrobatics and may have physically revealing fighting styles that male characters would not employ in order for the storyteller or game designer to show off the female body.",
+    "related_terms": ["The Strong Female Lead"],
+    "example": "Momoko from *The King of Fighters*, commonly seen in arcade style fighting games such as *Soul Calibur*, *Street Fighter*, *Mortal Kombat*, etc.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Fighting style"
+},
+{
+    "term": "The Tank",
+    "scope_note": "A character that is the target of assault and sustains the most damage during battle. Often they are used strategically to draw attention away from weaker characters so they can pursue their own directives.",
+    "related_terms": ["The Burly Bruiser", "The Badass and Child Duo"],
+    "example": "The Heavy from *Team Fortress 2*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Fighting style"
+},
+{
+    "term": "The Rogue",
+    "scope_note": "A character that employs stealth, dirty fighting, and agile techniques to inflict the most damage on enemies while avoiding taking damage themselves.",
+    "related_terms": ["The Assassin", "The Spy/Spymaster"],
+    "example": "The main characters in *Assassin’s Creed*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Fighting style"
+},
+{
+    "term": "The Assassin",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["The Rogue"],
+    "use_for":[""],
+    "type": "Fighting style"
+},
+{
+    "term": "Aloof, Dark Haired Girl",
+    "scope_note": "A character distinguished by her dark hair, often depicted as emotionally distant and mysterious.",
+    "related_terms": ["The Femme Fatale"],
+    "example": "Ada Wong from *Resident Evil*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Appearance as Personality"
+},
+{
+    "term": "The Gentle Giant",
+    "scope_note": "This character may seem formidable based on its appearance, but it is actually an ally.",
+    "related_terms": [""],
+    "example": "Claude from *Shining Force 2*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Appearance as Personality"
+},
+{
+    "term": "White Hair, Black Heart",
+    "scope_note": "A character with white or silver hair who is ruthless and malevolent, in contrast to their striking appearance.",
+    "related_terms": [""],
+    "example": "Sephiroth from *Final Fantasy VII*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Appearance as Personality"
+},
+{
+    "term": "Blondes are Dumb/Vain/Villains",
+    "scope_note": "A character who is portrated as stereotypically attractice but lacking in intelligence.",
+    "related_terms": ["The Strong Female Lead", "The Cute Bruiser"],
+    "example": "King Cailan from *Dragon Age: Origins*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Appearance as Personality"
+},
+{
+    "term": "Fat Bastard",
+    "scope_note": "A character who is overweight and portrated in a negative light.",
+    "related_terms": ["The Evil Rich Person"],
+    "example": "Wario from the *Mario* franchise.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Appearance as Personality"
+},
+{
+    "term": "The Patriarch",
+    "scope_note": "A male head of a family or tribe.",
+    "related_terms": [""],
+    "example": "Sun Jian in the *Dynast Warriors* series.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Gender"
+},
+{
+    "term": "The Matriarch",
+    "scope_note": "The female head of a family or tribe.",
+    "related_terms": [""],
+    "example": "Benezia from *Mass Effect*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Gender"
+},
+{
+    "term": "The Girl in the Boys Club",
+    "scope_note": "The female character in the stroy or game that embodies typically masculine traits.",
+    "related_terms": [""],
+    "example": "Seong Mi-na from *Soul Calibur*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Gender"
+},
+{
+    "term": "The Cute Bruiser",
+    "scope_note": "A cute, diminutive character that packs a powerful punch or has a prickly personality.",
+    "related_terms": ["The Baddass and Child Duo"],
+    "example": "Kirby from the *Kirby* franchise and Shantotto from *Final Fantasy XI*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Gender"
+},
+{
+    "term": "The Burly Bruiser",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["The Tank"],
+    "use_for":[""],
+    "type": "Gender"
+},
+{
+    "term": "The Femme Fatale",
+    "scope_note": "A female character that is deadly and often has a tragic backstory.",
+    "related_terms": ["The Strong Female Lead"],
+    "example": "Maggie Chow in *Deus Ex*",
+    "use": [""],
+    "use_for":[""],
+    "type": "Gender"
+},
+{
+    "term": "The Affirmative Action Girl",
+    "scope_note": "The single female character in the story or game of all male characters.",
+    "related_terms": ["The Strong Female Lead"],
+    "example": "Of the four playable characters in *Borderlands*, onyl one is female.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Gender"
+},
+{
+    "term": "The Manic Pixie Dream Girl",
+    "scope_note": "A female character whose sole reason of existence is to enliven the life of (a usually male) character.",
+    "related_terms": [""],
+    "example": "Catherine from *Catherine*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Gender"
+},
+{
+    "term": "The Ms. Male Character",
+    "scope_note": "A female version of a cahracter that was originally male.",
+    "related_terms": [""],
+    "example": "Ms. Pac Man and Toadette from the *Mario* franchise.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Gender"
+},
+{
+    "term": "The Woman as Decor",
+    "scope_note": "When female characters are depicted in games only as objects to be rescued, sexually pursued, or protected and otherwise serves no function in the narrative.",
+    "related_terms": [""],
+    "example": "Any sex worker or groupie in *Saints Row* or women in the *Grand Theft Auto* franchise.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Gender"
+},
+{
+    "term": "The Token Black Person",
+    "scope_note": "When there is only one black person in a cast of otherwise white characters.",
+    "related_terms": [""],
+    "example": "Nick Meyer from *Snake's Revenge*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Race"
+},
+{
+    "term": "The Asian Tech Genius",
+    "scope_note": "When the Asian character is really good with STEM subjects to the exclusion of other skills, particularly social skills.",
+    "related_terms": [""],
+    "example": "Jung Park from *Rainbow Six*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Race"
+},
+{
+    "term": "The Native Shaman",
+    "scope_note": "When an indigenous character has a connection or powers relating to the Earth or animals and this is usually an inherited trait from a tribe or their ancestry.",
+    "related_terms": [""],
+    "example": "Nightwolf from the *Mortal Kombat* franchise.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Race"
+},
+{
+    "term": "The Minority Alien Stand-In",
+    "scope_note": "When a character is of alien origins is meant to represent an analog to real-world ethnicities or races and these real-world ethnicities or races to not appear in the universe otherwise.",
+    "related_terms": [""],
+    "example": "The Syreen from *Star Control 2* and several races from the *Mass Effect* franchise.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Race"
+},
+{
+    "term": "The Exotic Black Woman",
+    "scope_note": "A form of 'blackspotation' that simultaneously sexualized and defeminizes a black female character.",
+    "related_terms": [""],
+    "example": "Vivienne from *Dragon Age*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Race"
+},
+{
+    "term": "The Badass and Child Duo",
+    "scope_note": "Typically a large individual who is paired with a young child with the 'badass' providing protection and support for the child.",
+    "related_terms": ["The Tank", "The Odd Couple"],
+    "example": "Corvo Attano and Emily Kaldwin from *Dishonor*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Teams"
+},
+{
+    "term": "The Odd Couple",
+    "scope_note": "When two characters compliment each other in terms of physical appearance or personalities. One is often more serious than the other.",
+    "related_terms": ["The Bickering Henchmen", "The Badass and Child Duo"],
+    "example": "Fia and Lian in *Riviera: The Promised Land*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Teams"
+},
+{
+    "term": "The Bickering Henchmen",
+    "scope_note": "Two to three individuals aligned with the antagonists that cannot seem to agree on anything.",
+    "related_terms": [""],
+    "example": "The brothers in *Myst*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Teams"
+},
+{
+    "term": "The Fantastic Four",
+    "scope_note": "A team of four individuals who all compliment each other in appearance, skills, and/or fighting styles.",
+    "related_terms": [""],
+    "example": "The Black, White, Red, and Yellow birds from *Angry Birds*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Teams"
+},
+{
+    "term": "The Found Family",
+    "scope_note": "A group of characters who, despite not being biologically related, form deep, supportive bonds that provide emotional connection, belonging, and mutual care, often overcoming shared struggles or challenges together.",
+    "related_terms": [""],
+    "example": "The Straw Hat crew in *One Piece: World Seeker*, The Shepherds in *Fire Emblem Awakening*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Teams"
+},{
+    "term": "Face/Heel Turn",
+    "scope_note": "When a character changes their alliance unexpectedly and sticks with their choice.",
+    "related_terms": ["Former Friends, Now Foes"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Morality"
+},
+{
+    "term": "Friends, Not Food",
+    "scope_note": "When a character struggles with the desire to connect with others despite them being a food source for them.",
+    "related_terms": ["The Morality Pet"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Morality"
+},
+{
+    "term": "End Justify the Means",
+    "scope_note": "When a character takes action that negatively impacts others to achieve a percieved 'greater good'.",
+    "related_terms": ["The Reluctant Villain", "The Determinator"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Morality"
+},
+{
+    "term": "Too Good for this World",
+    "scope_note": "A character so pure and perfect that they cannot live in this world and thus they get killed, often driving the main character to greater feats of heroics on their behalf.",
+    "related_terms": ["The Manic Pixie Dream Girl"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Morality"
+},
+{
+    "term": "Sadistic Choice",
+    "scope_note": "When a character or group of characters is presented with a lose-lose choice from their foe (i.e., choose between two loves ones).",
+    "related_terms": ["The Big Bad"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Morality"
+},
+{
+    "term": "Placate the Thing",
+    "scope_note": "When a character needs or soothes a creature that would normally intend harm in order to get past them.",
+    "related_terms": ["The Cursed Beast"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Driving Actions"
+},
+{
+    "term": "Assemble the Thing",
+    "scope_note": "When a character or group of characters needs to create something in order to move forward with the story.",
+    "related_terms": ["The Builder"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Driving Actions"
+},
+{
+    "term": "Escape the Labyrinth",
+    "scope_note": "When a character or characters must find their way through a maze or maze-like setting.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Driving Actions"
+},
+{
+    "term": "Slay the Dragon",
+    "scope_note": "When a character or gorup of characters needs to defeat a beast based on a request from the public or an individual or a serendipitious encounter.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Driving Actions"
+},
+{
+    "term": "Find the Thing",
+    "scope_note": "When a character or team needs to lcoate a particular item, creature, or individual in order to move forward with the story.",
+    "related_terms": ["The Ranger", "The Brave Explorer"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Driving Actions"
+},
+{
+    "term": "Perpetually Saving Private Ryan",
+    "scope_note": "This trope occurs when a character or a group of characters continually resues one particular character.",
+    "related_terms": ["The Designated Victim"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Driving Actions"
+},
+{
+    "term": "Bad Guy Done Us Wrong",
+    "scope_note": "Sometimes unrelated characters band together because they were each wronged in a similar or different way by the same character.",
+    "related_terms": ["The Enemey of my Enemy..."],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Call to Adventure"
+},
+{
+    "term": "Destiny Reveal",
+    "scope_note": "When a character learns something important about their future or recieves a calling from a higher power.",
+    "related_terms": ["The Chosen One", "The Sacrificial Lamb", "The Vessel/Conduit","The Reluctant Hero"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Call to Adventure"
+},
+{
+    "term": "Another Dimension",
+    "scope_note": "When a character or group of characters is pulled into another dimention and needs to find a way home.",
+    "related_terms": ["The Otherworldly Visitor(s)", "The Reluctant Hero"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Call to Adventure"
+},
+{
+    "term": "Resistence is Futile",
+    "scope_note": "A large entity seems like an insurmountable foe, but a small group of resistance fighters come together to attempt to defeat them.",
+    "related_terms": ["The Assimilator(s)", "The Revolutionary(ies)", "The Determinator"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Call to Adventure"
+},
+{
+    "term": "With Our Powers Combined",
+    "scope_note": "When two characters enhance their powers by joining their efforts or physical items to create a larger item. Sometimes this can also mean a bond of a spiritual sort.",
+    "related_terms": ["The Odd Couple","The Fantastic Four"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Team Building"
+},
+{
+    "term": "The Enemy of my Enemy...",
+    "scope_note": "When two characters or teams from opposing sides join forces to defeat a common foe.",
+    "related_terms": ["The Odd Couple"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Team Building"
+},
+{
+    "term": "Former Friends, Now Foes",
+    "scope_note": "When two or more characters were once allies, but events in the past have pushed them apart to the point at which they are now enemies.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Team Building"
+},
+{
+    "term": "Darkest Before the Dawn",
+    "scope_note": "At the climax of the story, everything seems hopeless.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Climax"
+},
+{
+    "term": "Hail Mary",
+    "scope_note": "At the climax of the story, this last-ditch effort made by the protagonists or teammates to overcome their trials. It often accompanies a 'this is so crazy it might just work' type of plan.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Climax"
+},
+{
+    "term": "Heroic Sacrifice",
+    "scope_note": "At the climax of the story, one of the main characters sacrifices themselves to save others.",
+    "related_terms": ["The Sacrificial Lamb","Too Good for this World", "The Good All Along Character"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Climax"
+},
+{
+    "term": "Almost Dead Killshot",
+    "scope_note": "At the climax of the story, one of the characters that the players thought was dead (or nearly dead) delivers a mortal wound to their opponent, often saving another indiviual in the process.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Climax"
+},
+{
+    "term": "Pointless Revenge",
+    "scope_note": "At the climax, once revenge has been achieved for a character for whom it was the driving force, new information comes to light that renders the revenge unethical or unnecessary even though it has already happened.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Climax"
+},
+{
+    "term": "I Choose to Stay",
+    "scope_note": "At the end of the story, one of the characters chooses to stay in the new setting instead of going home with their teammates (if they have any).",
+    "related_terms": ["The Bold Explorer","The Otherworldly Visitor(s)"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Endings"
+},
+{
+    "term": "But Now I Must Go",
+    "scope_note": "At the end of the story, one of the main protagonists leaves the group after their ordeal is over.",
+    "related_terms": ["The Isolationist(s)","The Reluctant Hero"],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "type": "Endings"
+},
+{
+    "term": "Ambiguous",
+    "scope_note": "At the end of the game the players are unsure of the ending- it could go multiple ways. ",
+    "related_terms": [""],
+    "example": "*BioShock Infinite*.",
+    "use": [""],
+    "use_for":[""],
+    "type": "Endings"
+}
+]

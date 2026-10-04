@@ -1,0 +1,803 @@
+[
+    {
+    "term": "Action",
+    "scope_note": "Games that revolve around a fast-paced experience. These games often emphasize reaction-based challenges in terms of how the player interacts with the game world. ",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":["Action-Adventure","Arcade","Blcok Breaking", "Brawler", "Fighting", "Hack and Slash", "Multiplayer Online Battle Arena", "Music", "Party","Platform","Stealth","Survival","Vehicle Combat"],
+    "type": ""
+},{
+    "term": "Action-Adventure",
+    "scope_note": "Games which focus more on a sense of adventure than fast-paced conflict, often with a focus on solving riddles or overcoming challenges to progress.",
+    "related_terms": [""],
+    "example": "*Myst* and *The Amazon Trail*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Action",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Adventure",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Action-Adventure"],
+    "use_for":[""],
+     "broader_term":"Action",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Arcade",
+    "scope_note": "Games that either were released in a classic arcade setting or have their artistic roots in that aesthetic. These games often have simple graphics and gameplay with a focus on attaining a high score.",
+    "related_terms": [""],
+    "example": "*Pac Man* and *Space Invaders*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Action",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Beat 'Em Up",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Brawler"],
+    "use_for":[""],
+    "broader_term":"Action",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Block Breaking",
+    "scope_note": "Games where the primary mechanci for advancement and scoring is the breaking of blocks, often with a ball controlled by a paddle.",
+    "related_terms": [""],
+    "example": "*Brickles* and *3-D Brickaway*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Action",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Brawler",
+    "scope_note": "Games focusing on physical hand-to-hand combat, sometimes allowing players to use parts of the engironment as weapons. Characters often engage with multiple enemies simultaneously to fight through levels.",
+    "related_terms": ["Hack and Slash"],
+    "example": "*Double Dragon* and *The Bouncer*.",
+    "use": [""],
+    "use_for":["Beat 'Em Up"],
+    "broader_term":"Action",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Car Combat",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Vehicle Combat"],
+    "use_for":[""],
+    "broader_term":"Action",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Fighting",
+    "scope_note": "Games where the player controls a character or team of characters engaging in physical combat with others. They employ rounds, with the winner of the majority deciding the match. Often feature diverse characters with unique fighting styles.",
+    "related_terms": [""],
+    "example": "*Street Fighter 2* and *King of Fighters*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Action",
+    "narrower_term":["Mascot Fighter"],
+    "type": ""
+},{
+    "term": "Mascot Fighter",
+    "scope_note": "Games featuring mascot characters, foten from game or media franchises, engaging in combat in the style of fighting games. Usually involve more than two characters fighting simultaneously in a free-for-all environment.",
+    "related_terms": [""],
+    "example": "*Super Smash Brothers* and *Playstation All-Stars Battle Royale*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Fighting",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Hack and Slash",
+    "scope_note": "Games focusing on fast-paced gameplay involving melee weapons. Players often fight mlutiple enemies simultaneously to advance across levels.",
+    "related_terms": ["Brawler"],
+    "example": "*Gauntlet Legends*, *Golden Axe*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Action",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Multiplayer Online Battle Arena",
+    "scope_note": "Games focusing on a third-person perspective where players control a single character in an online environment. Often feature teams competing to achieve goals or domination.",
+    "related_terms": [""],
+    "example": "*League of Legends*, *Defense of the Ancients*.",
+    "use": [""],
+    "use_for":["MOBA"],
+    "broader_term":"Action",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Music",
+    "scope_note": "Games revolving around music, beats, or rhythm as a core part of their experience. Some feature control of simulated instruments like guitars and drums.",
+    "related_terms": [""],
+    "example": "*Hi-Fi*, *Rock Band*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Action",
+    "narrower_term":["Dancing"],
+    "type": ""
+},{
+    "term": "Dancing",
+    "scope_note": "Games where players interact by moving or dancing on an external peripheral.",
+    "related_terms": ["Rhythm"],
+    "example": "*Dance Dance Revolution*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Music",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Party",
+    "scope_note": "Games that are collections of smaller 'mini-games,' often meant for group play in a casual competitive context.",
+    "related_terms": [""],
+    "example": "*Mario Party*, *Wii Party*.",
+    "use": [""],
+    "use_for":["Minigame Collection"],
+    "broader_term":"Action",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Platform",
+    "scope_note": "Games focusing on jumping of moving between platforms, navigating terrain and obstacles, emphasizing hand-eye coordination.",
+    "related_terms": [""],
+    "example": "*Super Mario Bros. 3*, *Sonic the Hedgehog*.",
+    "use": [""],
+    "use_for":["Platform"],
+    "broader_term":"Action",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Stealth",
+    "scope_note": "Games emphasizing stealth and avoiding detection.",
+    "related_terms": [""],
+    "example": "*Metal Gear Solid*, *Tenchu: Stealth Assassins*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Action",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Survival",
+    "scope_note": "Games focusing on surviving difficult situations, often emphasizing resource management (like health and ammunition) against overwhelming opposition.",
+    "related_terms": [""],
+    "example": "*Left 4 Dead*, *Don't Starve*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Action",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Vehicle Combat",
+    "scope_note": "Games focusing on combat between vehicles as a key mechanic.",
+    "related_terms": [""],
+    "example": "*Twisted Metal*, *Burnout*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Action",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Minigame Collection",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Party"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "MOBA",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Multiplayer Online Battle Arena"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Platformer",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Platform"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Puzzle",
+    "scope_note": "Games that emphasize solving puzzles and/or organizing pieces.",
+    "related_terms": [""],
+    "example": "*Lumines*, *Portal*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":["Block Fill", "Hidden Object", "Match Puzzles", "Point and Click", "Word Puzzles"],
+    "type": ""
+},{
+    "term": "Block Fill",
+    "scope_note": "Games where players strategically place or arrange blocks to fill spaces or complete patterns, aiming to clear lines or match shapes.",
+    "related_terms": [""],
+    "example": "*Tetris*, *Puyo*, *Pop Fever*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Puzzle",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Hidden Object",
+    "scope_note": "Games where players search for specific items concealed within detailed scenes to progress.",
+    "related_terms": [""],
+    "example": "*The Witness*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Puzzle",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Match Puzzles",
+    "scope_note": "Games where players align or group identical items (like tiles or gems) in sets, typically of three or more, to clear them and achieve objectives.",
+    "related_terms": [""],
+    "example": "*Candy Crush*, *Bejeweled 3*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Puzzle",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Point and Click",
+    "scope_note": "Games where players interact by clicking on objects, collecting items and information to solve puzzles and advance the narrative.",
+    "related_terms": ["Adventure"],
+    "example": "*Deponia*, *The Secret of Monkey Island*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Puzzle",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Word Puzzles",
+    "scope_note": "Puzzle-based games challenging players to form, decipher, or manipulate words or letters, testing vocabulary and language skills.",
+    "related_terms": [""],
+    "example": "*WORDLE*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Puzzle",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Rhythm",
+    "scope_note": "These games involve the player inputting commands or completing actions while synchronizing to a rhythm.",
+    "related_terms": [""],
+    "example": "*Space Channel 5*, *Donkey Conga*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Role-Playing",
+    "scope_note": "Games related to tabletop role-playing, invovling a heavy focus on statistical advancement (like 'leveling up') of characters, combined with exploration.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["RPG"],
+    "broader_term":"",
+    "narrower_term":["Japanese RPG", "Massively Multiplayer Online RPG", "Rogue-Like", "Western RPG"],
+    "type": ""
+},{
+    "term": "Japanese RPG",
+    "scope_note": "RPGs often designed in Japan, placing heavy focus on visual style and story elements, frequently involving romance and dramatic personal histories. Characters often show anime influence.",
+    "related_terms": [""],
+    "example": "*Final Fnatasy 7*, *Dragon Quest*.",
+    "use": [""],
+    "use_for":["JRPG"],
+    "broader_term":"Role-Playing",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "JRPG",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Japanese RPG"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Massively Multiplayer Online RPG",
+    "scope_note": "RPGs played with a massive number of players in an online environment.",
+    "related_terms": [""],
+    "example": "*World of War Craft*, *Star Wars: Knights of the Old Republic*.",
+    "use": [""],
+    "use_for":["MMORPG"],
+    "broader_term":"Role-Playing",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "MMORPG",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Massively Multiplayer Online RPG"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Rogue-Like",
+    "scope_note": "RPGs where players explore usually randomly generated environments, focusing on item discovery and permanent character death.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["Rogue RPG"],
+    "broader_term":"Role-Playing",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Rogue RPG",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Rogue-Like"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Western RPG",
+    "scope_note": "RPGs focusing on character customization and development, often employing realistic visual styles and vast open worlds.",
+    "related_terms": [""],
+    "example": "*The Elder Scrolls V: Skyrim* and *Baulder's Gate*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Role-Playing",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Simulation",
+    "scope_note": "Games designed to simulate actions or situations from either an existing or fictional reality.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":["Breeding", "City Building", "Construction & Management Simulation", "Flight Simulator", "God Game", "Interactive Movie", "Programming Game", "Sandbox", "Social Simulator","Virtual Life","Visual Novel"],
+    "type": ""
+},{
+    "term": "Breeding",
+    "scope_note": "Games emphasizing the breeding and development or raising of animals or entities.",
+    "related_terms": [""],
+    "example": "*Spore* and *Monster Rancher*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Simulation",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "City Building",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Construction & Management Simulation"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Construction & Management Simulation",
+    "scope_note": "Games revolving around creating structures, cities, or other built objects, often emphasizing resource management.",
+    "related_terms": [""],
+    "example": "*SimCity 2000* and *Dwarf Fortress*.",
+    "use": [""],
+    "use_for":["City Building", "Tycoon"],
+    "broader_term":"Simulation",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "God Game",
+    "scope_note": "Games allowing the player to interact with a world as an all-powerful entity.",
+    "related_terms": [""],
+    "example": "*Black & White* and *Viva Piñata*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Interactive Movie",
+    "scope_note": "Games involving minimal player action, functioning more as a series of movies controlled through decisions.",
+    "related_terms": [""],
+    "example": "*Night Trap*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Simulation",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Life Simulation Game",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Social Simulator"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Open World (Sandbox)",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Sandbox"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Programming Game",
+    "scope_note": "Games revolving around programming, often computer code, as their core mechanic.",
+    "related_terms": [""],
+    "example": "*CodeCombat*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Simulation",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Sandbox",
+    "scope_note": "Games involving open environments where players are encouraged to explore, act, and create freely. Can be played in various ways depending on the player's mood.",
+    "related_terms": [""],
+    "example": "*Minecraft* and *Grant Theft Auto*.",
+    "use": [""],
+    "use_for":["Open World"],
+    "broader_term":"Simulation",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Social Simulator",
+    "scope_note": "Games revolving around simulating social life, situations, and interactions.",
+    "related_terms": [""],
+    "example": "*The Sims*.",
+    "use": [""],
+    "use_for":["Life Simulation Game"],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Tycoon",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Construction & Management Simulation"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Virtual Life",
+    "scope_note": "Games involving the creation of an in-game avatar controlled by the player in avirutal world, living a simulated life, often online with interactions between player avatars.",
+    "related_terms": [""],
+    "example": "*Second Life*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Simulation",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Visual Novel",
+    "scope_note": "Narrative-driven games where players engage with a story primarily through text and visuals, making choices that influence the plot's direction and outcome.",
+    "related_terms": [""],
+    "example": "*Doki Doki Literature Club!* and *VA-11 Hall-A*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Simulation",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Sports",
+    "scope_note": "For sports games, assign both the term 'Sports' as well as the name of the sport being represented. USe information associated with the item (e.g. packaging) to provide the sport name and spelling when possible. If no related information is available, use the most common spelling of that sport for the region the record is being created for (e.g. American English for records in the United States).",
+    "related_terms": [""],
+    "example": "*FIFA International Soccer* and *MLB: The Show 24*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":["Racing"],
+    "type": ""
+},{
+    "term": "Racing",
+    "scope_note": "Games revolving around racing as the core mechanic, often involving vehicles racing around a course.",
+    "related_terms": [""],
+    "example": "*Gran Turismo* and *Forza Motorsport*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Sports",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Shooter",
+    "scope_note": "Games revolving around a shooting mechanic where players target and shoot objects or enemies to progress.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["Shoot 'Em Up"],
+    "broader_term":"",
+    "narrower_term":["First Person Shooter", "Light Gun Shooter", "Rail Shooter", "Tactical Shooter"],
+    "type": ""
+},{
+    "term": "Combat",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Tactical Shooter"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "First Person Shooter",
+    "scope_note": "Games focusing on shooting mechanics from a first-person perspective.",
+    "related_terms": [""],
+    "example": "*Halo: Combat Evolved* and *Doom*.",
+    "use": [""],
+    "use_for":["FPS"],
+    "broader_term":"Shooter",
+    "narrower_term":["Massively Multiplayer FPS"],
+    "type": ""
+},{
+    "term": "Massively Multiplayer FPS",
+    "scope_note": "First-person shooters played in an online environment with massive numbers of players simultaneously.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"First Person Shooter",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "FPS",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["First Person Shooter", "Light Gun Shooter", "Rail Shooter", "Tactical Shooter"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Light Gun Shooter",
+    "scope_note": "Games played using an external gun controller aimed at the screen to shoot objects or enemies.",
+    "related_terms": [""],
+    "example": "*Duck Hunt* and *House of the Dead 2*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Shooter",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Rail Shooter",
+    "scope_note": "Shooters where players do not control their movement but are propelled along a set course or 'rail'.",
+    "related_terms": [""],
+    "example": "*The Lost World: Jurrassic Park* and *Star Fox 64*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Shooter",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Shoot 'Em Up",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Shooter"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Tactical Shooter",
+    "scope_note": "Games focusing on simulating tactical or military environm,ent, revolving around shooting mechanics.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":["Combat"],
+    "broader_term":"Shooter",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Strategy",
+    "scope_note": "Games revolving around strategic or tactical planning, often involving building, resource management, and exploration components.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":["4X", "Military Simulator", "Real Time Strategy", "Tactics", "Tower Defense", "Turn-Based Strategy"],
+    "type": ""
+},{
+    "term": "4X",
+    "scope_note": "Stands for 'explore, expand, exploit, and exterminate'.' Games revolve around creating an empire through diplomacy and conquest.",
+    "related_terms": [""],
+    "example": "*Master of Orion* and * Sid Meier's Civilization V*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Strategy",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Military Simulator",
+    "scope_note": "Games focusing on simulating realistic militaries or historical military events.",
+    "related_terms": [""],
+    "example": "*Combat Mission* and *Close Combat*.",
+    "use": [""],
+    "use_for":["Wargame"],
+    "broader_term":"Strategy",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Real Time Strategy",
+    "scope_note": "Games unfolding in real-time, as opposed to using turns.",
+    "related_terms": [""],
+    "example": "*StarCraft* and *Command and Conquer*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Strategy",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Tactics",
+    "scope_note": "Games focusing on small-scale conflicts, often involving the player positioning and controlling a predetermined number of units.",
+    "related_terms": [""],
+    "example": "*Final Fantasy Tactics* and *Steel Panthers*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Strategy",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Tower Defense",
+    "scope_note": "Games focusing on defending a location against waves of enemies, requiring strategic placement and control of units and weapons.",
+    "related_terms": [""],
+    "example": "*Plants vs. Zombies*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Strategy",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Turn-Based Strategy",
+    "scope_note": "Games utilizing alternating turns as the central mechanic.",
+    "related_terms": [""],
+    "example": "*Heroes of Might and Magic* and *Rome: Total War*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Wargame",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Military Simulator"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Traditional",
+    "scope_note": "Games based on mechanics that exist in the real world and can be played in a physical setting.",
+    "related_terms": [""],
+    "example": "",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":["Board Game", "Card Game", "Exercise", "Gambling", "Game Show", "Maze", "Pinball", "Puzzle", "Trivia Game"],
+    "type": ""
+},{
+    "term": "Board Game",
+    "scope_note": "Games originating from tabletop board games, often adaptations of existing ones.",
+    "related_terms": [""],
+    "example": "*Settlers of Catan* and *Chessmaster*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Traditional",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Card Game",
+    "scope_note": "Games originating from tabletop card games, often adaptations of existing ones.",
+    "related_terms": [""],
+    "example": "*Magic: The Gathering* and *Full House Poker*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Traditional",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Exercise",
+    "scope_note": "Games involving player movement using an external peripheral for exercise purposes.",
+    "related_terms": [""],
+    "example": "*Wii Fit*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Traditional",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Gambling",
+    "scope_note": "Games originating from traditional gamvling and casino games, often adaptations.",
+    "related_terms": [""],
+    "example": "*Caesar's Palace* and *Golden Nugget 64*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Traditional",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Game Show",
+    "scope_note": "Games modeled af ter, and often adaptations of, television game shows.",
+    "related_terms": [""],
+    "example": "*Jeopardy! The Video Game* and *Wheel of Fortune*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Traditional",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Maze",
+    "scope_note": "Games revolving around the navigation of a maze.",
+    "related_terms": [""],
+    "example": "*Labyrinth*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Traditional",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Pinball",
+    "scope_note": "Simulations of pinball machines.",
+    "related_terms": [""],
+    "example": "*Full Tilt Pinball* and *Mario Pinball Land*.",
+    "use": [""],
+    "use_for":[""],
+    "broader_term":"Traditional",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Trivia Game",
+    "scope_note": "Games involving answering questions based on obscure knowledge.",
+    "related_terms": ["Game Show"],
+    "example": "*The Guy Game* and *Scene it? Box Office Smash*.",
+    "use": [""],
+    "use_for":["Quiz Game"],
+    "broader_term":"Traditional",
+    "narrower_term":[""],
+    "type": ""
+},{
+    "term": "Quiz Game",
+    "scope_note": "",
+    "related_terms": [""],
+    "example": "",
+    "use": ["Trivia Game"],
+    "use_for":[""],
+    "broader_term":"",
+    "narrower_term":[""],
+    "type": ""
+}
+]
