@@ -3,37 +3,35 @@ var details_empty_state_div = document.getElementById("details-empty-state");
 var details_content_div = document.getElementById("details-content");
 var term_id_h2 = document.getElementById("term-id");
 var scope_note_p = document.getElementById("scope-note");
+
 var further_description_wrapper_div = document.getElementById("further-description-wrapper");
 var examples_p = document.getElementById("examples-p");
 var examples_span = document.getElementById("examples");
+
 var type_term_p = document.getElementById("type-term-p");
 var type_term_span = document.getElementById("type-term");
+
+
 var relationship_links_wrapper_div = document.getElementById("relationship-links-wrapper");
+var use_for_wrapper_div = document.getElementById("use-for-wrapper");
 var use_for_div = document.getElementById("use-for");
+
+var broader_term_wrapper_div = document.getElementById("broader-term-wrapper");
 var broader_term_div =  document.getElementById("broader-term");
+
+var narrower_term_wrapper_div = document.getElementById("narrower-term-wrapper");
 var narrower_term_div =  document.getElementById("narrower-term");
+
+var related_wrapper_div = document.getElementById("related-wrapper");
 var related_div =  document.getElementById("related");
 
 
 var array_in_view = gameplay_genres;
 var cytoscape_array_in_view = createCytoscapeElements(array_in_view);
 
-
-
 var previous_node;
 var previous_sel;
 
-
-// Source - https://stackoverflow.com/a/77333229
-// Posted by MalcolmOcean
-// Retrieved 2026-10-04, License - CC BY-SA 4.0
-
-let select_this_item = new MouseEvent('mousedown', {
-  bubbles: true,
-  cancelable: true,
-  view: window
-})
-// element.dispatchEvent(e)
 
 
 var cy = cytoscape({
@@ -111,6 +109,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 });
 
 
+//Sets the visual layout of the cytoscape graph
 function setCytoscapeLayout(){
 var layout = cy.layout(
    {
@@ -149,6 +148,8 @@ layout.run();
 
 }
 
+
+//used in the cy cytoscape declaration, sets the function to call onclick of a node
 function highlightNodesOnSelect(){
 //https://stackoverflow.com/questions/31510992/how-to-highlight-neighbouring-nodes-in-cytoscape-js
 // var previous_node;
@@ -161,6 +162,8 @@ cy.on("click","node",(e)=>
 
 }
 
+
+//unversal function for highlighting a node, used also when clicking a linked item in the details pane
 function highlightSpecificNode(target){
         var sel = target;
     var id = target.id();
@@ -186,6 +189,7 @@ function highlightSpecificNode(target){
 
 }
 
+//converts JSON arrays (old_array) into Cytoscape format, with the terms as their IDs and objects lose a lot of content (like example, use, etc)
 function createCytoscapeElements(old_array){
 
     var newCytoscapeElementArray = [];
@@ -312,63 +316,61 @@ return newCytoscapeElementArray;
 
 }
 
-function noConnectionYet(a, b, json_array){
-//check if A comes before B, if yes then return TRUE  because t here is no connection yet
-
-for(var i = 0; i < json_array.length; i++){
-
-    if(json_array[i].term == a){
-        return true;
-    } else if (json_array[i].term == b) {
-        return false;
-    }
-
-}
-
-
-}
-
+//Updates the details pane with info about the selected node. Only runs on node select from the graph or a linked item
 function updateDetails(selected_node_entity){   
     selected_node_json_obj = getFullJsonObject(selected_node_entity.id())
 
     details_empty_state_div.style.display = "none";
 
     term_id_h2.innerHTML = selected_node_json_obj.term;
-
-
-    // setStyleDisplayNone(further_description_wrapper_div)
+ 
     setStyleDisplayNone(examples_p)
     setStyleDisplayNone(type_term_p)
-
-    // setStyleDisplayNone(relationship_links_wrapper_div)
-   
-    // setStyleDisplayNone(use_for_div)
-    // setStyleDisplayNone(broader_term_div)
-    // setStyleDisplayNone(narrower_term_div)
-    // setStyleDisplayNone(related_div)
-
-//TO DO: HIDE ALL THE RELATIONSHIP WRAPPERS FIRST INDIVIDUALLY
-//TO DO: THEN ADD IN THEIR CONTENT LIKE EXAMPLES AND TYPE TERMS ARE ADDED.
-//        USE THE FUNCTION "GET LIST OF LINKS" FOR THE SECTIONS, SO THEY'RE ALL CLICKABLE
+    
+    setStyleDisplayNone(use_for_wrapper_div);
+    setStyleDisplayNone(broader_term_wrapper_div);
+    setStyleDisplayNone(narrower_term_wrapper_div);
+    setStyleDisplayNone(related_wrapper_div);
 
 
     if(selected_node_json_obj.scope_note !==""){    //if there's a scope note...
         scope_note_p.innerHTML = selected_node_json_obj.scope_note;
 
         if(selected_node_json_obj.example !=="" ){ //IF there are examples, show them
-            // setStyleDisplayBlock(further_description_wrapper_div);
             setStyleDisplayBlock(examples_p);
 
             examples_span.innerHTML = selected_node_json_obj.example;
         }
 
-        if(selected_node_json_obj.type !== ""){//if there are terms, show them
+        if(selected_node_json_obj.type !== ""){//if there is a type, show it 
             setStyleDisplayBlock(type_term_p)
 
             type_term_span.innerHTML = selected_node_json_obj.type;
             console.log(selected_node_json_obj.type)
         }
 
+
+        if(selected_node_json_obj.use_for.length){//if there are "use for", show them
+            use_for_terms = getStringFullOfLinks(selected_node_json_obj.use_for);
+            setStyleDisplayBlock(use_for_wrapper_div);
+
+            use_for_div.innerHTML = use_for_terms;
+        }
+
+        if(selected_node_json_obj.broader_term !==""){//if is a "browder term", show them
+            broader_term = getStringFullOfLinks(selected_node_json_obj.broader_term);
+            setStyleDisplayBlock(broader_term_wrapper_div);
+
+            broader_term_div.innerHTML = broader_term;
+            
+        }
+
+        if(selected_node_json_obj.narrower_term.length){//if there are "narrower terms", show them
+            narrower_terms = getStringFullOfLinks(selected_node_json_obj.narrower_term);
+            setStyleDisplayBlock(narrower_term_wrapper_div);
+
+            narrower_term_div.innerHTML = narrower_terms;
+        }
 
 
 
@@ -382,24 +384,32 @@ function updateDetails(selected_node_entity){
         scope_note_p.innerHTML = "Not defined."
     }
 
-
-
 }
 
+//simplifies setting divs to display none (used in updateDetails)
 function setStyleDisplayNone(obj){
     obj.style.display = "none";
 }
 
+//simplifies setting divs to display block (used in updateDetails)
 function setStyleDisplayBlock(obj){
     obj.style.display = "block"
 }
 
+
+//returns a string full of <span>s that use the openLInkedItem function. Able to take in either an array or a string
 function getStringFullOfLinks (array){
 
     to_return = "";
 
+    if(array.constructor !== Array){ //check if it's not an array. IF TRUE, it must be a string. SO let's make it an array so we can still iterate over it in the next step :)
+        save_string = array;
+        array = [];
+        array.push(""+save_string);
+    }
+
                     for(var y = 0; y < array.length; y++){
-                    to_return += "<span class=\"linked-item\" onClick=\"openLinkedItem(this)\">" + array[y] + "</span>";
+                    to_return += "<span class=\"linked-item\" onClick=\"highlightSpecificNode(cy.getElementById(this.textContent))\">" + array[y] + "</span>";
                     if(y+1 < array.length){
                         to_return += ", ";
                     }
@@ -409,6 +419,7 @@ function getStringFullOfLinks (array){
 
 }
 
+//returns the full JSON object from the original array, since the cytoscape object loses a lot of its context (see "createCytoscapeElements")
 function getFullJsonObject(id){
 
     for(var i = 0; i < array_in_view.length; i++){
@@ -416,17 +427,6 @@ function getFullJsonObject(id){
             return array_in_view[i];
         }
     }
-
-}
-
-
-function openLinkedItem(item_to_open){
-    var id_of_item = item_to_open.textContent;
-
-
-    highlightSpecificNode(cy.getElementById(id_of_item));
-
-    
 
 }
 

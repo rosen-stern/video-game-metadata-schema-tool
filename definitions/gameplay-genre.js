@@ -196,7 +196,7 @@ const gameplay_genres = [
     "related_terms": [],
     "example": "<i>Twisted Metal</i>, <i>Burnout</i>",
     "use": [],
-    "use_for":[],
+    "use_for":["Car Combat"],
     "broader_term":"Action",
     "narrower_term":[],
     "type": ""
