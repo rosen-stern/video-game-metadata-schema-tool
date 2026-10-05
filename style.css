@@ -24,3 +24,20 @@ gap: 10px;
         width: 75%;
 
     }
+
+
+.linked-item{
+
+    border: 1px solid darkslategrey;
+    padding: 6px;
+    border-radius: 4px;
+    background-color: lightcyan;
+    display: inline-block;
+    cursor: pointer;
+    /* margin-top: 10px; */
+    
+    &:hover{
+        background-color: powderblue;
+    }
+
+}

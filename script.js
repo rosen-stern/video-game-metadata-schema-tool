@@ -4,7 +4,9 @@ var details_content_div = document.getElementById("details-content");
 var term_id_h2 = document.getElementById("term-id");
 var scope_note_p = document.getElementById("scope-note");
 var further_description_wrapper_div = document.getElementById("further-description-wrapper");
+var examples_p = document.getElementById("examples-p");
 var examples_span = document.getElementById("examples");
+var type_term_p = document.getElementById("type-term-p");
 var type_term_span = document.getElementById("type-term");
 var relationship_links_wrapper_div = document.getElementById("relationship-links-wrapper");
 var use_for_div = document.getElementById("use-for");
@@ -13,13 +15,34 @@ var narrower_term_div =  document.getElementById("narrower-term");
 var related_div =  document.getElementById("related");
 
 
+var array_in_view = gameplay_genres;
+var cytoscape_array_in_view = createCytoscapeElements(array_in_view);
+
+
+
+var previous_node;
+var previous_sel;
+
+
+// Source - https://stackoverflow.com/a/77333229
+// Posted by MalcolmOcean
+// Retrieved 2026-10-04, License - CC BY-SA 4.0
+
+let select_this_item = new MouseEvent('mousedown', {
+  bubbles: true,
+  cancelable: true,
+  view: window
+})
+// element.dispatchEvent(e)
+
+
 var cy = cytoscape({
   container: document.getElementById('cy'),
    style: [{
       selector: 'node',
       css: {
         'label': 'data(id)',
-        'text-valign': 'bottom',
+        'text-valign': 'center',
         'text-halign': 'center',
         'text-wrap': 'wrap',
         'text-max-width': '200px',
@@ -32,12 +55,23 @@ var cy = cytoscape({
       }
     },
     {
-      selector: ':selected',
+    selector: ':selected',
       css: {
     //     'label':function (element) { 
     //     return `${element.data("id")} \n ${element.data("scope_note")}`
     // },
-        'background-color': 'blue',
+        'background-color': 'lightcyan'
+        
+      }
+
+    },
+    {
+      selector: 'node.clicked',
+      css: {
+    //     'label':function (element) { 
+    //     return `${element.data("id")} \n ${element.data("scope_note")}`
+    // },
+        'background-color': 'powderblue',
         'line-color': 'black',
         'target-arrow-color': 'black',
         'source-arrow-color': 'black',
@@ -65,7 +99,7 @@ var cy = cytoscape({
             style:{ 'opacity': '0.2' }
         }
   ],
-   elements: createCytoscapeElements(gameplay_genres)
+   elements: cytoscape_array_in_view
 });
 
 setCytoscapeLayout();
@@ -117,12 +151,19 @@ layout.run();
 
 function highlightNodesOnSelect(){
 //https://stackoverflow.com/questions/31510992/how-to-highlight-neighbouring-nodes-in-cytoscape-js
-var previous_node;
-var previous_sel;
+// var previous_node;
+// var previous_sel;
 cy.on("click","node",(e)=>
 {
-    var sel = e.target;
-    var id = e.target.id();
+    highlightSpecificNode(e.target);
+    
+})
+
+}
+
+function highlightSpecificNode(target){
+        var sel = target;
+    var id = target.id();
 
     updateDetails(sel);
 
@@ -132,28 +173,16 @@ cy.on("click","node",(e)=>
 
         cy.elements().removeClass("semitransp");
         previous_sel.removeClass("highlight").outgoers().union(previous_sel.incomers()).removeClass("highlight");
+        previous_sel.removeClass("clicked");
+      
+    }
 
         cy.elements().difference(sel.outgoers().union(sel.incomers())).not(sel).addClass("semitransp");
         sel.addClass("highlight").outgoers().union(sel.incomers()).addClass("highlight");
+        sel.addClass("clicked")
 
         previous_sel = sel;
         previous_node = id;
-
-    }
-
-    else
-    
-    {
-        
-        cy.elements().difference(sel.outgoers().union(sel.incomers())).not(sel).addClass("semitransp");
-        sel.addClass("highlight").outgoers().union(sel.incomers()).addClass("highlight");
-        previous_sel = sel;
-        previous_node = id;
-
-    }
-    
-
-})
 
 }
 
@@ -299,44 +328,105 @@ for(var i = 0; i < json_array.length; i++){
 
 }
 
-function updateDetails(selected_node_id){   
-    selected_scope_note = selected_node_id._private.data.scope_note;
-
-    //TODO:
-    //THE USE ARRAY IS NOT PASSED THROUGH THE NODE GRAPH. SO THERE'S NO WAY TO ACCESS IT LIKE THIS.
-    //YOU'LL HAVE TO EITHER: FIGURE OUT ANOTHER WAY TO GET THE CONTEXT IN THE DETAILS PANE...
-    //...OR MAKE A FUNCTION THAT CAN RETURN THE FULL JSON OBJECT FROM THE ORIGINAL ARRAY, SO IT CAN GRAB THE CLEAN IDs OF EACH OF THE RELATED TERMS.
-    //THAT MIGHT BE BEST, CONSIDERING THAT A SIMILAR PROCESSES IS NEEDED FOR USE-FOR, NARROWER-TERM, AND RELATED.
-    selected_use_array = selected_node_id._private.data.use;
+function updateDetails(selected_node_entity){   
+    selected_node_json_obj = getFullJsonObject(selected_node_entity.id())
 
     details_empty_state_div.style.display = "none";
 
-    term_id_h2.innerHTML = selected_node_id.id();
+    term_id_h2.innerHTML = selected_node_json_obj.term;
 
 
-    if(selected_scope_note !==""){    //if there's a scope note...
-        scope_note_p.innerHTML = selected_scope_note;
+    // setStyleDisplayNone(further_description_wrapper_div)
+    setStyleDisplayNone(examples_p)
+    setStyleDisplayNone(type_term_p)
 
-    } else if(selected_use_array.length){ //if there's no scope note, hopefully there's a "use" term....
-    
-                var use_terms = "";
+    // setStyleDisplayNone(relationship_links_wrapper_div)
+   
+    // setStyleDisplayNone(use_for_div)
+    // setStyleDisplayNone(broader_term_div)
+    // setStyleDisplayNone(narrower_term_div)
+    // setStyleDisplayNone(related_div)
 
-                for(var y = 0; y < selected_use_array.length; y++){
-                    use_terms += "'" + selected_use_array[y] + "'";
-                    if(y+1 < selected_use_array.length){
-                        use_terms += ", ";
-                    }
-                }
+//TO DO: HIDE ALL THE RELATIONSHIP WRAPPERS FIRST INDIVIDUALLY
+//TO DO: THEN ADD IN THEIR CONTENT LIKE EXAMPLES AND TYPE TERMS ARE ADDED.
+//        USE THE FUNCTION "GET LIST OF LINKS" FOR THE SECTIONS, SO THEY'RE ALL CLICKABLE
+
+
+    if(selected_node_json_obj.scope_note !==""){    //if there's a scope note...
+        scope_note_p.innerHTML = selected_node_json_obj.scope_note;
+
+        if(selected_node_json_obj.example !=="" ){ //IF there are examples, show them
+            // setStyleDisplayBlock(further_description_wrapper_div);
+            setStyleDisplayBlock(examples_p);
+
+            examples_span.innerHTML = selected_node_json_obj.example;
+        }
+
+        if(selected_node_json_obj.type !== ""){//if there are terms, show them
+            setStyleDisplayBlock(type_term_p)
+
+            type_term_span.innerHTML = selected_node_json_obj.type;
+            console.log(selected_node_json_obj.type)
+        }
 
 
 
-        scope_note_p.innerHTML = "Not part of controlled vocabulary. Use: " + use_terms + " instead."
+
+    } else if(selected_node_json_obj.use.length){ //if there's no scope note, hopefully there's a "use" term....
+
+            use_terms = getStringFullOfLinks(selected_node_json_obj.use)
+
+        scope_note_p.innerHTML = "Not part of controlled vocabulary. Use " + use_terms + " instead."
 
     } else { //hopefully we never get here...
         scope_note_p.innerHTML = "Not defined."
     }
 
-    //TODO: ON click of linked item, highlight that item in the graph.
+
+
+}
+
+function setStyleDisplayNone(obj){
+    obj.style.display = "none";
+}
+
+function setStyleDisplayBlock(obj){
+    obj.style.display = "block"
+}
+
+function getStringFullOfLinks (array){
+
+    to_return = "";
+
+                    for(var y = 0; y < array.length; y++){
+                    to_return += "<span class=\"linked-item\" onClick=\"openLinkedItem(this)\">" + array[y] + "</span>";
+                    if(y+1 < array.length){
+                        to_return += ", ";
+                    }
+                }
+
+                return to_return;
+
+}
+
+function getFullJsonObject(id){
+
+    for(var i = 0; i < array_in_view.length; i++){
+        if(array_in_view[i].term == id){
+            return array_in_view[i];
+        }
+    }
+
+}
+
+
+function openLinkedItem(item_to_open){
+    var id_of_item = item_to_open.textContent;
+
+
+    highlightSpecificNode(cy.getElementById(id_of_item));
+
+    
 
 }
 
