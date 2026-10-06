@@ -19,6 +19,26 @@ const narrative_genres = [{
     "narrower_term":["Humor", "Satire"],
     "type": ""
 },{
+    "term": "Humor",
+    "scope_note": "Undefined, but part of the controlled vocabulary.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"Comedy",
+    "narrower_term":[],
+    "type": ""
+},{
+    "term": "Satire",
+    "scope_note": "Undefined, but part of the controlled vocabulary.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"Comedy",
+    "narrower_term":[],
+    "type": ""
+},{
     "term": "Fantasy",
     "scope_note": "The stroy of these games is set in a world that contains magical elements such as sorcery, and mythological creatures, such as dragons.",
     "related_terms": [],
@@ -52,8 +72,8 @@ const narrative_genres = [{
     "term": "Fairy Tale",
     "scope_note": "The narrative has a basis in traditional folklore and folkloric elements. Generally contains mythological beings such as fairies and other mythical creatures, talking animals, invented creatures, and magic. Often intended for children.",
     "related_terms": [],
-    "example": "",
-    "use": ["*Spyro's Adventure*."],
+    "example": "*Spyro's Adventure*.",
+    "use": [],
     "use_for":[],
     "broader_term":"",
     "narrower_term":[],

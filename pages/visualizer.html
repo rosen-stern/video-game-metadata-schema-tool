@@ -1,0 +1,214 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+
+
+  <title>VGMS Tool</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.34.3/cytoscape.min.js"
+    integrity="sha512-SQebVa91Tn1DeP45Wo74monK/I9wiQg59uKc7P8vp3T7KQ9l5e8IMjZ1GJTgZehUVQt7eS61DTqldQUb1EHfnw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="/definitions/engagement-mechanisms.js"></script>
+  <script src="/definitions/gameplay-genres.js"></script>
+  <script src="/definitions/mechanics.js"></script>
+  <script src="/definitions/moods.js"></script>
+  <script src="/definitions/narrative-genres.js"></script>
+  <script src="/definitions/settings.js"></script>
+  <script src="/definitions/themes.js"></script>
+  <script src="/definitions/transaction-types.js"></script>
+  <script src="/definitions/tropes.js"></script>
+  <script src="/definitions/visual-styles.js"></script>
+
+</head>
+
+<body>
+  <div class="heading">
+
+
+    <h1>Video Game Metadata Schema Tool</h1>
+
+    <div class="navigation">
+      <a href="/index.html">
+        <div class="navigation-item linked-item">About</div>
+      </a>
+
+      <a href="visualizer.html">
+        <div class="navigation-item linked-item selected">Visualizer</div>
+      </a>
+      <!-- <a href="term-search.html">
+        <div class="navigation-item linked-item ">Term search</div>
+      </a>
+      <a href="new-entry.html">
+        <div class="navigation-item linked-item">New video game entry</div>
+      </a> -->
+    </div>
+  </div>
+
+  <div class="wrapper-graph-area">
+
+    <div id="left-section">
+
+      <div id="options">
+        <details open>
+          <summary>
+            <h2>Options</h2>
+          </summary>
+          <div>
+            <!-- Term list choices -->
+            <div>
+              <fieldset id="fieldset-term-list">
+                <legend>Term list:</legend>
+
+                <div>
+                  <input type="radio" id="engagement-mechanisms" name="term-list" value="engagement-mechanisms"
+                    checked />
+                  <label for="engagement-mechanisms">Engagement mechanisms</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="gameplay-genres" name="term-list" value="gameplay-genres" />
+                  <label for="gameplay-genres">Gameplay Genre</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="mechanics" name="term-list" value="mechanics" />
+                  <label for="mechanics">Mechanics</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="moods" name="term-list" value="moods" />
+                  <label for="moods">Moods</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="narrative-genres" name="term-list" value="narrative-genres" />
+                  <label for="narrative-genres">Narrative Genre</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="settings" name="term-list" value="settings" />
+                  <label for="settings">Settings</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="themes" name="term-list" value="themes" />
+                  <label for="themes">Themes</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="transaction-types" name="term-list" value="transaction-types" />
+                  <label for="transaction-types">Transaction Types</label>
+                </div>
+
+
+                <div>
+                  <input type="radio" id="tropes" name="term-list" value="tropes" />
+                  <label for="tropes">Tropes</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="visual-styles" name="term-list" value="visual-styles" />
+                  <label for="visual-styles">Visual Styles</label>
+                </div>
+
+
+              </fieldset>
+
+            </div>
+
+            <!-- Graph layout choices -->
+            <div>
+              <fieldset id="fieldset-graph-layout">
+                <legend>Graph layout:</legend>
+
+                <div>
+                  <input type="radio" id="circular" name="graph-layout" value="circular" checked />
+                  <label for="circular">Circular</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="heirarchy" name="graph-layout" value="heirarchy" />
+                  <label for="heirarchy">Heirarchy</label>
+                </div>
+                <div>
+                  <input type="radio" id="grid" name="graph-layout" value="grid" />
+                  <label for="grid">Grid</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="random" name="graph-layout" value="random" />
+                  <label for="random">Random</label>
+                </div>
+              </fieldset>
+            </div>
+          </div>
+        </details>
+
+      </div>
+    </div>
+
+    <div id="cy"></div>
+
+    <div id="right-section">
+
+
+
+      <div id="details">
+
+        <div id="details-empty-state">
+          <h2>Select a node to view its description</h2>
+          <p>You can also pan and zoom around the graph with a mouse or touch screen and drag nodes around to see their connections better.</p>
+        </div>
+
+        <div id="details-content">
+          <h2 id="term-id">Quiz game</h2>
+          <p id="scope-note"></p>
+          <div id="further-description-wrapper">
+            <p id="examples-p"><b>Examples: </b><span id="examples"></span></p>
+            <p id="type-term-p"><b>Type: </b><span id="type-term"></span></p>
+          </div>
+
+          <div id="relationship-links-wrapper">
+            <div id="use-for-wrapper">
+              <h3>Use for</h3>
+              <div id="use-for"></div>
+            </div>
+
+            <div id="broader-term-wrapper">
+              <h3>Broader term</h3>
+              <div id="broader-term"></div>
+            </div>
+
+            <div id="narrower-term-wrapper">
+              <h3>Narrower term</h3>
+              <div id="narrower-term"></div>
+            </div>
+
+            <div id="related-wrapper">
+              <h3>Related</h3>
+              <div id="related"></div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+
+  <script src="/script.js"></script>
+
+</body>
+
+
+
+</html>

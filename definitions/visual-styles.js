@@ -1,4 +1,14 @@
 const visual_styles = [{
+    "term": "Style",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
+},{
     "term": "Abstract",
     "scope_note": "Abstract is a visual style describing distinct, non-character based forms. Fractal imagery using a paelette with strong colors is a good example. These styles can be symmetrical, geometric, or feature kaleidoscopically swirling patterns.",
     "related_terms": [],
@@ -129,6 +139,16 @@ const visual_styles = [{
     "narrower_term":[],
     "type": "Style"
 },{
+    "term": "Color",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
+},{
     "term": "Achromatic",
     "scope_note": "A style that mainly portrays characters or environments in shades of black and white.",
     "related_terms": [],
@@ -148,6 +168,16 @@ const visual_styles = [{
     "broader_term":"",
     "narrower_term":[],
     "type": "Color"
+},{
+    "term": "Light",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },{
     "term": "Bright",
     "scope_note": "A visual style characterized by highly saturated colors.",

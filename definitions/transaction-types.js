@@ -1,5 +1,15 @@
 const transaction_types = [
     {
+    "term": "Currency",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
+},{
     "term": "Real Currency",
     "scope_note": "Legal cash.",
     "related_terms": [],
@@ -12,7 +22,7 @@ const transaction_types = [
 },{
     "term": "In-game Currency",
     "scope_note": "In-game digital currency.",
-    "related_terms": ["Virtual Currency"],
+    "related_terms": ["Virtual Currency Gambling"],
     "example": "",
     "use": [],
     "use_for":[],
@@ -30,6 +40,16 @@ const transaction_types = [
     "narrower_term":[],
     "type": "Currency"
 },{
+    "term": "Transaction Types",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
+},{
     "term": "Direct Monetization",
     "scope_note": "Company recieves direct cash payments.",
     "related_terms": [],
@@ -37,7 +57,7 @@ const transaction_types = [
     "use": [],
     "use_for":[],
     "broader_term":"",
-    "narrower_term":["Subscription", "Ad removal", "Real Currency Gambling"],
+    "narrower_term":["Subscription", "Ad Removal", "Real Currency Gambling"],
     "type": "Transaction Types"
 },{
     "term": "Subscription",
@@ -120,6 +140,16 @@ const transaction_types = [
     "narrower_term":[],
     "type": "Transaction Types"
 },{
+    "term": "Resources",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
+},{
     "term": "Direct Gameplay Advantage",
     "scope_note": "Resources that convey benefits to the game system mechanics.",
     "related_terms": [],
@@ -128,6 +158,16 @@ const transaction_types = [
     "use_for":[],
     "broader_term":"",
     "narrower_term":["Powerups", "Permanent Boost"],
+    "type": "Resources"
+},{
+    "term": "Buffs",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Powerups"],
+    "use_for":[],
+    "broader_term":"Direct Gameplay Advantage",
+    "narrower_term":[],
     "type": "Resources"
 },{
     "term": "Powerups",
@@ -147,6 +187,16 @@ const transaction_types = [
     "use": [],
     "use_for":[],
     "broader_term":"Direct Gameplay Advantage",
+    "narrower_term":[],
+    "type": "Resources"
+},{
+    "term": "Exclusive Content",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Limited Content"],
+    "use_for":[],
+    "broader_term":"",
     "narrower_term":[],
     "type": "Resources"
 },{
@@ -208,7 +258,7 @@ const transaction_types = [
     "use_for":[],
     "broader_term":"",
     "narrower_term":[],
-    "type": ""
+    "type": "Resources"
 },{
     "term": "More Items",
     "scope_note": "Acquiring more materials, weapons, or other items used in-game.",
@@ -219,6 +269,76 @@ const transaction_types = [
     "broader_term":"",
     "narrower_term":[],
     "type": "Resources"
+},{
+    "term": "Appointment Mechanics",
+    "scope_note": "Not defined, but part of the controlled vocabulary.",
+    "related_terms": ["Remove Time Related Barriers"],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": "Resources"
+},{
+    "term": "Energy Mechanics",
+    "scope_note": "Not defined, but part of the controlled vocabulary.",
+    "related_terms": ["Remove Time Related Barriers"],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": "Resources"
+},{
+    "term": "Turn Timers",
+    "scope_note": "Not defined, but part of the controlled vocabulary.",
+    "related_terms": ["Remove Time Related Barriers"],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": "Resources"
+},{
+    "term": "Skins",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Customization"],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": "Resources"
+},{
+    "term": "Bag Space",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Inventory Capacity"],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": "Resources"
+},{
+    "term": "Loot Boxes",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Random Goods"],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": "Resources"
+},{
+    "term": "Marketing Methods",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },{
     "term": "Game as Ad",
     "scope_note": "The game is also an ad for merchandise.",
@@ -255,6 +375,16 @@ const transaction_types = [
     "related_terms": ["Special Occasions"],
     "example": "",
     "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": "Marketing Methods"
+},{
+    "term": "Special Occasions",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Special Events"],
     "use_for":[],
     "broader_term":"",
     "narrower_term":[],

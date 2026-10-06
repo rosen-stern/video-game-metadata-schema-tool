@@ -1,4 +1,15 @@
-const settings = [{
+const settings = [
+    {
+    "term": "World",
+    "scope_note": "Used to specify the type of world the game takes place in. Choose one. If our world or alternate world is chosen, fill out Time Period and Place; it is not required for an imagined world.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
+},{
     "term": "Our world",
     "scope_note": "Game worlds created to represent reality.",
     "related_terms": [],
@@ -28,6 +39,16 @@ const settings = [{
     "broader_term":"",
     "narrower_term":[],
     "type": "World"
+},{
+    "term": "Time Period",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term. Use the narrower terms below.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":["Prehistoric", "Ancient","Byzantine","Cold War","Dark Ages","Medieval","Reformation","Renaissance","Imperial","Modern","Contemporary","Western","Unspecified","Year (YYYY)"],
+    "type": "Time Period"
 },{
     "term": "Prehistoric",
     "scope_note": "Features early technologies; stone tools and fire. Employs a mix of perhistoric creatures, dinosaurs, and cavemen.",
@@ -179,6 +200,16 @@ const settings = [{
     "narrower_term":[],
     "type": "Time Period"
 },{
+    "term": "Place",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term. Use the narrower terms below.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":["Natural Environment", "Built Environment", "Surface", "Specific Location", "Unspecified"],
+    "type": ""
+},{
     "term": "Natural Environment",
     "scope_note": "All living and nonliving things that are naturally on Earth.",
     "related_terms": [],
@@ -219,7 +250,7 @@ const settings = [{
     "narrower_term":[],
     "type": "Place"
 },{
-    "term": "Recreational site",
+    "term": "Recreational Site",
     "scope_note": "A place for recreational activities.",
     "related_terms": [],
     "example": "",
@@ -229,7 +260,27 @@ const settings = [{
     "narrower_term":[],
     "type": "Place"
 },{
-    "term": "Religious site",
+    "term": "Park",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Recreational Site"],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": "Place"
+},{
+    "term": "Playground",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Recreational Site"],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": "Place"
+},{
+    "term": "Religious Site",
     "scope_note": "A place of worship, usually for religions.",
     "related_terms": [],
     "example": "",
@@ -246,6 +297,26 @@ const settings = [{
     "use": [],
     "use_for":["Rural", "Village", "Settlement"],
     "broader_term":"Natural Environment",
+    "narrower_term":[],
+    "type": "Place"
+},{
+    "term": "Rural",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Rural Area"],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": "Place"
+},{
+    "term": "Mars",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Outer Space"],
+    "use_for":[],
+    "broader_term":"",
     "narrower_term":[],
     "type": "Place"
 },{
@@ -441,7 +512,7 @@ const settings = [{
 },{
     "term": "Underground",
     "scope_note": "An area located beneath the ground/surface level where the majority of human activity typically occurs. It is often characterized as an area where there is no sunlight.",
-    "related_terms": ["Cave"],
+    "related_terms": ["Caves"],
     "example": "",
     "use": [],
     "use_for":[],
@@ -639,11 +710,41 @@ const settings = [{
     "narrower_term":[],
     "type": "Place"
 },{
+    "term": "Hospital",
+    "scope_note": "An institution dedicated to administering healthcare services.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":["Asylum"],
+    "broader_term":"Built Environment",
+    "narrower_term":[],
+    "type": "Place"
+},{
     "term": "House",
     "scope_note": "",
     "related_terms": [],
     "example": "",
     "use": ["Home"],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": "Place"
+},{
+    "term": "Labs",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Scientific Laboratory"],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": "Place"
+},{
+    "term": "Laboratory",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Scientific Laboratory"],
     "use_for":[],
     "broader_term":"",
     "narrower_term":[],
@@ -799,6 +900,16 @@ const settings = [{
     "narrower_term":[],
     "type": "Place"
 },{
+    "term": "Town",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Urban"],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": "Place"
+},{
     "term": "Urban",
     "scope_note": "Geographic area that is characterized by a high population density and vast human-built features.",
     "related_terms": [],
@@ -814,7 +925,7 @@ const settings = [{
     "related_terms": [],
     "example": "",
     "use": [],
-    "use_for":["Aircraft", "Ship", "Spaceship", "Submarine", "Subways", "Train"],
+    "use_for":["Aircraft", "Ship", "Spaceship", "Submarine", "Subway", "Train"],
     "broader_term":"Built Environment",
     "narrower_term":[],
     "type": "Place"
