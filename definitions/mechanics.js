@@ -193,7 +193,7 @@ const mechanics = [{
     "scope_note": "",
     "related_terms": [],
     "example": "",
-    "use": ["Activiation"],
+    "use": ["Activation"],
     "use_for":[],
     "broader_term":"",
     "narrower_term":[],
@@ -243,7 +243,7 @@ const mechanics = [{
     "scope_note": "",
     "related_terms": [],
     "example": "",
-    "use": ["Activiation"],
+    "use": ["Activation"],
     "use_for":[],
     "broader_term":"",
     "narrower_term":[],
@@ -254,6 +254,16 @@ const mechanics = [{
     "related_terms": [],
     "example": "*League of Legends*, *Plants vs. Zombies*, *The Sims*",
     "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
+},{
+    "term": "Riding",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Driving"],
     "use_for":[],
     "broader_term":"",
     "narrower_term":[],
@@ -279,7 +289,7 @@ const mechanics = [{
     "narrower_term":[],
     "type": ""
 },{
-    "term": "Shooting*",
+    "term": "Shooting",
     "scope_note": "Applying directional force to a stationary object.",
     "related_terms": [],
     "example": "*Call of Duty*, *Bubble Bobble*, *Pool*",

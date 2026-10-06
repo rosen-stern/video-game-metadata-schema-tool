@@ -462,7 +462,7 @@ const themes = [
 },{
     "term": "Identity",
     "scope_note": "The distinguishing characteristics or personality of an individual.",
-    "related_terms": ["Alter Ego"],
+    "related_terms": ["Alter-egos"],
     "example": "*Remember Me*",
     "use": [],
     "use_for":["Individual versus society"],
@@ -655,6 +655,16 @@ const themes = [
     "related_terms": ["Capitalism"],
     "example": "*Tropico*",
     "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
+},{
+    "term": "Post Apocalypse",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Apocalypse"],
     "use_for":[],
     "broader_term":"",
     "narrower_term":[],
@@ -880,11 +890,21 @@ const themes = [
     "narrower_term":[],
     "type": ""
 },{
+    "term": "Agent/Object",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
+},{
     "term": "Aircraft",
     "scope_note": "",
     "related_terms": [],
     "example": "",
-    "use": ["Vehicles"],
+    "use": ["Airplane"],
     "use_for":[],
     "broader_term":"",
     "narrower_term":[],
@@ -905,7 +925,7 @@ const themes = [
     "related_terms": [],
     "example": "",
     "use": [],
-    "use_for":[],
+    "use_for":["Aircraft"],
     "broader_term":"",
     "narrower_term":[],
     "type": "Agent/Object"
@@ -1014,7 +1034,7 @@ const themes = [
     "scope_note": "",
     "related_terms": [],
     "example": "",
-    "use": ["Aquatic life"],
+    "use": ["Aquatic Life"],
     "use_for":[],
     "broader_term":"",
     "narrower_term":[],
@@ -1065,6 +1085,16 @@ const themes = [
     "related_terms": [],
     "example": "",
     "use": ["Robots"],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": "Agent/Object"
+},{
+    "term": "Mercenary",
+    "scope_note": "Not defined, but part of the controlled vocabulary.",
+    "related_terms": ["Assassin"],
+    "example": "",
+    "use": [],
     "use_for":[],
     "broader_term":"",
     "narrower_term":[],
@@ -1150,6 +1180,16 @@ const themes = [
     "narrower_term":[],
     "type": "Agent/Object"
 },{
+    "term": "Soldiers",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Military"],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": "Agent/Object"
+},{
     "term": "Robots",
     "scope_note": "Mechanized beings that were artificially created.",
     "related_terms": [],
@@ -1217,7 +1257,7 @@ const themes = [
     "use": [],
     "use_for":[],
     "broader_term":"",
-    "narrower_term":["Assassin", "Gladiator", "Ninja", "Pirates", "Samurai"],
+    "narrower_term":["Assassin", "Gladiators", "Ninja", "Pirates", "Samurai"],
     "type": "Agent/Object"
 },{
     "term": "Assassin",
@@ -1319,6 +1359,16 @@ const themes = [
     "broader_term":"",
     "narrower_term":[],
     "type": "Agent/Object"
+},{
+    "term": "Activity",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },{
     "term": "Building",
     "scope_note": "",
@@ -1467,7 +1517,7 @@ const themes = [
     "use": [],
     "use_for":[],
     "broader_term":"",
-    "narrower_term":["American Football", "Baseball", "Basketball", "Bicycling", "Billards", "Bowling", "Boxing", "Cricket", "Curling", "Dance", "Fencing", "Fishing", "Football", "Golf", "Hocket", "Hunting", "Martial Arts", "Racing", "Rugby", "Sailing", "Skateboarding", "Skiing", "Snowboarding","Surfing","Swimming","Table Tennis","Tennis","Volleyball", "Wrestling"],
+    "narrower_term":["American Football", "Baseball", "Basketball", "Bicycling", "Billiards", "Bowling", "Boxing", "Cricket", "Curling", "Dance", "Fencing", "Fishing", "Football", "Golf", "Hockey", "Hunting", "Martial Arts", "Racing", "Rugby", "Sailing", "Skateboarding", "Skiing", "Snowboarding","Surfing","Swimming","Table Tennis","Tennis","Volleyball", "Wrestling"],
     "type": "Activity"
 },{
     "term": "American Football",
@@ -1501,6 +1551,16 @@ const themes = [
     "type": "Activity"
 },{
     "term": "Bicycling",
+    "scope_note": "Riding one's bike through a set course.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"Sports",
+    "narrower_term":[],
+    "type": "Activity"
+},{
+    "term": "Billiards",
     "scope_note": "A game that involves the use of a pool table, pool cues, a cue ball, and billiard balls' the objective of the game is to sink the billiard balls into the pool table pockets in a predefined manner.",
     "related_terms": [],
     "example": "",
@@ -1550,7 +1610,7 @@ const themes = [
     "narrower_term":[],
     "type": "Activity"
 },{
-    "term": "Dace",
+    "term": "Dance",
     "scope_note": "A sport or activity that involves the graceful movement of one's body, often in time.",
     "related_terms": [],
     "example": "",
@@ -1562,6 +1622,16 @@ const themes = [
 },{
     "term": "Fencing",
     "scope_note": "A sport centered on the use of swords and graceful swordplay.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"Sports",
+    "narrower_term":[],
+    "type": "Activity"
+},{
+    "term": "Fishing",
+    "scope_note": "The sport or activity centered on being able to catch fish using a net or fishing pole.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -1591,7 +1661,7 @@ const themes = [
     "type": "Activity"
 },{
     "term": "Hockey",
-    "scope_note": "A game that takes place in an ice rink where players must skate on ice and score as many goals as possible with a hocket puck using a hockey stick.",
+    "scope_note": "A game that takes place in an ice rink where players must skate on ice and score as many goals as possible with a hockey puck using a hockey stick.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -1650,6 +1720,16 @@ const themes = [
     "narrower_term":[],
     "type": "Activity"
 },{
+    "term": "Sailing",
+    "scope_note": "The sport or activityof travelling on water in a sailboat.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"Sports",
+    "narrower_term":[],
+    "type": "Activity"
+},{
     "term": "Skateboarding",
     "scope_note": "A sport or activity centered on the use of skateboards and doing tricks.",
     "related_terms": [],
@@ -1675,6 +1755,16 @@ const themes = [
     "related_terms": [],
     "example": "",
     "use": [],
+    "use_for":[],
+    "broader_term":"Sports",
+    "narrower_term":[],
+    "type": "Activity"
+},{
+    "term": "Soccer",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Football"],
     "use_for":[],
     "broader_term":"Sports",
     "narrower_term":[],
@@ -1759,6 +1849,16 @@ const themes = [
     "broader_term":"",
     "narrower_term":[],
     "type": "Activity"
+},{
+    "term": "Domain",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },{
     "term": "Agriculture",
     "scope_note": "Relating to, caring for, or harvesting animals and crops.",

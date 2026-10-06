@@ -6,6 +6,10 @@ const moods = [
     "example": "*The Legend of Zelda*, *Tomb Raider*, *Uncharted*.",
     "use": [],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },
 {
@@ -15,6 +19,8 @@ const moods = [
     "example": "*Mad World*, *Mortal Kombat*, *Manhunt*.",
     "use": [],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Apocalyptic",
@@ -23,6 +29,8 @@ const moods = [
     "example": "",
     "use": ["Dark"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Bleak",
@@ -31,6 +39,8 @@ const moods = [
     "example": "",
     "use": ["Dark"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Bright",
@@ -39,6 +49,8 @@ const moods = [
     "example": "",
     "use": ["Light-hearted"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Calm",
@@ -47,6 +59,8 @@ const moods = [
     "example": "",
     "use": ["Light-hearted"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Carefree",
@@ -55,6 +69,8 @@ const moods = [
     "example": "",
     "use": ["Light-hearted"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Cheerful",
@@ -63,6 +79,8 @@ const moods = [
     "example": "",
     "use": ["Light-hearted"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Competitive",
@@ -71,6 +89,8 @@ const moods = [
     "example": "*Super Smash Bros. Brawl*, *Unreal Tournament 3*, *Forza Motorsport 4*.",
     "use": [],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Comradery",
@@ -79,6 +99,8 @@ const moods = [
     "example": "*Brothers: A Tale of Two Sons*, *Grandia*, *Destiny*.",
     "use": [],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Cozy",
@@ -87,6 +109,8 @@ const moods = [
     "example": "*Animal Crossing: New Horizons*, *Harvest Moon: Light of Hope*.",
     "use": [],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Creative",
@@ -95,6 +119,8 @@ const moods = [
     "example": "",
     "use": ["Imaginative"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Cute",
@@ -103,6 +129,8 @@ const moods = [
     "example": "*Pokemon Red/Blue*, *Kirby's Dreamland*, *Bubble Bobble*.",
     "use": [],
     "use_for":["Sweet"],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Cynical",
@@ -111,6 +139,8 @@ const moods = [
     "example": "",
     "use": ["Dark"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Dark",
@@ -119,6 +149,8 @@ const moods = [
     "example": "*BioShock*, *Dark Souls*, *Batman: Arkham Asylum*.",
     "use": [],
     "use_for":["Apocalyptic", "Bleak", "Cynical", "Gloomy", "Gritty", "Somber"],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Disturbing",
@@ -127,6 +159,8 @@ const moods = [
     "example": "",
     "use": ["Horror"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Eerie",
@@ -135,6 +169,8 @@ const moods = [
     "example": "*Oxenfree*, *What Remains of Edith Finch*",
     "use": [],
     "use_for":["Unsettling", "Liminal"],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Erotic",
@@ -143,6 +179,8 @@ const moods = [
     "example": "",
     "use": ["Sensual"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Funny",
@@ -151,6 +189,8 @@ const moods = [
     "example": "",
     "use": ["Humorous"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Gloomy",
@@ -159,6 +199,8 @@ const moods = [
     "example": "",
     "use": ["Dark"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Gritty",
@@ -167,6 +209,8 @@ const moods = [
     "example": "",
     "use": ["Dark"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Horror",
@@ -175,6 +219,8 @@ const moods = [
     "example": "*Silent Hill*, *Resident Evil*, *Outlast*.",
     "use": [],
     "use_for":["Disturbing", "Macabre", "Paranoid", "Scary", "Unsettling"],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Humorous",
@@ -183,6 +229,8 @@ const moods = [
     "example": "*Strong Bad's Cool Game for Attractive People*, *Sam and Max Hit the Road*, *Monkey Island*",
     "use": [],
     "use_for":["Funny", "Silly", "Witty"],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Imaginative",
@@ -191,6 +239,8 @@ const moods = [
     "example": "*LittleBigPlanet*, *Scribblenauts*, *Minecraft*, *Spore*.",
     "use": [],
     "use_for":["Creative"],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Immersive",
@@ -199,6 +249,8 @@ const moods = [
     "example": "*Dragon Age: Origins*, *Shenmue*, *Heavy Rain*.",
     "use": [],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Intense",
@@ -207,6 +259,8 @@ const moods = [
     "example": "*Metal Gear Solid: Revengeance*, *Devil May Cry*, *God of War 2*.",
     "use": [],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Light-hearted",
@@ -215,6 +269,8 @@ const moods = [
     "example": "*Harvest Moon*, *Angry Birds*, *Peggle*.",
     "use": [],
     "use_for":["Bright","Carefree","Cheerful","Optimistic"],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Liminal",
@@ -223,6 +279,8 @@ const moods = [
     "example": "",
     "use": ["Eerie"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Macabre",
@@ -231,6 +289,8 @@ const moods = [
     "example": "",
     "use": ["Horror"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Meditative",
@@ -239,6 +299,8 @@ const moods = [
     "example": "",
     "use": ["Peaceful"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Mellow",
@@ -247,6 +309,8 @@ const moods = [
     "example": "",
     "use": ["Peaceful"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Mysterious",
@@ -255,6 +319,8 @@ const moods = [
     "example": "*Gabriel Knight*, *Myst*, *The Vanishing of Ethan Carter*.",
     "use": [],
     "use_for":["Suspenseful"],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Nostalgic",
@@ -263,6 +329,8 @@ const moods = [
     "example": "",
     "use": ["Sentimental"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Offbeat",
@@ -271,6 +339,8 @@ const moods = [
     "example": "",
     "use": ["Quirky"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Optimistic",
@@ -279,6 +349,8 @@ const moods = [
     "example": "",
     "use": ["Light-hearted"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Paranoid",
@@ -287,6 +359,8 @@ const moods = [
     "example": "",
     "use": ["Horror"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Peaceful",
@@ -295,6 +369,8 @@ const moods = [
     "example": "*Flower*, *Journey*, *Zen Bound*.",
     "use": [],
     "use_for":["Calm", "Meditative", "Mellow", "Relaxed"],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Quirky",
@@ -303,6 +379,8 @@ const moods = [
     "example": "*Braid*, *Paper Mario*, *Katamari Damacy*.",
     "use": [],
     "use_for":["Offbeat", "Whimsical"],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Relaxed",
@@ -311,6 +389,8 @@ const moods = [
     "example": "",
     "use": ["Peaceful"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Romantic",
@@ -319,6 +399,8 @@ const moods = [
     "example": "*Sentimental Graffiti*, *Shin Megami Tensei*, *Persona 4*, *Hatoful Boyfriend*.",
     "use": [],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Sad",
@@ -327,15 +409,19 @@ const moods = [
     "example": "*The Last of Us*, *Final Fantasy 7*.",
     "use": [],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Sarcastic",
     "scope_note": "Games that have a sharp, satirical, caustic tone.",
     "related_terms": [],
-    "example": "",
+    "example": "*Grand Theft Auto 3*, *Fallout 3*, Saints Row the Third*.",
     "use": [],
     "use_for":["Satirical"],
-    "type": "*Grand Theft Auto 3*, *Fallout 3*, Saints Row the Third*."
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },{
     "term": "Satirical",
     "scope_note": "",
@@ -343,6 +429,8 @@ const moods = [
     "example": "",
     "use": ["Sarcastic"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Scary",
@@ -351,6 +439,8 @@ const moods = [
     "example": "",
     "use": ["Horror"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Sensual",
@@ -359,6 +449,18 @@ const moods = [
     "example": "*Bayonetta*, *Catherine*.",
     "use": [],
     "use_for":["Erotic", "Sexy"],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
+},{
+    "term": "Sentimental",
+    "scope_note": "Games with feelings of nostalgia, affection, or tenderness, evoked by a deep connection to the game's themes or memories.",
+    "related_terms": [],
+    "example": "<i>Unpacking</i>",
+    "use": [],
+    "use_for":["Nostalgic"],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Sexy",
@@ -367,6 +469,8 @@ const moods = [
     "example": "",
     "use": ["Sensual"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Silly",
@@ -375,6 +479,8 @@ const moods = [
     "example": "",
     "use": ["Humorous"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Solitary",
@@ -383,6 +489,8 @@ const moods = [
     "example": "*Metroid*, *Shadow of the Colossus*, *P.T.*",
     "use": [],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Somber",
@@ -391,6 +499,8 @@ const moods = [
     "example": "",
     "use": ["Dark"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Suspenseful",
@@ -399,6 +509,8 @@ const moods = [
     "example": "",
     "use": ["Mysterious"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Sweet",
@@ -407,6 +519,8 @@ const moods = [
     "example": "",
     "use": ["Cute"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
     "term": "Unsettling",
@@ -415,14 +529,28 @@ const moods = [
     "example": "",
     "use": ["Eerie"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 },{
-    "term": "Whimiscal",
+    "term": "Whimsical",
     "scope_note": "",
     "related_terms": [],
     "example": "",
     "use": ["Quirky"],
     "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
+},{
+    "term": "Witty",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["Humorous"],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
     "type": ""
 }
 ]

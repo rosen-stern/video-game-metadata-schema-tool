@@ -1,11 +1,24 @@
-const tropes = [{
+const tropes = [
+    {
+    "term": "Archetypal Pro/Antagonists",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
+},{
     "term": "The Strong Female Lead",
     "scope_note": "A strong, independent female cahracter that is central to the story.",
     "related_terms": ["The Affirmative Action Girl", "The Femme Fatale"],
     "example": "Lara Croft from *Tomb Raider* and Bayonetta from *Bayonetta*",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Ideal Hero",
@@ -13,19 +26,21 @@ const tropes = [{
     "related_terms": [],
     "example": "Master Chief from the *Halo* franchise.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
-}, 
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
+},
 {
     "term": "The Bold Explorer",
     "scope_note": "This is a character driven by the quest to discover new lands, dieas, people, and experiences. This is different from The Conquerer in that they do not need to possess the new item, location, or idea. The experience is often enough.",
     "related_terms": [],
     "example": "The protagonists of *Uncharted Waters*, specifically Ernst.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Collector",
@@ -33,9 +48,10 @@ const tropes = [{
     "related_terms": [],
     "example": "The main antagonist in LittleBigPlanet.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Builder",
@@ -43,9 +59,10 @@ const tropes = [{
     "related_terms": [],
     "example": "Some individual playing *Minecraft* and the Prince from Katamari Damacy.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Determinator",
@@ -53,9 +70,10 @@ const tropes = [{
     "related_terms": ["The Revolutionary(ies)"],
     "example": "Naruto from *Naruto Shippuden: Ultimate Ninja Storm 4* and Phoenix Wright from *Ace Attorney*.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Ranger",
@@ -63,9 +81,10 @@ const tropes = [{
     "related_terms": [],
     "example": "Anden Goodmanner from *A Dance with Rogues*.",
     "use": [],
-    "use_for":["The Hunter"], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": ["The Hunter"],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Hunter",
@@ -73,9 +92,10 @@ const tropes = [{
     "related_terms": [],
     "example": "",
     "use": ["The Ranger"],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Average Individual",
@@ -83,9 +103,10 @@ const tropes = [{
     "related_terms": ["The Reluctant Hero"],
     "example": "The protagonist from *Persona 3*",
     "use": [],
-    "use_for":["The Ordinary High School Student"], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": ["The Ordinary High School Student"],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Ordinary High School Student",
@@ -93,9 +114,10 @@ const tropes = [{
     "related_terms": [],
     "example": "",
     "use": ["The Average Individual"],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Chosen One",
@@ -103,19 +125,21 @@ const tropes = [{
     "related_terms": ["The Reluctant Hero", "The Sacrificial Lamb", "The Vessel/Conduit", "The Magic User"],
     "example": "Link from *Zelda*",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Reluctant Hero",
     "scope_note": "A character that does not want to take an active role in the story, but finds they should or must.",
-    "related_terms": ["The Chosen One", "The Sacrificial Lamb", "The Vessel/Conduit","The Magic User","The Average Individual"],
+    "related_terms": ["The Chosen One", "The Sacrificial Lamb", "The Vessel/Conduit", "The Magic User", "The Average Individual"],
     "example": "Chun Li from the *Street Fighter* franchise.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Secret Police",
@@ -123,19 +147,21 @@ const tropes = [{
     "related_terms": ["The Evil Rich Person", "The Spy/Spymaster"],
     "example": "Any government operative in *Deus X*.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Spy/Spymaster",
     "scope_note": "An individual whose job it is to coordinate and gather information. Often an indispensible ally.",
-    "related_terms": ["The Evil Rich Person", "The Secret Police", "The Rogue/Stealth"],
+    "related_terms": ["The Evil Rich Person", "The Secret Police", "The Rogue"],
     "example": "Hiram Buttows from *Dishonor*.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Evil Rich Person",
@@ -143,9 +169,10 @@ const tropes = [{
     "related_terms": ["The Fat Bastard"],
     "example": "The *Mario* series generally features wealthy, evil royalty.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Big Bad",
@@ -153,9 +180,10 @@ const tropes = [{
     "related_terms": ["The Demonic Foe", "The Antichrist", "The Eldritch Abomination", "The Overlord"],
     "example": "the Lord of Terror from *Diablo*.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Sadistic Instructor",
@@ -163,9 +191,10 @@ const tropes = [{
     "related_terms": [],
     "example": "Principal Hanya from *Persona 2*.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Dangerous Relative",
@@ -173,9 +202,10 @@ const tropes = [{
     "related_terms": [],
     "example": "Balin from *Dragon Age: Origins*.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Reluctant Villain",
@@ -183,19 +213,21 @@ const tropes = [{
     "related_terms": ["The Cursed Beast"],
     "example": "Daisy Fitzroy from *BioShock Infinite*.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Outlaw",
     "scope_note": "A character who operates outside of the law for good or evil.",
-    "related_terms": ["The Pirates", "The Revolutionary(ies)"],
+    "related_terms": ["The Pirate(s)", "The Revolutionary(ies)"],
     "example": "the main character from *Red Dead Redemption*.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Unsettling Child",
@@ -203,9 +235,10 @@ const tropes = [{
     "related_terms": [],
     "example": "The Little Sisters from *BioShock*.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Deadly Child",
@@ -213,9 +246,10 @@ const tropes = [{
     "related_terms": [],
     "example": "The children who live in Little Lamplight in *Fallout 3* and Annie from *League of Legends*.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Convenient Orphan",
@@ -223,9 +257,10 @@ const tropes = [{
     "related_terms": ["The Chosen One"],
     "example": "Ellie from *The Last of Us*, Squall from *Final Fantasy 8*.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Amnesiac Hero",
@@ -233,9 +268,20 @@ const tropes = [{
     "related_terms": [],
     "example": "Dust from *Dust: An Elysian Tail*, the main character of *Amnesia: The Dark Descent*.",
     "use": [],
-    "use_for":[], 
-    "type": "Archetypal Pro/Antagonists"
-
+    "use_for": [],
+    "type": "Archetypal Pro/Antagonists",
+    "broader_term": "",
+    "narrower_term": []
+},{
+    "term": "Exceptional Beings",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
+    "use_for":[],
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },
 {
     "term": "The Cursed Beast",
@@ -243,8 +289,10 @@ const tropes = [{
     "related_terms": ["The Reluctant Villain"],
     "example": "Kronos from *Kronos God of War* or any werewolf characters.",
     "use": [],
-    "use_for":[],
-    "type": "Exceptional Beings"
+    "use_for": [],
+    "type": "Exceptional Beings",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Demonic Foe",
@@ -252,64 +300,100 @@ const tropes = [{
     "related_terms": ["The Big Bad"],
     "example": "Magus of *Chrono Trigger*.",
     "use": [],
-    "use_for":[],
-    "type": "Exceptional Beings"
-},{
+    "use_for": [],
+    "type": "Exceptional Beings",
+    "broader_term": "",
+    "narrower_term": []
+}, {
     "term": "The Antichrist",
     "scope_note": "The character that is the highest member of an evil hierarchy, often from the underworld.",
     "related_terms": ["The Big Bad"],
     "example": "Sephiroth from *Final Fantasy VII*.",
     "use": [],
-    "use_for":[],
-    "type": "Exceptional Beings"
-},{
+    "use_for": [],
+    "type": "Exceptional Beings",
+    "broader_term": "",
+    "narrower_term": []
+}, {
     "term": "The Eldritch Abomination",
     "scope_note": "This character is a creature that has never been seen before, like Cthulhu.",
     "related_terms": ["The Big Bad"],
     "example": "The Reapers from the *Mass Effect* franchise.",
     "use": [],
-    "use_for":[],
-    "type": "Exceptional Beings"
-},{
+    "use_for": [],
+    "type": "Exceptional Beings",
+    "broader_term": "",
+    "narrower_term": []
+}, {
     "term": "The Threshold Guardian",
     "scope_note": "This character possesses knowledge or has access to something that the main characters need to move forward in the story.",
-    "related_terms": ["The Librarian"],
+    "related_terms": [],
     "example": "Faralda from *The Elder Scrolls V: Skyrim*.",
     "use": [],
-    "use_for":[],
-    "type": "Exceptional Beings"
-},{
+    "use_for": ["The Librarian"],
+    "type": "Exceptional Beings",
+    "broader_term": "",
+    "narrower_term": []
+}, {
+    "term": "The Librarian",
+    "scope_note": "",
+    "related_terms": [],
+    "example": "",
+    "use": ["The Threshold Guardian"],
+    "use_for": [],
+    "type": "Exceptional Beings",
+    "broader_term": "",
+    "narrower_term": []
+}, {
     "term": "The Living Statue",
     "scope_note": "This is a character or characters that were once inanimate and then activated by another character.",
-    "related_terms": ["Mooks"],
+    "related_terms": ["The Mooks"],
     "example": "The colossi in *Shadow of the Colossus*.",
     "use": [],
-    "use_for":[],
-    "type": "Exceptional Beings"
-},{
+    "use_for": [],
+    "type": "Exceptional Beings",
+    "broader_term": "",
+    "narrower_term": []
+}, {
     "term": "The Disembodied Voice",
     "scope_note": "This character may be a voice heard over an intercom or a supernatural being.",
     "related_terms": ["The Threshold Guardian"],
     "example": "Ness' father in *Earthbound*.",
     "use": [],
-    "use_for":[],
-    "type": "Exceptional Beings"
-},{
+    "use_for": [],
+    "type": "Exceptional Beings",
+    "broader_term": "",
+    "narrower_term": []
+}, {
     "term": "The Undead",
     "scope_note": "Any undead or otherwise supernaturally animated creature that was once alive.",
     "related_terms": ["The Living Statue"],
     "example": "Vampires and zombies.",
     "use": [],
+    "use_for": [],
+    "type": "Exceptional Beings",
+    "broader_term": "",
+    "narrower_term": []
+}, {
+    "term": "Leaders",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
     "use_for":[],
-    "type": "Exceptional Beings"
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },{
     "term": "The Runaway Royal",
     "scope_note": "A person with noble lineage who skirts responsibility or wants to be free from their responsibilities.",
     "related_terms": ["The Prince(ss) in Disguise"],
     "example": "Marle from *Chrono Trigger*.",
     "use": [],
-    "use_for":[],
-    "type": "Leaders"
+    "use_for": [],
+    "type": "Leaders",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Prince(ss) in Disguise",
@@ -317,8 +401,10 @@ const tropes = [{
     "related_terms": ["The Runaway Royal"],
     "example": "Alistair in *Dragon Age: Origins* and Zelda (as Sheik) from the *Legend of Zelda: Ocarina of Time*.",
     "use": [],
-    "use_for":[],
-    "type": "Leaders"
+    "use_for": [],
+    "type": "Leaders",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Overlord",
@@ -326,8 +412,10 @@ const tropes = [{
     "related_terms": [],
     "example": "Dr. Robotnik from *Sonic the Hedgehog*.",
     "use": [],
-    "use_for":[],
-    "type": "Leaders"
+    "use_for": [],
+    "type": "Leaders",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Conqueror",
@@ -335,8 +423,10 @@ const tropes = [{
     "related_terms": ["The Overlord"],
     "example": "Walhart from *Fire Emblem Awakening*.",
     "use": [],
-    "use_for":[],
-    "type": "Leaders"
+    "use_for": [],
+    "type": "Leaders",
+    "broader_term": "",
+    "narrower_term": []
 },
 
 {
@@ -345,8 +435,20 @@ const tropes = [{
     "related_terms": ["The War Veteran"],
     "example": "Commander Shepard from the Mass Effect franchise.",
     "use": [],
+    "use_for": [],
+    "type": "Leaders",
+    "broader_term": "",
+    "narrower_term": []
+},{
+    "term": "Allies",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
     "use_for":[],
-    "type": "Leaders"
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },
 {
     "term": "The Animal Sidekick",
@@ -354,203 +456,271 @@ const tropes = [{
     "related_terms": ["The Threshold Guardian", "The Sprite"],
     "example": "Cedric the Owl from *King’s Quest V*.",
     "use": [],
-    "use_for":[],
-    "type": "Allies"
-},{
+    "use_for": [],
+    "type": "Allies",
+    "broader_term": "",
+    "narrower_term": []
+}, {
     "term": "The Adorable Minion(s)",
     "scope_note": "An individual character or group of small creatures that work for a particular individual and their ultimate goal.",
     "related_terms": ["The Mooks"],
     "example": "The Tonberry and Moogle from the *Final Fantasy* franchise.",
     "use": [],
-    "use_for":[],
-    "type": "Allies"
-},{
+    "use_for": [],
+    "type": "Allies",
+    "broader_term": "",
+    "narrower_term": []
+}, {
     "term": "The War Veteran",
     "scope_note": "A character that has experienced combat and that experience of combat is formative to their personality.",
     "related_terms": ["The Commander"],
     "example": "Cole Phelps from *L.A. Noire*.",
     "use": [],
-    "use_for":[],
-    "type": "Allies"
-},{
+    "use_for": [],
+    "type": "Allies",
+    "broader_term": "",
+    "narrower_term": []
+}, {
     "term": "The Sacrificial Lamb",
     "scope_note": "A character that is due to be sacrificed to a greater cause either by divine prophecy or as collateral damage.",
     "related_terms": ["The Reluctant Hero", "The Vessel/Conduit"],
     "example": "Zero from *Mega Man X*.",
     "use": [],
-    "use_for":[],
-    "type": "Allies"
-},{
+    "use_for": [],
+    "type": "Allies",
+    "broader_term": "",
+    "narrower_term": []
+}, {
     "term": "The Mooks",
     "scope_note": "A commonly encountered and dispensable enemy employed by the antagonist character operating individually or in a larger group.",
     "related_terms": ["The Horde", "The Adorable Minion(s)"],
     "example": "The Storm Troopers from the *Star Wars* franchise.",
     "use": [],
-    "use_for":[],
-    "type": "Allies"
-},{
-    
+    "use_for": [],
+    "type": "Allies",
+    "broader_term": "",
+    "narrower_term": []
+}, {
+
     "term": "The Hostages",
     "scope_note": "Characters who are held captive by the antagonist in order to leverage the protagonist into doing the bidding of the antagonist. They generally require rescue.",
     "related_terms": ["The Reluctant Hero", "The Vessel/Conduit"],
     "example": "Promo Girl from the Resident *Evil 3: Nemesis* during Operation: Mad Jackal.",
     "use": [],
-    "use_for":[],
-    "type": "Allies"
-},{
+    "use_for": [],
+    "type": "Allies",
+    "broader_term": "",
+    "narrower_term": []
+}, {
     "term": "The Funny Helper",
     "scope_note": "A character that is not immediately perceived as useful and relied on by a storyteller for comic relief. However, their guidance or assistance for a quest makes them indispensable.",
     "related_terms": ["The Animal Sidekick", "The Adorable Minion(s)"],
     "example": "Navi from Legend of *Zelda: Ocarina Of Time*",
     "use": [],
-    "use_for":[],
-    "type": "Allies"
-},{
+    "use_for": [],
+    "type": "Allies",
+    "broader_term": "",
+    "narrower_term": []
+}, {
     "term": "The Vessel/Conduit",
     "scope_note": "An individual chosen by divine intervention for some higher purpose. This purpose may include acting as a 'fifth element' (a physical embodiment of a concept) or host.",
     "related_terms": ["The Reluctant Hero", "The Sacrificial Lamb", "The Magic User"],
     "example": "Dorman in *Shadow of the Colossus*.",
     "use": [],
-    "use_for":[],
-    "type": "Allies"
-},{
+    "use_for": [],
+    "type": "Allies",
+    "broader_term": "",
+    "narrower_term": []
+}, {
     "term": "The Underworld God",
     "scope_note": "A character who rules the underworld.",
-    "related_terms": ["The Demon Foe", "The Eldritch Abomination"],
+    "related_terms": ["The Demonic Foe", "The Eldritch Abomination"],
     "example": "The Seven Great Evils in the *Diablo* series.",
     "use": [],
-    "use_for":[],
-    "type": "Allies"
-},{ 
+    "use_for": [],
+    "type": "Allies",
+    "broader_term": "",
+    "narrower_term": []
+}, {
     "term": "The Sprite",
     "scope_note": "A small icon or creature that assists a character throughout their story and may offer special skills to a player such as enhancing an attack.",
     "related_terms": ["The Animal Sidekick"],
     "example": "Navi from *Legend of Zelda: Ocarina Of Time* and Pix from *League of Legends*.",
     "use": [],
-    "use_for":[],
-    "type": "Allies"
-},{
+    "use_for": [],
+    "type": "Allies",
+    "broader_term": "",
+    "narrower_term": []
+}, {
     "term": "The Morality Pet",
     "scope_note": "A character that mediates another character’s morality.",
     "related_terms": ["The Badass and Child Duo"],
     "example": "Raphael’s daughter Amy from *Soul Calibur*.",
     "use": [],
-    "use_for":[],
-    "type": "Allies"
-},{ 
+    "use_for": [],
+    "type": "Allies",
+    "broader_term": "",
+    "narrower_term": []
+}, {
     "term": "The Designated Victim",
     "scope_note": "A character who is perpetually in danger due to their innocence or naiveté and they are usually saved by the protagonist.",
     "related_terms": ["The Reluctant Hero"],
     "example": "Princess Peach from the *Mario* franchise.",
     "use": [],
-    "use_for":[],
-    "type": "Allies"
-},{ 
+    "use_for": [],
+    "type": "Allies",
+    "broader_term": "",
+    "narrower_term": []
+}, {
     "term": "The Good All Along Character",
     "scope_note": "A character who is believed to be evil at the beginning of the story, though investigation or new information is actually revealed to be an ally or 'good guy.'",
     "related_terms": [],
     "example": "No example provided for this due to possible spoilers. Proceed with caution when assigning this trope.",
     "use": [],
+    "use_for": [],
+    "type": "Allies",
+    "broader_term": "",
+    "narrower_term": []
+}, {
+    "term": "Philosophies and Cultures",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
     "use_for":[],
-    "type": "Allies"
-},{ 
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
+},{
     "term": "The Barbarian(s)",
     "scope_note": "A group of people outside of the main society that usually live without technology and operate on a tribal system of governance.",
     "related_terms": ["The Mooks"],
     "example": "Centaurs in *World of Warcraft*.",
     "use": [],
-    "use_for":[],
-    "type": "Philosophies and Cultures"
+    "use_for": [],
+    "type": "Philosophies and Cultures",
+    "broader_term": "",
+    "narrower_term": []
 },
-{ 
+{
     "term": "The Assimilator(s)",
     "scope_note": "An individual or group of characters that holds a philosophical belief that everyone must be similar or the same.",
     "related_terms": ["The Fundamentalist(s)", "The Evil Rich Person", "The Secret Police", "The Conqueror"],
     "example": "The Geth from *Mass Effect* or The Borg from *Star Trek* franchise",
     "use": [],
-    "use_for":[],
-    "type": "Philosophies and Cultures"
+    "use_for": [],
+    "type": "Philosophies and Cultures",
+    "broader_term": "",
+    "narrower_term": []
 },
-{ 
+{
     "term": "The Fundamentalist(s)",
     "scope_note": "An individual or group of characters driven solely by the strength of their beliefs in politics or religion to the point of which they try to convert anyone to their point of view.",
     "related_terms": ["The Revolutionary(ies)"],
     "example": "The Qunari from *Dragon Age*",
     "use": [],
-    "use_for":[],
-    "type": "Philosophies and Cultures"
+    "use_for": [],
+    "type": "Philosophies and Cultures",
+    "broader_term": "",
+    "narrower_term": []
 },
-{ 
+{
     "term": "The Heretic(s)",
     "scope_note": "An individual or group of characters that go against the ideological flow of a larger group with possible risks to their well being.",
     "related_terms": [],
     "example": "Nero from *Devil May Cry 4*",
     "use": [],
-    "use_for":[],
-    "type": "Philosophies and Cultures"
+    "use_for": [],
+    "type": "Philosophies and Cultures",
+    "broader_term": "",
+    "narrower_term": []
 },
-{ 
+{
     "term": "The Isolationist(s)",
     "scope_note": "An individual or small group of characters that believe they must stay separate from a larger population.",
     "related_terms": ["The Evil Rich Person"],
     "example": "The Mages' Collective from Dragon Age and the Gerudo tribe from *Legend of Zelda: Ocarina Of Time*",
     "use": [],
-    "use_for":[],
-    "type": "Philosophies and Cultures"
+    "use_for": [],
+    "type": "Philosophies and Cultures",
+    "broader_term": "",
+    "narrower_term": []
 },
-{ 
+{
     "term": "The Revolutionary(ies)",
     "scope_note": "A group or individual whose primary goal is to change the status quo.",
     "related_terms": ["The Outlaw", "The Chosen One", "The Ideal Hero", "The Reluctant Hero"],
     "example": "The Alliance from the *Star Wars* franchise.",
     "use": [],
-    "use_for":[],
-    "type": "Philosophies and Cultures"
+    "use_for": [],
+    "type": "Philosophies and Cultures",
+    "broader_term": "",
+    "narrower_term": []
 },
-{ 
+{
     "term": "The Pirate(s)",
     "scope_note": "An individual or group of characters that steal large quantities of goods (government or private property), usually on some sort of large transport vessel.",
     "related_terms": ["The Outlaw"],
     "example": "The pirates from *The Pirates of the Caribbean* franchise.",
     "use": [],
-    "use_for":[],
-    "type": "Philosophies and Cultures"
+    "use_for": [],
+    "type": "Philosophies and Cultures",
+    "broader_term": "",
+    "narrower_term": []
 },
-{ 
+{
     "term": "The Otherworldly Visitor(s)",
     "scope_note": "An individual or group of characters that come from a different world or time.",
     "related_terms": ["The Conqueror"],
     "example": "The Four Masks from Shadow Hearts",
     "use": [],
-    "use_for":[],
-    "type": "Philosophies and Cultures"
+    "use_for": [],
+    "type": "Philosophies and Cultures",
+    "broader_term": "",
+    "narrower_term": []
 },
-{ 
+{
     "term": "The Horde",
     "scope_note": "Typically an army or gathering that has strength in numbers and are enemy or other to the main protagonists.",
     "related_terms": ["The Swarm"],
     "example": "Orcs from The Lord of the Rings franchise",
     "use": [],
-    "use_for":[],
-    "type": "Philosophies and Cultures"
+    "use_for": [],
+    "type": "Philosophies and Cultures",
+    "broader_term": "",
+    "narrower_term": []
 },
-{ 
+{
     "term": "The Swarm",
     "scope_note": "",
     "related_terms": [],
     "example": "",
     "use": ["The Horde"],
+    "use_for": [],
+    "type": "Philosophies and Cultures",
+    "broader_term": "",
+    "narrower_term": []
+},{
+    "term": "Fighting Style",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
     "use_for":[],
-    "type": "Philosophies and Cultures"
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },
-{ 
+{
     "term": "The Brawler",
     "scope_note": "A character that is quick to fight and often has a short temper.",
     "related_terms": ["The Tank"],
     "example": "Liquid Snake from *Metal Gear Solid*.",
     "use": [],
-    "use_for":[],
-    "type": "Fighting style"
+    "use_for": [],
+    "type": "Fighting Style",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Magic User",
@@ -558,8 +728,10 @@ const tropes = [{
     "related_terms": ["The Chosen One"],
     "example": "Vivi from *Final Fantasy VII*.",
     "use": [],
-    "use_for":[],
-    "type": "Fighting style"
+    "use_for": [],
+    "type": "Fighting Style",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Girly Fighter",
@@ -567,8 +739,10 @@ const tropes = [{
     "related_terms": ["The Strong Female Lead"],
     "example": "Momoko from *The King of Fighters*, commonly seen in arcade style fighting games such as *Soul Calibur*, *Street Fighter*, *Mortal Kombat*, etc.",
     "use": [],
-    "use_for":[],
-    "type": "Fighting style"
+    "use_for": [],
+    "type": "Fighting Style",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Tank",
@@ -576,8 +750,10 @@ const tropes = [{
     "related_terms": ["The Burly Bruiser", "The Badass and Child Duo"],
     "example": "The Heavy from *Team Fortress 2*.",
     "use": [],
-    "use_for":[],
-    "type": "Fighting style"
+    "use_for": [],
+    "type": "Fighting Style",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Rogue",
@@ -585,8 +761,10 @@ const tropes = [{
     "related_terms": ["The Assassin", "The Spy/Spymaster"],
     "example": "The main characters in *Assassin’s Creed*.",
     "use": [],
-    "use_for":[],
-    "type": "Fighting style"
+    "use_for": [],
+    "type": "Fighting Style",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Assassin",
@@ -594,8 +772,20 @@ const tropes = [{
     "related_terms": [],
     "example": "",
     "use": ["The Rogue"],
+    "use_for": [],
+    "type": "Fighting Style",
+    "broader_term": "",
+    "narrower_term": []
+},{
+    "term": "Appearance as Personality",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
     "use_for":[],
-    "type": "Fighting style"
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },
 {
     "term": "Aloof, Dark Haired Girl",
@@ -603,8 +793,10 @@ const tropes = [{
     "related_terms": ["The Femme Fatale"],
     "example": "Ada Wong from *Resident Evil*.",
     "use": [],
-    "use_for":[],
-    "type": "Appearance as Personality"
+    "use_for": [],
+    "type": "Appearance as Personality",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Gentle Giant",
@@ -612,8 +804,10 @@ const tropes = [{
     "related_terms": [],
     "example": "Claude from *Shining Force 2*.",
     "use": [],
-    "use_for":[],
-    "type": "Appearance as Personality"
+    "use_for": [],
+    "type": "Appearance as Personality",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "White Hair, Black Heart",
@@ -621,8 +815,10 @@ const tropes = [{
     "related_terms": [],
     "example": "Sephiroth from *Final Fantasy VII*.",
     "use": [],
-    "use_for":[],
-    "type": "Appearance as Personality"
+    "use_for": [],
+    "type": "Appearance as Personality",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Blondes are Dumb/Vain/Villains",
@@ -630,17 +826,31 @@ const tropes = [{
     "related_terms": ["The Strong Female Lead", "The Cute Bruiser"],
     "example": "King Cailan from *Dragon Age: Origins*.",
     "use": [],
-    "use_for":[],
-    "type": "Appearance as Personality"
+    "use_for": [],
+    "type": "Appearance as Personality",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
-    "term": "Fat Bastard",
+    "term": "The Fat Bastard",
     "scope_note": "A character who is overweight and portrated in a negative light.",
     "related_terms": ["The Evil Rich Person"],
     "example": "Wario from the *Mario* franchise.",
     "use": [],
+    "use_for": [],
+    "type": "Appearance as Personality",
+    "broader_term": "",
+    "narrower_term": []
+},{
+    "term": "Gender",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
     "use_for":[],
-    "type": "Appearance as Personality"
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },
 {
     "term": "The Patriarch",
@@ -648,8 +858,10 @@ const tropes = [{
     "related_terms": [],
     "example": "Sun Jian in the *Dynast Warriors* series.",
     "use": [],
-    "use_for":[],
-    "type": "Gender"
+    "use_for": [],
+    "type": "Gender",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Matriarch",
@@ -657,8 +869,10 @@ const tropes = [{
     "related_terms": [],
     "example": "Benezia from *Mass Effect*.",
     "use": [],
-    "use_for":[],
-    "type": "Gender"
+    "use_for": [],
+    "type": "Gender",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Girl in the Boys Club",
@@ -666,17 +880,21 @@ const tropes = [{
     "related_terms": [],
     "example": "Seong Mi-na from *Soul Calibur*.",
     "use": [],
-    "use_for":[],
-    "type": "Gender"
+    "use_for": [],
+    "type": "Gender",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Cute Bruiser",
     "scope_note": "A cute, diminutive character that packs a powerful punch or has a prickly personality.",
-    "related_terms": ["The Baddass and Child Duo"],
+    "related_terms": ["The Badass and Child Duo"],
     "example": "Kirby from the *Kirby* franchise and Shantotto from *Final Fantasy XI*.",
     "use": [],
-    "use_for":[],
-    "type": "Gender"
+    "use_for": [],
+    "type": "Gender",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Burly Bruiser",
@@ -684,8 +902,10 @@ const tropes = [{
     "related_terms": [],
     "example": "",
     "use": ["The Tank"],
-    "use_for":[],
-    "type": "Gender"
+    "use_for": [],
+    "type": "Gender",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Femme Fatale",
@@ -693,8 +913,10 @@ const tropes = [{
     "related_terms": ["The Strong Female Lead"],
     "example": "Maggie Chow in *Deus Ex*",
     "use": [],
-    "use_for":[],
-    "type": "Gender"
+    "use_for": [],
+    "type": "Gender",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Affirmative Action Girl",
@@ -702,8 +924,10 @@ const tropes = [{
     "related_terms": ["The Strong Female Lead"],
     "example": "Of the four playable characters in *Borderlands*, onyl one is female.",
     "use": [],
-    "use_for":[],
-    "type": "Gender"
+    "use_for": [],
+    "type": "Gender",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Manic Pixie Dream Girl",
@@ -711,8 +935,10 @@ const tropes = [{
     "related_terms": [],
     "example": "Catherine from *Catherine*.",
     "use": [],
-    "use_for":[],
-    "type": "Gender"
+    "use_for": [],
+    "type": "Gender",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Ms. Male Character",
@@ -720,8 +946,10 @@ const tropes = [{
     "related_terms": [],
     "example": "Ms. Pac Man and Toadette from the *Mario* franchise.",
     "use": [],
-    "use_for":[],
-    "type": "Gender"
+    "use_for": [],
+    "type": "Gender",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Woman as Decor",
@@ -729,8 +957,20 @@ const tropes = [{
     "related_terms": [],
     "example": "Any sex worker or groupie in *Saints Row* or women in the *Grand Theft Auto* franchise.",
     "use": [],
+    "use_for": [],
+    "type": "Gender",
+    "broader_term": "",
+    "narrower_term": []
+},{
+    "term": "Race",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
     "use_for":[],
-    "type": "Gender"
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },
 {
     "term": "The Token Black Person",
@@ -738,8 +978,10 @@ const tropes = [{
     "related_terms": [],
     "example": "Nick Meyer from *Snake's Revenge*.",
     "use": [],
-    "use_for":[],
-    "type": "Race"
+    "use_for": [],
+    "type": "Race",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Asian Tech Genius",
@@ -747,8 +989,10 @@ const tropes = [{
     "related_terms": [],
     "example": "Jung Park from *Rainbow Six*.",
     "use": [],
-    "use_for":[],
-    "type": "Race"
+    "use_for": [],
+    "type": "Race",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Native Shaman",
@@ -756,8 +1000,10 @@ const tropes = [{
     "related_terms": [],
     "example": "Nightwolf from the *Mortal Kombat* franchise.",
     "use": [],
-    "use_for":[],
-    "type": "Race"
+    "use_for": [],
+    "type": "Race",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Minority Alien Stand-In",
@@ -765,8 +1011,10 @@ const tropes = [{
     "related_terms": [],
     "example": "The Syreen from *Star Control 2* and several races from the *Mass Effect* franchise.",
     "use": [],
-    "use_for":[],
-    "type": "Race"
+    "use_for": [],
+    "type": "Race",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Exotic Black Woman",
@@ -774,8 +1022,20 @@ const tropes = [{
     "related_terms": [],
     "example": "Vivienne from *Dragon Age*.",
     "use": [],
+    "use_for": [],
+    "type": "Race",
+    "broader_term": "",
+    "narrower_term": []
+},{
+    "term": "Teams",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
     "use_for":[],
-    "type": "Race"
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },
 {
     "term": "The Badass and Child Duo",
@@ -783,8 +1043,10 @@ const tropes = [{
     "related_terms": ["The Tank", "The Odd Couple"],
     "example": "Corvo Attano and Emily Kaldwin from *Dishonor*.",
     "use": [],
-    "use_for":[],
-    "type": "Teams"
+    "use_for": [],
+    "type": "Teams",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Odd Couple",
@@ -792,8 +1054,10 @@ const tropes = [{
     "related_terms": ["The Bickering Henchmen", "The Badass and Child Duo"],
     "example": "Fia and Lian in *Riviera: The Promised Land*.",
     "use": [],
-    "use_for":[],
-    "type": "Teams"
+    "use_for": [],
+    "type": "Teams",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Bickering Henchmen",
@@ -801,8 +1065,10 @@ const tropes = [{
     "related_terms": [],
     "example": "The brothers in *Myst*.",
     "use": [],
-    "use_for":[],
-    "type": "Teams"
+    "use_for": [],
+    "type": "Teams",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Fantastic Four",
@@ -810,8 +1076,10 @@ const tropes = [{
     "related_terms": [],
     "example": "The Black, White, Red, and Yellow birds from *Angry Birds*.",
     "use": [],
-    "use_for":[],
-    "type": "Teams"
+    "use_for": [],
+    "type": "Teams",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Found Family",
@@ -819,16 +1087,30 @@ const tropes = [{
     "related_terms": [],
     "example": "The Straw Hat crew in *One Piece: World Seeker*, The Shepherds in *Fire Emblem Awakening*.",
     "use": [],
+    "use_for": [],
+    "type": "Teams",
+    "broader_term": "",
+    "narrower_term": []
+}, {
+    "term": "Morality",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
     "use_for":[],
-    "type": "Teams"
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },{
     "term": "Face/Heel Turn",
     "scope_note": "When a character changes their alliance unexpectedly and sticks with their choice.",
     "related_terms": ["Former Friends, Now Foes"],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Morality"
+    "use_for": [],
+    "type": "Morality",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Friends, Not Food",
@@ -836,8 +1118,10 @@ const tropes = [{
     "related_terms": ["The Morality Pet"],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Morality"
+    "use_for": [],
+    "type": "Morality",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "End Justify the Means",
@@ -845,8 +1129,10 @@ const tropes = [{
     "related_terms": ["The Reluctant Villain", "The Determinator"],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Morality"
+    "use_for": [],
+    "type": "Morality",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Too Good for this World",
@@ -854,8 +1140,10 @@ const tropes = [{
     "related_terms": ["The Manic Pixie Dream Girl"],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Morality"
+    "use_for": [],
+    "type": "Morality",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Sadistic Choice",
@@ -863,8 +1151,20 @@ const tropes = [{
     "related_terms": ["The Big Bad"],
     "example": "",
     "use": [],
+    "use_for": [],
+    "type": "Morality",
+    "broader_term": "",
+    "narrower_term": []
+},{
+    "term": "Driving Actions",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
     "use_for":[],
-    "type": "Morality"
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },
 {
     "term": "Placate the Thing",
@@ -872,8 +1172,10 @@ const tropes = [{
     "related_terms": ["The Cursed Beast"],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Driving Actions"
+    "use_for": [],
+    "type": "Driving Actions",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Assemble the Thing",
@@ -881,8 +1183,10 @@ const tropes = [{
     "related_terms": ["The Builder"],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Driving Actions"
+    "use_for": [],
+    "type": "Driving Actions",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Escape the Labyrinth",
@@ -890,8 +1194,10 @@ const tropes = [{
     "related_terms": [],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Driving Actions"
+    "use_for": [],
+    "type": "Driving Actions",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Slay the Dragon",
@@ -899,17 +1205,21 @@ const tropes = [{
     "related_terms": [],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Driving Actions"
+    "use_for": [],
+    "type": "Driving Actions",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Find the Thing",
     "scope_note": "When a character or team needs to lcoate a particular item, creature, or individual in order to move forward with the story.",
-    "related_terms": ["The Ranger", "The Brave Explorer"],
+    "related_terms": ["The Ranger", "The Bold Explorer"],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Driving Actions"
+    "use_for": [],
+    "type": "Driving Actions",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Perpetually Saving Private Ryan",
@@ -917,26 +1227,42 @@ const tropes = [{
     "related_terms": ["The Designated Victim"],
     "example": "",
     "use": [],
+    "use_for": [],
+    "type": "Driving Actions",
+    "broader_term": "",
+    "narrower_term": []
+},{
+    "term": "Call to Adventure",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
     "use_for":[],
-    "type": "Driving Actions"
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },
 {
     "term": "Bad Guy Done Us Wrong",
     "scope_note": "Sometimes unrelated characters band together because they were each wronged in a similar or different way by the same character.",
-    "related_terms": ["The Enemey of my Enemy..."],
+    "related_terms": ["The Enemy of my Enemy..."],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Call to Adventure"
+    "use_for": [],
+    "type": "Call to Adventure",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Destiny Reveal",
     "scope_note": "When a character learns something important about their future or recieves a calling from a higher power.",
-    "related_terms": ["The Chosen One", "The Sacrificial Lamb", "The Vessel/Conduit","The Reluctant Hero"],
+    "related_terms": ["The Chosen One", "The Sacrificial Lamb", "The Vessel/Conduit", "The Reluctant Hero"],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Call to Adventure"
+    "use_for": [],
+    "type": "Call to Adventure",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Another Dimension",
@@ -944,8 +1270,10 @@ const tropes = [{
     "related_terms": ["The Otherworldly Visitor(s)", "The Reluctant Hero"],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Call to Adventure"
+    "use_for": [],
+    "type": "Call to Adventure",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Resistence is Futile",
@@ -953,17 +1281,31 @@ const tropes = [{
     "related_terms": ["The Assimilator(s)", "The Revolutionary(ies)", "The Determinator"],
     "example": "",
     "use": [],
+    "use_for": [],
+    "type": "Call to Adventure",
+    "broader_term": "",
+    "narrower_term": []
+},{
+    "term": "Team Building",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
     "use_for":[],
-    "type": "Call to Adventure"
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },
 {
     "term": "With Our Powers Combined",
     "scope_note": "When two characters enhance their powers by joining their efforts or physical items to create a larger item. Sometimes this can also mean a bond of a spiritual sort.",
-    "related_terms": ["The Odd Couple","The Fantastic Four"],
+    "related_terms": ["The Odd Couple", "The Fantastic Four"],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Team Building"
+    "use_for": [],
+    "type": "Team Building",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "The Enemy of my Enemy...",
@@ -971,8 +1313,10 @@ const tropes = [{
     "related_terms": ["The Odd Couple"],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Team Building"
+    "use_for": [],
+    "type": "Team Building",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Former Friends, Now Foes",
@@ -980,8 +1324,20 @@ const tropes = [{
     "related_terms": [],
     "example": "",
     "use": [],
+    "use_for": [],
+    "type": "Team Building",
+    "broader_term": "",
+    "narrower_term": []
+},{
+    "term": "Climax",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
     "use_for":[],
-    "type": "Team Building"
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },
 {
     "term": "Darkest Before the Dawn",
@@ -989,8 +1345,10 @@ const tropes = [{
     "related_terms": [],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Climax"
+    "use_for": [],
+    "type": "Climax",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Hail Mary",
@@ -998,17 +1356,21 @@ const tropes = [{
     "related_terms": [],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Climax"
+    "use_for": [],
+    "type": "Climax",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Heroic Sacrifice",
     "scope_note": "At the climax of the story, one of the main characters sacrifices themselves to save others.",
-    "related_terms": ["The Sacrificial Lamb","Too Good for this World", "The Good All Along Character"],
+    "related_terms": ["The Sacrificial Lamb", "Too Good for this World", "The Good All Along Character"],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Climax"
+    "use_for": [],
+    "type": "Climax",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Almost Dead Killshot",
@@ -1016,8 +1378,10 @@ const tropes = [{
     "related_terms": [],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Climax"
+    "use_for": [],
+    "type": "Climax",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Pointless Revenge",
@@ -1025,26 +1389,42 @@ const tropes = [{
     "related_terms": [],
     "example": "",
     "use": [],
+    "use_for": [],
+    "type": "Climax",
+    "broader_term": "",
+    "narrower_term": []
+},{
+    "term": "Endings",
+    "scope_note": "Not part of the controlled vocabulary. This is a category / type of term.",
+    "related_terms": [],
+    "example": "",
+    "use": [],
     "use_for":[],
-    "type": "Climax"
+    "broader_term":"",
+    "narrower_term":[],
+    "type": ""
 },
 {
     "term": "I Choose to Stay",
     "scope_note": "At the end of the story, one of the characters chooses to stay in the new setting instead of going home with their teammates (if they have any).",
-    "related_terms": ["The Bold Explorer","The Otherworldly Visitor(s)"],
+    "related_terms": ["The Bold Explorer", "The Otherworldly Visitor(s)"],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Endings"
+    "use_for": [],
+    "type": "Endings",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "But Now I Must Go",
     "scope_note": "At the end of the story, one of the main protagonists leaves the group after their ordeal is over.",
-    "related_terms": ["The Isolationist(s)","The Reluctant Hero"],
+    "related_terms": ["The Isolationist(s)", "The Reluctant Hero"],
     "example": "",
     "use": [],
-    "use_for":[],
-    "type": "Endings"
+    "use_for": [],
+    "type": "Endings",
+    "broader_term": "",
+    "narrower_term": []
 },
 {
     "term": "Ambiguous",
@@ -1052,7 +1432,9 @@ const tropes = [{
     "related_terms": [],
     "example": "*BioShock Infinite*.",
     "use": [],
-    "use_for":[],
-    "type": "Endings"
+    "use_for": [],
+    "type": "Endings",
+    "broader_term": "",
+    "narrower_term": []
 }
 ]
