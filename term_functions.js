@@ -1,3 +1,48 @@
+var all_terms = [
+{display_name: "Engagement mechanisms",
+id: "engagement-mechanisms",
+    array: engagement_mechanisms
+},
+{display_name: "Gameplay genres",
+id: "gameplay-genres",
+    array: gameplay_genres
+},
+{display_name: "Mechanics",
+id: "mechanics",
+    array: mechanics
+},
+{display_name: "Moods",
+id: "moods",
+    array: moods
+},
+{display_name: "Narrative genres",
+id: "narrative-genres",
+    array: narrative_genres
+},
+{display_name: "Settings",
+id: "settings",
+    array: settings
+},
+
+{display_name: "Themes",
+id: "themes",
+    array: themes
+},
+{display_name: "Transaction types",
+id: "transaction-types",
+    array: transaction_types
+},
+
+{display_name: "Tropes",
+id: "tropes",
+    array: tropes
+},
+{display_name: "Visual styles",
+id: "visual-styles",
+    array: visual_styles
+}
+]
+
 function getScopeNote(json_obj){
    if (json_obj.scope_note !== "") {    //if there's a scope note...
         return json_obj.scope_note;

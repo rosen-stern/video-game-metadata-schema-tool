@@ -17,4 +17,11 @@ Edit the respective .js file. No other actions needed. IF a term isn't part of t
 Edit the respective .js file. No other actions needed.
 
 ## Adding a new .js file
- Comments are left with: " IF NEW JS FILE ADDED " to denote where to make changes to the HTML and script files when a new .js file is added. Each comment has a second half that explains what to do (normally adding on to a list of some kind).
+ Add to the array in term_functions.js and add to the import locations on certain pages like visualizer.html and term_search.html. For easy finding, just search for " IF NEW JS FILE ADDED " and follow the instructions. 
+
+
+ # WHEN WRITING CODE...
+
+If you need to iterate through an array of terms, you can use the array directly (e.g. "transaction_types[0].scope_note").
+
+To iterate through all terms, or the title of all the groups of terms, use the all_terms array defined in term_functions.js, which includes the array's display name (human readable), id (best for use in HTML classes and IDs), and array (the actual array which you can also iterate through).

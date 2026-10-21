@@ -25,6 +25,9 @@ var narrower_term_div = document.getElementById("narrower-term");
 var related_wrapper_div = document.getElementById("related-wrapper");
 var related_div = document.getElementById("related");
 
+var fieldset_term_list = document.getElementById("fieldset-term-list");
+
+
 //tracking what's in view
 var array_in_view = gameplay_genres;
 var cytoscape_array_in_view;
@@ -51,10 +54,15 @@ document.addEventListener("DOMContentLoaded", (event) => {
     //hide unneeded details pane content
     setStyleDisplayNone(details_content_div);
 
-    var fieldset_term_list = document.getElementById("fieldset-term-list").elements;
+    setUpRadioButtons();
+    
+var fieldset_term_list_elements = document.getElementById("fieldset-term-list").elements;
+
+    
+
     // console.log(fieldset_term_list.elements)
-    for (var i = 0; i < fieldset_term_list.length; i++) {
-        fieldset_term_list[i].addEventListener('change', function () { updateTermList(this) })
+    for (var i = 0; i < fieldset_term_list_elements.length; i++) {
+        fieldset_term_list_elements[i].addEventListener('change', function () { updateTermList(this) })
     }
     var fieldset_graph_layout = document.getElementById("fieldset-graph-layout").elements;
     // console.log(fieldset_term_list.elements)
@@ -63,6 +71,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
     }
 
 
+
+    
 });
 
 //everything that happens when a new graph loads
@@ -144,7 +154,6 @@ function initialize() {
     updateGraphLayout(current_layout);
 
     cy.fit();
-
 
 }
 
@@ -436,44 +445,15 @@ function setStyleDisplayBlock(obj) {
 
 
 //changes which graph is being displayed, e.g. engagement mechanics, gameplay genre, etc
-// IF NEW JS FILE ADDED, EDIT THIS FUNCTION
 function updateTermList(selected_radio_button) {
     console.log(selected_radio_button.value);
 
-    switch (selected_radio_button.value) {
-        case "engagement-mechanisms":
-            array_in_view = engagement_mechanisms;
-            break;
-        case "gameplay-genres":
-            array_in_view = gameplay_genres;
-            break;
-        case "mechanics":
-            array_in_view = mechanics;
-            break;
-        case "moods":
-            array_in_view = moods;
-            break;
-        case "narrative-genres":
-            array_in_view = narrative_genres;
-            break;
-        case "settings":
-            array_in_view = settings;
-            break;
-        case "themes":
-            array_in_view = themes;
-            break;
-        case "transaction-types":
-            array_in_view = transaction_types;
-            break;
-        case "tropes":
-            array_in_view = tropes;
-            break;
-        case "visual-styles":
-            array_in_view = visual_styles;
-            break;
-        default:
-
+    for(var i = 0; i < all_terms.length; i++){ //for each array in all terms...
+        if(selected_radio_button.value == all_terms[i].id){
+            array_in_view = all_terms[i].array;
+        }
     }
+
 cy.destroy();
     initialize();
 
@@ -518,4 +498,21 @@ function updateGraphLayout(selected_radio_button) {
 function onListOfLinksClick(link_clicked_obj){
 
     highlightSpecificNode(cy.getElementById(link_clicked_obj.textContent))
+}
+
+function setUpRadioButtons(){
+
+
+new_radio_button = "";
+
+        for(var i = 0; i < all_terms.length; i++){ //for each array in all terms...
+            new_radio_button = "<div><input type=\"radio\" id=\"" + all_terms[i].id + "\" name=\"term-list\" value=\"" + all_terms[i].id + "\" />" +
+            "<label for=\"" + all_terms[i].id + "\">" + all_terms[i].display_name + "</label>"+
+             "</div>";
+
+             fieldset_term_list.innerHTML+= new_radio_button;
+    }
+
+    
+    
 }
