@@ -391,58 +391,36 @@ function updateDetails(selected_node_entity) {
     setStyleDisplayNone(related_wrapper_div);
 
 
-    if (selected_node_json_obj.scope_note !== "") {    //if there's a scope note...
-        scope_note_p.innerHTML = selected_node_json_obj.scope_note;
+        scope_note_p.innerHTML = getScopeNote(selected_node_json_obj);
 
-        if (selected_node_json_obj.example !== "") { //IF there are examples, show them
+        if(getExamples(selected_node_json_obj)){
             setStyleDisplayBlock(examples_p);
-
-            examples_span.innerHTML = selected_node_json_obj.example;
+            examples_span.innerHTML = getExamples(selected_node_json_obj);
         }
 
-        if (selected_node_json_obj.type !== "") {//if there is a type, show it 
+        if(getTypeTerm(selected_node_json_obj)){
             setStyleDisplayBlock(type_term_p)
-
-            type_term_span.innerHTML = selected_node_json_obj.type;
-            console.log(selected_node_json_obj.type)
+            type_term_span.innerHTML = getTypeTerm(selected_node_json_obj);
         }
 
-
-        if (selected_node_json_obj.use_for.length) {//if there are "use for", show them
-            use_for_terms = getStringFullOfLinks(selected_node_json_obj.use_for);
-            setStyleDisplayBlock(use_for_wrapper_div);
-
-            use_for_div.innerHTML = use_for_terms;
+        if(getUseForTerms(selected_node_json_obj)){
+                        setStyleDisplayBlock(use_for_wrapper_div);
+            use_for_div.innerHTML = getUseForTerms(selected_node_json_obj);
         }
 
-        if (selected_node_json_obj.broader_term !== "") {//if is a "browder term", show them
-            broader_term = getStringFullOfLinks(selected_node_json_obj.broader_term);
+        if(getBroaderTerm(selected_node_json_obj)){
             setStyleDisplayBlock(broader_term_wrapper_div);
-
-            broader_term_div.innerHTML = broader_term;
-
+            broader_term_div.innerHTML = getBroaderTerm(selected_node_json_obj);
         }
 
-        if (selected_node_json_obj.narrower_term.length) {//if there are "narrower terms", show them
-            narrower_terms = getStringFullOfLinks(selected_node_json_obj.narrower_term);
+        if(getNarrowerTerm(selected_node_json_obj)){
             setStyleDisplayBlock(narrower_term_wrapper_div);
-
-            narrower_term_div.innerHTML = narrower_terms;
+            narrower_term_div.innerHTML = getNarrowerTerm(selected_node_json_obj);
         }
 
-
-
-    } else if (selected_node_json_obj.use.length) { //if there's no scope note, hopefully there's a "use" term....
-
-        use_terms = getStringFullOfLinks(selected_node_json_obj.use)
-
-        scope_note_p.innerHTML = "Not part of controlled vocabulary. Use " + use_terms + " instead."
-
-    } else { //hopefully we never get here...
-        scope_note_p.innerHTML = "Not defined."
-    }
 
 }
+
 
 }
 
@@ -454,40 +432,6 @@ function setStyleDisplayNone(obj) {
 //simplifies setting divs to display block (used in updateDetails)
 function setStyleDisplayBlock(obj) {
     obj.style.display = "block"
-}
-
-
-//returns a string full of <span>s that use the openLInkedItem function. Able to take in either an array or a string
-function getStringFullOfLinks(array) {
-
-    to_return = "";
-
-    if (array.constructor !== Array) { //check if it's not an array. IF TRUE, it must be a string. SO let's make it an array so we can still iterate over it in the next step :)
-        save_string = array;
-        array = [];
-        array.push("" + save_string);
-    }
-
-    for (var y = 0; y < array.length; y++) {
-        to_return += "<span class=\"linked-item\" onClick=\"highlightSpecificNode(cy.getElementById(this.textContent))\">" + array[y] + "</span>";
-        if (y + 1 < array.length) {
-            to_return += ", ";
-        }
-    }
-
-    return to_return;
-
-}
-
-//returns the full JSON object from the original array, since the cytoscape object loses a lot of its context (see "createCytoscapeElements")
-function getFullJsonObject(id) {
-
-    for (var i = 0; i < array_in_view.length; i++) {
-        if (array_in_view[i].term == id) {
-            return array_in_view[i];
-        }
-    }
-
 }
 
 
@@ -570,4 +514,8 @@ function updateGraphLayout(selected_radio_button) {
 
 }
 
-//TODO: Add functionality to view other json graphs
+
+function onListOfLinksClick(link_clicked_obj){
+
+    highlightSpecificNode(cy.getElementById(link_clicked_obj.textContent))
+}

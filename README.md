@@ -11,7 +11,7 @@ Designed in October 2026 for LIS 536: Metadata for Interactive Media.
 # WHEN UPDATING TERMS...
 
 ## Adding or removing a term
-Edit the respective .js file. No other actions needed. IF a term isn't part of the controlled vocabular (either as a type / category name or as a reference to something in the controlled vocabulary), follow the precedent of other similar terms to know how to list the scope note and other entries so they appear correctly in the graph and search results. For example, the phrase "Not part of controlled vocabulary, use <entry>" is actually not written in the scope notes and is instead added dynamically in visualizer.html. 
+Edit the respective .js file. No other actions needed. IF a term isn't part of the controlled vocabular (either as a type / category name or as a reference to something in the controlled vocabulary), follow the precedent of other similar terms to know how to list the scope note and other entries so they appear correctly in the graph and search results. For example, the phrase "Not part of controlled vocabulary, use <entry>" shouldn't be written into the scope notes. The function getScopeNote in term_functions.js dynamically sets that string so it can link to the proper term in context.
 
 ## Content / text edits for individual scope notes, terms, etc
 Edit the respective .js file. No other actions needed.
