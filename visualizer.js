@@ -492,6 +492,7 @@ function getFullJsonObject(id) {
 
 
 //changes which graph is being displayed, e.g. engagement mechanics, gameplay genre, etc
+// IF NEW JS FILE ADDED, EDIT THIS FUNCTION
 function updateTermList(selected_radio_button) {
     console.log(selected_radio_button.value);
 
