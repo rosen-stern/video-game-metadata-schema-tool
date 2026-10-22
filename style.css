@@ -71,7 +71,10 @@ ul#to-do {
 
 }
 
-
+.about-content-wrapper{
+    width: 60%;
+    margin: auto;
+}
 
 
 
