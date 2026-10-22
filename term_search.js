@@ -107,3 +107,12 @@ function stripeRows() {
     else { rows[x].classList.remove('alt'); }
   }
 }
+
+function onListOfLinksClick(obj){
+
+    term_search_input.value = obj.innerHTML;
+term_search_input.dispatchEvent(new Event('change'));
+searchForTerm();
+window.scrollTo({ top: 0, behavior: 'smooth' });
+
+}
