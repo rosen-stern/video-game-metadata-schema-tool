@@ -10,9 +10,9 @@ stripeRows();
 function setUpTable() {
 
     var term_table_returner = "<table id=\"term-table\"> <tr class=\"table-header\">" +
-        "<th>Category</th>" +
         "<th>Term</th>" +
         "<th>Description</th>" +
+        "<th>Category</th>" +
         "</tr>";
 
     for (var x = 0; x < all_terms.length; x++) {
@@ -21,9 +21,9 @@ function setUpTable() {
 
 
             term_table_returner += "<tr>" +
-                "<td>" + all_terms[x].display_name + "</td>" +
-                "<td>" + all_terms[x].array[y].term + "</td>" +
+                "<td class=\"term-display\">" + all_terms[x].array[y].term + "</td>" +
                 "<td>" + getFullDescription(all_terms[x].array[y]) + "</td>" +
+                "<td>" + all_terms[x].display_name + "</td>" +
                 "</tr>";
 
         }

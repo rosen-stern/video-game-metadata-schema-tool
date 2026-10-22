@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --dark-green: #1D5837;
     --light-green: #2e8b5740;
+    --sans-serif: "Atkinson Hyperlegible Next", sans-ser;
+    --serif: "Noto Serif", serif;
 }
 
+
+* {
+    font-family: var(--sans-serif);
+}
 
 body {
     max-width: 95%;
@@ -177,18 +185,22 @@ input#term-search-input {
 
 #wrapper-table {
 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 5px solid var(--dark-green);
+    border-radius: 20px;
+    overflow: hidden;
+
     table {
-        font-family: Arial, Helvetica, sans-serif;
-        border-collapse: collapse;
+        /* border-collapse: separate; */
         width: 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
+
     }
 
     td,
     th {
-        border: 1px solid #ddd;
-        padding: 8px;
+        /* border: 1px solid #ddd; */
+        padding: 20px;
     }
 
     .hidden-table-row {
@@ -207,10 +219,17 @@ input#term-search-input {
         padding-top: 12px;
         padding-bottom: 12px;
         text-align: left;
-        background-color: var(--dark-green);
-        color: white;
+        background-color: var(--light-green);
+        color: black;
         min-width: 200px;
+        text-align: center;
     }
 
+}
 
+.term-display {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: center;
 }
