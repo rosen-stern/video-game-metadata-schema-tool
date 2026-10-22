@@ -186,13 +186,21 @@ input#term-search-input {
 
 }
 
+@media (max-width: 520px) {
+input#term-search-input {
+    width: 100%;
+}  
+
+
+}
+
 #wrapper-table {
 
     margin-top: 20px;
     margin-bottom: 20px;
     border: 5px solid var(--dark-green);
     border-radius: 20px;
-    overflow: hidden;
+    overflow: scroll;
 
     table {
         /* border-collapse: separate; */
