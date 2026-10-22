@@ -44,12 +44,13 @@ id: "visual-styles",
 ]
 
 function getScopeNote(json_obj){
+
    if (json_obj.scope_note !== "") {    //if there's a scope note...
         return json_obj.scope_note;
 
     } else if (json_obj.use.length) { //if there's no scope note, hopefully there's a "use" term....
 
-        use_terms = getStringFullOfLinks(selected_node_json_obj.use)
+        use_terms = getStringFullOfLinks(json_obj.use)
 
         return "Not part of controlled vocabulary. Use " + use_terms + " instead."
 
@@ -59,7 +60,7 @@ function getScopeNote(json_obj){
 }
 
 function getExamples(json_obj){
-     if (selected_node_json_obj.example !== "") { //IF there are examples, show them
+     if (json_obj.example !== "") { //IF there are examples, show them
             
             return json_obj.example;
         } else {
@@ -69,8 +70,8 @@ function getExamples(json_obj){
 }
 
 function getTypeTerm(json_obj){
-       if (selected_node_json_obj.type !== "") {//if there is a type, show it 
-            return selected_node_json_obj.type;
+       if (json_obj.type !== "") {//if there is a type, show it 
+            return json_obj.type;
         } else {
             return false
         }
@@ -78,7 +79,7 @@ function getTypeTerm(json_obj){
 
 function getUseForTerms(json_obj){
 
-        if (selected_node_json_obj.use_for.length) {//if there are "use for", show them
+        if (json_obj.use_for.length) {//if there are "use for", show them
 
             return  getStringFullOfLinks(json_obj.use_for);
         } else {
@@ -90,16 +91,16 @@ function getUseForTerms(json_obj){
 }
 
 function getBroaderTerm(json_obj){
-       if (selected_node_json_obj.broader_term !== "") {//if is a "browder term", show them
-            return getStringFullOfLinks(selected_node_json_obj.broader_term);
+       if (json_obj.broader_term !== "") {//if is a "browder term", show them
+            return getStringFullOfLinks(json_obj.broader_term);
         } else {
             return false;
         }
 }
 
 function getNarrowerTerm(json_obj){
-        if (selected_node_json_obj.narrower_term.length) {//if there are "narrower terms", show them
-            return getStringFullOfLinks(selected_node_json_obj.narrower_term);
+        if (json_obj.narrower_term.length) {//if there are "narrower terms", show them
+            return getStringFullOfLinks(json_obj.narrower_term);
         } else {
             return false;
         }

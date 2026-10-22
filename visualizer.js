@@ -104,7 +104,7 @@ function initialize() {
                 //     'label':function (element) { 
                 //     return `${element.data("id")} \n ${element.data("scope_note")}`
                 // },
-                'background-color': 'lightcyan'
+                'background-color': 'var(--dark-green)',
 
             }
 
@@ -115,7 +115,7 @@ function initialize() {
                 //     'label':function (element) { 
                 //     return `${element.data("id")} \n ${element.data("scope_note")}`
                 // },
-                'background-color': 'powderblue',
+                'background-color': 'var(--light-green',
                 'line-color': 'black',
                 'target-arrow-color': 'black',
                 'source-arrow-color': 'black',
