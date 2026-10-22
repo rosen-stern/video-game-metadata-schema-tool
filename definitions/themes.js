@@ -81,7 +81,7 @@ const themes = [
     "type": ""
 },{
     "term": "Betrayal",
-    "scope_note": "The breaking or violation of explicit or presumptive contract, trust, or confidence that produces moral and psychological conflict within a relationship amongst individuals, between organizations, or between inviduals and organizations.",
+    "scope_note": "The breaking or violation of explicit or presumptive contract, trust, or confidence that produces moral and psychological conflict within a relationship amongst individuals, between organizations, or between individuals and organizations.",
     "related_terms": [],
     "example": "*Asura's Wrath*, *Fable",
     "use": [],
@@ -171,7 +171,7 @@ const themes = [
     "type": ""
 },{
     "term": "Conquest",
-    "scope_note": "The act of gaining control of (a provlem or difficulty) through great effort.",
+    "scope_note": "The act of gaining control of (a problem or difficulty) through great effort.",
     "related_terms": ["Civilization"],
     "example": "*Command & Conquer*, *Pokémon Conquest*",
     "use": [],
@@ -231,7 +231,7 @@ const themes = [
     "type": ""
 },{
     "term": "Heist",
-    "scope_note": "An organized crime where criminals have a sophisticated plan to steal valuable items e.g., money, jewlery, or famous works of art.",
+    "scope_note": "An organized crime where criminals have a sophisticated plan to steal valuable items e.g., money, jewelry, or famous works of art.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -301,7 +301,7 @@ const themes = [
     "type": ""
 },{
     "term": "Economy",
-    "scope_note": "The process or system by which goods and services are produced, sold, and bought in a coutnry or region.",
+    "scope_note": "The process or system by which goods and services are produced, sold, and bought in a country or region.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -391,7 +391,7 @@ const themes = [
     "type": ""
 },{
     "term": "Freedom",
-    "scope_note": "The power or right to act, speak, or think as one wants without hinderance or restraint.",
+    "scope_note": "The power or right to act, speak, or think as one wants without hindrance or restraint.",
     "related_terms": [],
     "example": "*Enslaved: Odyssey to the West*",
     "use": [],
@@ -621,7 +621,7 @@ const themes = [
     "type": ""
 },{
     "term": "Pandemic",
-    "scope_note": "The occurence of a disease spreading rapidly between individual across geographic and national boundaries.",
+    "scope_note": "The occurrence of a disease spreading rapidly between individual across geographic and national boundaries.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -631,7 +631,7 @@ const themes = [
     "type": ""
 },{
     "term": "Paranormal",
-    "scope_note": "Not understanable in terms of known scientific laws and phenomena.",
+    "scope_note": "Not understandable in terms of known scientific laws and phenomena.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -741,7 +741,7 @@ const themes = [
     "type": ""
 },{
     "term": "Revenge",
-    "scope_note": "The action of influcting hurt or harm on someone for an injury or wrong suffered at their hands.",
+    "scope_note": "The action of influencing hurt or harm on someone for an injury or wrong suffered at their hands.",
     "related_terms": [],
     "example": "*Grand Theft Auto IV*",
     "use": [],
@@ -801,7 +801,7 @@ const themes = [
     "type": ""
 },{
     "term": "Survival",
-    "scope_note": "The state or facts of continuing to live or exist, typically in spire of an accident, ordeal, or dificult circumstances.",
+    "scope_note": "The state or facts of continuing to live or exist, typically in spire of an accident, ordeal, or difficult circumstances.",
     "related_terms": [],
     "example": "*Canabalt*, *The Last of Us*",
     "use": [],
@@ -951,7 +951,7 @@ const themes = [
     "type": "Agent/Object"
 },{
     "term": "Cats",
-    "scope_note": "A (typically) four-legged animal that meows and putts; they are usually small in size, low maintence, and of the same family as lions, tigers, etc.",
+    "scope_note": "A (typically) four-legged animal that meows and putts; they are usually small in size, low maintenance, and of the same family as lions, tigers, etc.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -1281,7 +1281,7 @@ const themes = [
     "type": "Agent/Object"
 },{
     "term": "Ninja",
-    "scope_note": "Skilled individuals, often Japanese, that ight and operate on the basis of silence and efficiency.",
+    "scope_note": "Skilled individuals, often Japanese, that fight and operate on the basis of silence and efficiency.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -1291,7 +1291,7 @@ const themes = [
     "type": "Agent/Object"
 },{
     "term": "Pirates",
-    "scope_note": "Sailors who seek treature or capture other ships.",
+    "scope_note": "Sailors who seek treasure or capture other ships.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -1351,7 +1351,7 @@ const themes = [
     "type": "Agent/Object"
 },{
     "term": "Zombies",
-    "scope_note": "The reanimated corpse of a dead person, foten depicted as rotting and wanting nothing more than to eath those that are alive.",
+    "scope_note": "The reanimated corpse of a dead person, often depicted as rotting and wanting nothing more than to eat those that are alive.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -1501,7 +1501,7 @@ const themes = [
     "type": "Activity"
 },{
     "term": "Simulation",
-    "scope_note": "A computerized imitation of real-world practices or occurences.",
+    "scope_note": "A computerized imitation of real-world practices or occurrences.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -1541,7 +1541,7 @@ const themes = [
     "type": "Activity"
 },{
     "term": "Basketball",
-    "scope_note": "A game played on a court with two hoops; the main objective of the game is to score the most points by shooting a basketball through thr propert hoop.",
+    "scope_note": "A game played on a court with two hoops; the main objective of the game is to score the most points by shooting a basketball through the proper hoop.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -1671,7 +1671,7 @@ const themes = [
     "type": "Activity"
 },{
     "term": "Hunting",
-    "scope_note": "The activity of killing aminals for sport, often in a regulated manner.",
+    "scope_note": "The activity of killing animals for sport, often in a regulated manner.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -1721,7 +1721,7 @@ const themes = [
     "type": "Activity"
 },{
     "term": "Sailing",
-    "scope_note": "The sport or activityof travelling on water in a sailboat.",
+    "scope_note": "The sport or activity of traveling on water in a sailboat.",
     "related_terms": [],
     "example": "",
     "use": [],

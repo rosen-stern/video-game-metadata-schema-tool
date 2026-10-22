@@ -61,7 +61,7 @@ const gameplay_genres = [
         "type": ""
     }, {
         "term": "Brawler",
-        "scope_note": "Games focusing on physical hand-to-hand combat, sometimes allowing players to use parts of the engironment as weapons. Characters often engage with multiple enemies simultaneously to fight through levels.",
+        "scope_note": "Games focusing on physical hand-to-hand combat, sometimes allowing players to use parts of the environment as weapon as weapons. Characters often engage with multiple enemies simultaneously to fight through levels.",
         "related_terms": ["Hack and Slash"],
         "example": "<i>Double Dragon</i> and <i>The Bouncer</i>",
         "use": [],
@@ -102,7 +102,7 @@ const gameplay_genres = [
         "type": ""
     }, {
         "term": "Mascot Fighter",
-        "scope_note": "Games featuring mascot characters, foten from game or media franchises, engaging in combat in the style of fighting games. Usually involve more than two characters fighting simultaneously in a free-for-all environment.",
+        "scope_note": "Games featuring mascot characters, often from game or media franchises, engaging in combat in the style of fighting games. Usually involve more than two characters fighting simultaneously in a free-for-all environment.",
         "related_terms": [],
         "example": "<i>Super Smash Brothers</i> and <i>Playstation All-Stars Battle Royale</i>",
         "use": [],
@@ -112,7 +112,7 @@ const gameplay_genres = [
         "type": ""
     }, {
         "term": "Hack and Slash",
-        "scope_note": "Games focusing on fast-paced gameplay involving melee weapons. Players often fight mlutiple enemies simultaneously to advance across levels.",
+        "scope_note": "Games focusing on fast-paced gameplay involving melee weapons. Players often fight multiple enemies simultaneously to advance across levels.",
         "related_terms": ["Brawler"],
         "example": "<i>Gauntlet Legends</i>, <i>Golden Axe</i>",
         "use": [],
@@ -302,7 +302,7 @@ const gameplay_genres = [
         "type": ""
     }, {
         "term": "Role-Playing",
-        "scope_note": "Games related to tabletop role-playing, invovling a heavy focus on statistical advancement (like 'leveling up') of characters, combined with exploration.",
+        "scope_note": "Games related to tabletop role-playing, involving a heavy focus on statistical advancement (like 'leveling up') of characters, combined with exploration.",
         "related_terms": [],
         "example": "",
         "use": [],
@@ -314,7 +314,7 @@ const gameplay_genres = [
         "term": "Japanese RPG",
         "scope_note": "RPGs often designed in Japan, placing heavy focus on visual style and story elements, frequently involving romance and dramatic personal histories. Characters often show anime influence.",
         "related_terms": [],
-        "example": "<i>Final Fnatasy 7</i>, <i>Dragon Quest</i>",
+        "example": "<i>Final Fantasy 7</i>, <i>Dragon Quest</i>",
         "use": [],
         "use_for": ["JRPG"],
         "broader_term": "Role-Playing",
@@ -522,7 +522,7 @@ const gameplay_genres = [
         "type": ""
     }, {
         "term": "Virtual Life",
-        "scope_note": "Games involving the creation of an in-game avatar controlled by the player in avirutal world, living a simulated life, often online with interactions between player avatars.",
+        "scope_note": "Games involving the creation of an in-game avatar controlled by the player in a virtual world, living a simulated life, often online with interactions between player avatars.",
         "related_terms": [],
         "example": "<i>Second Life</i>",
         "use": [],
@@ -624,7 +624,7 @@ const gameplay_genres = [
         "term": "Rail Shooter",
         "scope_note": "Shooters where players do not control their movement but are propelled along a set course or 'rail'.",
         "related_terms": [],
-        "example": "<i>The Lost World: Jurrassic Park</i> and <i>Star Fox 64</i>",
+        "example": "<i>The Lost World: Jurassic Park</i> and <i>Star Fox 64</i>",
         "use": [],
         "use_for": [],
         "broader_term": "Shooter",
@@ -642,7 +642,7 @@ const gameplay_genres = [
         "type": ""
     }, {
         "term": "Tactical Shooter",
-        "scope_note": "Games focusing on simulating tactical or military environm,ent, revolving around shooting mechanics.",
+        "scope_note": "Games focusing on simulating tactical or military environment, revolving around shooting mechanics.",
         "related_terms": [],
         "example": "",
         "use": [],
@@ -772,7 +772,7 @@ const gameplay_genres = [
         "type": ""
     }, {
         "term": "Gambling",
-        "scope_note": "Games originating from traditional gamvling and casino games, often adaptations.",
+        "scope_note": "Games originating from traditional gambling and casino games, often adaptations.",
         "related_terms": [],
         "example": "<i>Caesar's Palace</i> and <i>Golden Nugget 64</i>",
         "use": [],

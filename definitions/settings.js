@@ -51,7 +51,7 @@ const settings = [
     "type": "Time Period"
 },{
     "term": "Prehistoric",
-    "scope_note": "Features early technologies; stone tools and fire. Employs a mix of perhistoric creatures, dinosaurs, and cavemen.",
+    "scope_note": "Features early technologies; stone tools and fire. Employs a mix of prehistoric creatures, dinosaurs, and cavemen.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -111,7 +111,7 @@ const settings = [
     "type": "Time Period"
 },{
     "term": "Reformation",
-    "scope_note": "The time period marked by 'religious, political, intellectual, and cultural upheaval' that split apart Catholic Europe during the 16th century. High profile individuals of this time include Martin Luther, Johbn Calvin, and Henry VIII. (Retrieved from history.com/topics/reformation)",
+    "scope_note": "The time period marked by 'religious, political, intellectual, and cultural upheaval' that split apart Catholic Europe during the 16th century. High profile individuals of this time include Martin Luther, John Calvin, and Henry VIII. (Retrieved from history.com/topics/reformation)",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -591,7 +591,7 @@ const settings = [
     "type": "Place"
 },{
     "term": "Arena",
-    "scope_note": "An enclosed area, foten circular or oval-shaped for sporting events or other purposes.",
+    "scope_note": "An enclosed area, often circular or oval-shaped for sporting events or other purposes.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -791,7 +791,7 @@ const settings = [
     "type": "Place"
 },{
     "term": "Ruins",
-    "scope_note": "Remains of humnan-made architecture: structures that were once complete, as time went by, have fallen into a state of partial or complete disrepair.",
+    "scope_note": "Remains of human-made architecture: structures that were once complete, as time went by, have fallen into a state of partial or complete disrepair.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -811,7 +811,7 @@ const settings = [
     "type": "Place"
 },{
     "term": "Scientific Laboratory",
-    "scope_note": "Facility that provides controlled conditions for scientific or technological resaerch, experiments, measurements, etc.",
+    "scope_note": "Facility that provides controlled conditions for scientific or technological research, experiments, measurements, etc.",
     "related_terms": [],
     "example": "",
     "use": [],

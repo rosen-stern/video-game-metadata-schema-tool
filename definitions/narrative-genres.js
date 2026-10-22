@@ -170,7 +170,7 @@ const narrative_genres = [{
     "type": ""
 },{
     "term": "Romance",
-    "scope_note": "The game story primarily unfolds romantic and intimate relationships, dating, partner seeking, and related interactions. The narrative is preoccupied iwth devices that develop romantic relationships and themes.",
+    "scope_note": "The game story primarily unfolds romantic and intimate relationships, dating, partner seeking, and related interactions. The narrative is preoccupied with devices that develop romantic relationships and themes.",
     "related_terms": [],
     "example": "",
     "use": [],

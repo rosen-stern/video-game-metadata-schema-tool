@@ -220,7 +220,7 @@ const mechanics = [{
     "type": ""
 },{
     "term": "Positioning",
-    "scope_note": "Placing or moving objects or events within the game world as a necessary gameplay element to advance to the next level/zone (block placement in puzzle games, unit placem ent in tactics games with stat impact, etc.).",
+    "scope_note": "Placing or moving objects or events within the game world as a necessary gameplay element to advance to the next level/zone (block placement in puzzle games, unit placement in tactics games with stat impact, etc.).",
     "related_terms": [],
     "example": "*Sudoku*, *Plants vs. Zombies*,  *Tetris*, *Dear Esther*",
     "use": [],

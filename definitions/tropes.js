@@ -11,7 +11,7 @@ const tropes = [
     "type": ""
 },{
     "term": "The Strong Female Lead",
-    "scope_note": "A strong, independent female cahracter that is central to the story.",
+    "scope_note": "A strong, independent female character that is central to the story.",
     "related_terms": ["The Affirmative Action Girl", "The Femme Fatale"],
     "example": "Lara Croft from *Tomb Raider* and Bayonetta from *Bayonetta*",
     "use": [],
@@ -22,7 +22,7 @@ const tropes = [
 },
 {
     "term": "The Ideal Hero",
-    "scope_note": "This male character often appears the same across many different games. For example, in many games there is a white male charactter with a buzz-cut and a strong jawline.",
+    "scope_note": "This male character often appears the same across many different games. For example, in many games there is a white male character with a buzz-cut and a strong jawline.",
     "related_terms": [],
     "example": "Master Chief from the *Halo* franchise.",
     "use": [],
@@ -33,7 +33,7 @@ const tropes = [
 },
 {
     "term": "The Bold Explorer",
-    "scope_note": "This is a character driven by the quest to discover new lands, dieas, people, and experiences. This is different from The Conquerer in that they do not need to possess the new item, location, or idea. The experience is often enough.",
+    "scope_note": "This is a character driven by the quest to discover new lands, ideas, people, and experiences. This is different from The Conquerer in that they do not need to possess the new item, location, or idea. The experience is often enough.",
     "related_terms": [],
     "example": "The protagonists of *Uncharted Waters*, specifically Ernst.",
     "use": [],
@@ -143,7 +143,7 @@ const tropes = [
 },
 {
     "term": "The Secret Police",
-    "scope_note": "Police or police-like figures that use questionable or subversive methods to investifate possible crimes against the state or the main authority.",
+    "scope_note": "Police or police-like figures that use questionable or subversive methods to investigate possible crimes against the state or the main authority.",
     "related_terms": ["The Evil Rich Person", "The Spy/Spymaster"],
     "example": "Any government operative in *Deus X*.",
     "use": [],
@@ -176,7 +176,7 @@ const tropes = [
 },
 {
     "term": "The Big Bad",
-    "scope_note": "This cahracter may or may not have powers, but he/she/it is the main antagonist of the story. This is usually the final boss in a game. Defeating The Big Bad will make the hero triumphant.",
+    "scope_note": "This character may or may not have powers, but he/she/it is the main antagonist of the story. This is usually the final boss in a game. Defeating The Big Bad will make the hero triumphant.",
     "related_terms": ["The Demonic Foe", "The Antichrist", "The Eldritch Abomination", "The Overlord"],
     "example": "the Lord of Terror from *Diablo*.",
     "use": [],
@@ -822,7 +822,7 @@ const tropes = [
 },
 {
     "term": "Blondes are Dumb/Vain/Villains",
-    "scope_note": "A character who is portrated as stereotypically attractice but lacking in intelligence.",
+    "scope_note": "A character who is portrayed as stereotypically attractive but lacking in intelligence.",
     "related_terms": ["The Strong Female Lead", "The Cute Bruiser"],
     "example": "King Cailan from *Dragon Age: Origins*.",
     "use": [],
@@ -833,7 +833,7 @@ const tropes = [
 },
 {
     "term": "The Fat Bastard",
-    "scope_note": "A character who is overweight and portrated in a negative light.",
+    "scope_note": "A character who is overweight and portrayed in a negative light.",
     "related_terms": ["The Evil Rich Person"],
     "example": "Wario from the *Mario* franchise.",
     "use": [],
@@ -922,7 +922,7 @@ const tropes = [
     "term": "The Affirmative Action Girl",
     "scope_note": "The single female character in the story or game of all male characters.",
     "related_terms": ["The Strong Female Lead"],
-    "example": "Of the four playable characters in *Borderlands*, onyl one is female.",
+    "example": "Of the four playable characters in *Borderlands*, only one is female.",
     "use": [],
     "use_for": [],
     "type": "Gender",
@@ -942,7 +942,7 @@ const tropes = [
 },
 {
     "term": "The Ms. Male Character",
-    "scope_note": "A female version of a cahracter that was originally male.",
+    "scope_note": "A female version of a character that was originally male.",
     "related_terms": [],
     "example": "Ms. Pac Man and Toadette from the *Mario* franchise.",
     "use": [],
@@ -1018,7 +1018,7 @@ const tropes = [
 },
 {
     "term": "The Exotic Black Woman",
-    "scope_note": "A form of 'blackspotation' that simultaneously sexualized and defeminizes a black female character.",
+    "scope_note": "A form of 'blacksploitation' that simultaneously sexualized and defeminizes a black female character.",
     "related_terms": [],
     "example": "Vivienne from *Dragon Age*.",
     "use": [],
@@ -1125,7 +1125,7 @@ const tropes = [
 },
 {
     "term": "End Justify the Means",
-    "scope_note": "When a character takes action that negatively impacts others to achieve a percieved 'greater good'.",
+    "scope_note": "When a character takes action that negatively impacts others to achieve a perceived 'greater good'.",
     "related_terms": ["The Reluctant Villain", "The Determinator"],
     "example": "",
     "use": [],
@@ -1201,7 +1201,7 @@ const tropes = [
 },
 {
     "term": "Slay the Dragon",
-    "scope_note": "When a character or gorup of characters needs to defeat a beast based on a request from the public or an individual or a serendipitious encounter.",
+    "scope_note": "When a character or group of characters needs to defeat a beast based on a request from the public or an individual or a serendipitious encounter.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -1212,7 +1212,7 @@ const tropes = [
 },
 {
     "term": "Find the Thing",
-    "scope_note": "When a character or team needs to lcoate a particular item, creature, or individual in order to move forward with the story.",
+    "scope_note": "When a character or team needs to locate a particular item, creature, or individual in order to move forward with the story.",
     "related_terms": ["The Ranger", "The Bold Explorer"],
     "example": "",
     "use": [],
@@ -1223,7 +1223,7 @@ const tropes = [
 },
 {
     "term": "Perpetually Saving Private Ryan",
-    "scope_note": "This trope occurs when a character or a group of characters continually resues one particular character.",
+    "scope_note": "This trope occurs when a character or a group of characters continually reuses one particular character.",
     "related_terms": ["The Designated Victim"],
     "example": "",
     "use": [],
@@ -1255,7 +1255,7 @@ const tropes = [
 },
 {
     "term": "Destiny Reveal",
-    "scope_note": "When a character learns something important about their future or recieves a calling from a higher power.",
+    "scope_note": "When a character learns something important about their future or receives a calling from a higher power.",
     "related_terms": ["The Chosen One", "The Sacrificial Lamb", "The Vessel/Conduit", "The Reluctant Hero"],
     "example": "",
     "use": [],
@@ -1266,7 +1266,7 @@ const tropes = [
 },
 {
     "term": "Another Dimension",
-    "scope_note": "When a character or group of characters is pulled into another dimention and needs to find a way home.",
+    "scope_note": "When a character or group of characters is pulled into another dimension and needs to find a way home.",
     "related_terms": ["The Otherworldly Visitor(s)", "The Reluctant Hero"],
     "example": "",
     "use": [],
@@ -1276,7 +1276,7 @@ const tropes = [
     "narrower_term": []
 },
 {
-    "term": "Resistence is Futile",
+    "term": "Resistance is Futile",
     "scope_note": "A large entity seems like an insurmountable foe, but a small group of resistance fighters come together to attempt to defeat them.",
     "related_terms": ["The Assimilator(s)", "The Revolutionary(ies)", "The Determinator"],
     "example": "",
@@ -1374,7 +1374,7 @@ const tropes = [
 },
 {
     "term": "Almost Dead Killshot",
-    "scope_note": "At the climax of the story, one of the characters that the players thought was dead (or nearly dead) delivers a mortal wound to their opponent, often saving another indiviual in the process.",
+    "scope_note": "At the climax of the story, one of the characters that the players thought was dead (or nearly dead) delivers a mortal wound to their opponent, often saving another individual in the process.",
     "related_terms": [],
     "example": "",
     "use": [],

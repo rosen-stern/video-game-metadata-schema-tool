@@ -10,7 +10,7 @@ const visual_styles = [{
     "type": ""
 },{
     "term": "Abstract",
-    "scope_note": "Abstract is a visual style describing distinct, non-character based forms. Fractal imagery using a paelette with strong colors is a good example. These styles can be symmetrical, geometric, or feature kaleidoscopically swirling patterns.",
+    "scope_note": "Abstract is a visual style describing distinct, non-character based forms. Fractal imagery using a palette with strong colors is a good example. These styles can be symmetrical, geometric, or feature kaleidoscopically swirling patterns.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -70,7 +70,7 @@ const visual_styles = [{
     "type": "Style"
 },{
     "term": "Pixel art",
-    "scope_note": "The use of pixelated, typicvsally sprite-based visuals found in early 8 and 16-bit games, and in modern games intending to replicate it.",
+    "scope_note": "The use of pixelated, typically sprite-based visuals found in early 8 and 16-bit games, and in modern games intending to replicate it.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -100,7 +100,7 @@ const visual_styles = [{
     "type": "Style"
 },{
     "term": "Stylized",
-    "scope_note": "An illustrative style capturing or distorying distinctive features of a character or object in order to capture a visual likeness. Simplified characters or objects can be considered stylized.",
+    "scope_note": "An illustrative style capturing or distorting distinctive features of a character or object in order to capture a visual likeness. Simplified characters or objects can be considered stylized.",
     "related_terms": [],
     "example": "",
     "use": [],

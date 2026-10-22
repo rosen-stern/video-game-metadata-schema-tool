@@ -51,7 +51,7 @@ const transaction_types = [
     "type": ""
 },{
     "term": "Direct Monetization",
-    "scope_note": "Company recieves direct cash payments.",
+    "scope_note": "Company receives direct cash payments.",
     "related_terms": [],
     "example": "",
     "use": [],
@@ -171,7 +171,7 @@ const transaction_types = [
     "type": "Resources"
 },{
     "term": "Powerups",
-    "scope_note": "Resoruce that provides time-limited benefits.",
+    "scope_note": "Resource that provides time-limited benefits.",
     "related_terms": ["Buffs"],
     "example": "",
     "use": [],
@@ -371,7 +371,7 @@ const transaction_types = [
     "type": "Marketing Methods"
 },{
     "term": "Special Events",
-    "scope_note": "Time-limited events featuring temporary thematic game contesnt.",
+    "scope_note": "Time-limited events featuring temporary thematic game content.",
     "related_terms": ["Special Occasions"],
     "example": "",
     "use": [],

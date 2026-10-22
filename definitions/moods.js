@@ -144,7 +144,7 @@ const moods = [
     "type": ""
 },{
     "term": "Dark",
-    "scope_note": "Games with a grim atmosphere that focus on dismal, glomy, and/or depressing circumstances.",
+    "scope_note": "Games with a grim atmosphere that focus on dismal, gloomy, and/or depressing circumstances.",
     "related_terms": [],
     "example": "*BioShock*, *Dark Souls*, *Batman: Arkham Asylum*.",
     "use": [],
@@ -314,7 +314,7 @@ const moods = [
     "type": ""
 },{
     "term": "Mysterious",
-    "scope_note": "Games that invoke curiostiy and/or suspense through the investigation of the unknown (a crime, a secret, a strange occurrence, etc.).",
+    "scope_note": "Games that invoke curiosity and/or suspense through the investigation of the unknown (a crime, a secret, a strange occurrence, etc.).",
     "related_terms": [],
     "example": "*Gabriel Knight*, *Myst*, *The Vanishing of Ethan Carter*.",
     "use": [],
