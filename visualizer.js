@@ -505,14 +505,24 @@ function setUpRadioButtons(){
 
 new_radio_button = "";
 
+var selected_by_default_id ="";
+
         for(var i = 0; i < all_terms.length; i++){ //for each array in all terms...
+
+
+
             new_radio_button = "<div><input type=\"radio\" id=\"" + all_terms[i].id + "\" name=\"term-list\" value=\"" + all_terms[i].id + "\" />" +
             "<label for=\"" + all_terms[i].id + "\">" + all_terms[i].display_name + "</label>"+
              "</div>";
 
+            if(all_terms[i].array == array_in_view){
+                selected_by_default_id = all_terms[i].id;
+                }
+
              fieldset_term_list.innerHTML+= new_radio_button;
     }
 
-    
+    document.getElementById(selected_by_default_id).checked = true;
+
     
 }
