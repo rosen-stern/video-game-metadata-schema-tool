@@ -55,10 +55,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     setStyleDisplayNone(details_content_div);
 
     setUpRadioButtons();
-    
-var fieldset_term_list_elements = document.getElementById("fieldset-term-list").elements;
 
-    
+    var fieldset_term_list_elements = document.getElementById("fieldset-term-list").elements;
+
+
 
     // console.log(fieldset_term_list.elements)
     for (var i = 0; i < fieldset_term_list_elements.length; i++) {
@@ -72,7 +72,7 @@ var fieldset_term_list_elements = document.getElementById("fieldset-term-list").
 
 
 
-    
+
 });
 
 //everything that happens when a new graph loads
@@ -374,61 +374,61 @@ function createCytoscapeElements(old_array) {
 function updateDetails(selected_node_entity) {
 
 
-    if(selected_node_entity=="empty"){ //special case for returning the details pane back to its empty state for  
+    if (selected_node_entity == "empty") { //special case for returning the details pane back to its empty state for  
 
 
-    setStyleDisplayBlock(details_empty_state_div);
-    setStyleDisplayNone(details_content_div);
+        setStyleDisplayBlock(details_empty_state_div);
+        setStyleDisplayNone(details_content_div);
 
     } else { //proceed as expected
 
-    setStyleDisplayBlock(details_content_div);
-    setStyleDisplayNone(details_empty_state_div);
+        setStyleDisplayBlock(details_content_div);
+        setStyleDisplayNone(details_empty_state_div);
 
-    selected_node_json_obj = getFullJsonObject(selected_node_entity.id())
+        selected_node_json_obj = getFullJsonObject(selected_node_entity.id())
 
 
 
-    term_id_h2.innerHTML = selected_node_json_obj.term;
+        term_id_h2.innerHTML = selected_node_json_obj.term;
 
-    setStyleDisplayNone(examples_p)
-    setStyleDisplayNone(type_term_p)
+        setStyleDisplayNone(examples_p)
+        setStyleDisplayNone(type_term_p)
 
-    setStyleDisplayNone(use_for_wrapper_div);
-    setStyleDisplayNone(broader_term_wrapper_div);
-    setStyleDisplayNone(narrower_term_wrapper_div);
-    setStyleDisplayNone(related_wrapper_div);
+        setStyleDisplayNone(use_for_wrapper_div);
+        setStyleDisplayNone(broader_term_wrapper_div);
+        setStyleDisplayNone(narrower_term_wrapper_div);
+        setStyleDisplayNone(related_wrapper_div);
 
 
         scope_note_p.innerHTML = getScopeNote(selected_node_json_obj);
 
-        if(getExamples(selected_node_json_obj)){
+        if (getExamples(selected_node_json_obj)) {
             setStyleDisplayBlock(examples_p);
             examples_span.innerHTML = getExamples(selected_node_json_obj);
         }
 
-        if(getTypeTerm(selected_node_json_obj)){
+        if (getTypeTerm(selected_node_json_obj)) {
             setStyleDisplayBlock(type_term_p)
             type_term_span.innerHTML = getTypeTerm(selected_node_json_obj);
         }
 
-        if(getUseForTerms(selected_node_json_obj)){
-                        setStyleDisplayBlock(use_for_wrapper_div);
+        if (getUseForTerms(selected_node_json_obj)) {
+            setStyleDisplayBlock(use_for_wrapper_div);
             use_for_div.innerHTML = getUseForTerms(selected_node_json_obj);
         }
 
-        if(getBroaderTerm(selected_node_json_obj)){
+        if (getBroaderTerm(selected_node_json_obj)) {
             setStyleDisplayBlock(broader_term_wrapper_div);
             broader_term_div.innerHTML = getBroaderTerm(selected_node_json_obj);
         }
 
-        if(getNarrowerTerm(selected_node_json_obj)){
+        if (getNarrowerTerm(selected_node_json_obj)) {
             setStyleDisplayBlock(narrower_term_wrapper_div);
             narrower_term_div.innerHTML = getNarrowerTerm(selected_node_json_obj);
         }
 
 
-}
+    }
 
 
 }
@@ -448,13 +448,13 @@ function setStyleDisplayBlock(obj) {
 function updateTermList(selected_radio_button) {
     console.log(selected_radio_button.value);
 
-    for(var i = 0; i < all_terms.length; i++){ //for each array in all terms...
-        if(selected_radio_button.value == all_terms[i].id){
+    for (var i = 0; i < all_terms.length; i++) { //for each array in all terms...
+        if (selected_radio_button.value == all_terms[i].id) {
             array_in_view = all_terms[i].array;
         }
     }
 
-cy.destroy();
+    cy.destroy();
     initialize();
 
     updateDetails("empty");
@@ -495,34 +495,34 @@ function updateGraphLayout(selected_radio_button) {
 }
 
 
-function onListOfLinksClick(link_clicked_obj){
+function onListOfLinksClick(link_clicked_obj) {
 
     highlightSpecificNode(cy.getElementById(link_clicked_obj.textContent))
 }
 
-function setUpRadioButtons(){
+function setUpRadioButtons() {
 
 
-new_radio_button = "";
+    new_radio_button = "";
 
-var selected_by_default_id ="";
+    var selected_by_default_id = "";
 
-        for(var i = 0; i < all_terms.length; i++){ //for each array in all terms...
+    for (var i = 0; i < all_terms.length; i++) { //for each array in all terms...
 
 
 
-            new_radio_button = "<div><input type=\"radio\" id=\"" + all_terms[i].id + "\" name=\"term-list\" value=\"" + all_terms[i].id + "\" />" +
-            "<label for=\"" + all_terms[i].id + "\">" + all_terms[i].display_name + "</label>"+
-             "</div>";
+        new_radio_button = "<div><input type=\"radio\" id=\"" + all_terms[i].id + "\" name=\"term-list\" value=\"" + all_terms[i].id + "\" />" +
+            "<label for=\"" + all_terms[i].id + "\">" + all_terms[i].display_name + "</label>" +
+            "</div>";
 
-            if(all_terms[i].array == array_in_view){
-                selected_by_default_id = all_terms[i].id;
-                }
+        if (all_terms[i].array == array_in_view) {
+            selected_by_default_id = all_terms[i].id;
+        }
 
-             fieldset_term_list.innerHTML+= new_radio_button;
+        fieldset_term_list.innerHTML += new_radio_button;
     }
 
     document.getElementById(selected_by_default_id).checked = true;
 
-    
+
 }

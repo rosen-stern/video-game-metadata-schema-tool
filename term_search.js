@@ -98,21 +98,21 @@ function searchForTerm() {
 
 //https://stackoverflow.com/questions/42267771/alternating-table-row-color-robust-to-displaynone-settings
 function stripeRows() {
-  // select all rows which are not hidden
-  rows = term_table.querySelectorAll('tr:not(.hidden-table-row)');
+    // select all rows which are not hidden
+    rows = term_table.querySelectorAll('tr:not(.hidden-table-row)');
 
-  // add a class for every second such row
-  for(var x = 0; x < rows.length; x++) {
-    if (x % 2 == 0) { rows[x].classList.add('alt'); }
-    else { rows[x].classList.remove('alt'); }
-  }
+    // add a class for every second such row
+    for (var x = 0; x < rows.length; x++) {
+        if (x % 2 == 0) { rows[x].classList.add('alt'); }
+        else { rows[x].classList.remove('alt'); }
+    }
 }
 
-function onListOfLinksClick(obj){
+function onListOfLinksClick(obj) {
 
     term_search_input.value = obj.innerHTML;
-term_search_input.dispatchEvent(new Event('change'));
-searchForTerm();
-window.scrollTo({ top: 0, behavior: 'smooth' });
+    term_search_input.dispatchEvent(new Event('change'));
+    searchForTerm();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 
 }

@@ -1,51 +1,61 @@
 var all_terms = [
-{display_name: "Engagement mechanisms",
-id: "engagement-mechanisms",
-    array: engagement_mechanisms
-},
-{display_name: "Gameplay genres",
-id: "gameplay-genres",
-    array: gameplay_genres
-},
-{display_name: "Mechanics",
-id: "mechanics",
-    array: mechanics
-},
-{display_name: "Moods",
-id: "moods",
-    array: moods
-},
-{display_name: "Narrative genres",
-id: "narrative-genres",
-    array: narrative_genres
-},
-{display_name: "Settings",
-id: "settings",
-    array: settings
-},
+    {
+        display_name: "Engagement mechanisms",
+        id: "engagement-mechanisms",
+        array: engagement_mechanisms
+    },
+    {
+        display_name: "Gameplay genres",
+        id: "gameplay-genres",
+        array: gameplay_genres
+    },
+    {
+        display_name: "Mechanics",
+        id: "mechanics",
+        array: mechanics
+    },
+    {
+        display_name: "Moods",
+        id: "moods",
+        array: moods
+    },
+    {
+        display_name: "Narrative genres",
+        id: "narrative-genres",
+        array: narrative_genres
+    },
+    {
+        display_name: "Settings",
+        id: "settings",
+        array: settings
+    },
 
-{display_name: "Themes",
-id: "themes",
-    array: themes
-},
-{display_name: "Transaction types",
-id: "transaction-types",
-    array: transaction_types
-},
+    {
+        display_name: "Themes",
+        id: "themes",
+        array: themes
+    },
+    {
+        display_name: "Transaction types",
+        id: "transaction-types",
+        array: transaction_types
+    },
 
-{display_name: "Tropes",
-id: "tropes",
-    array: tropes
-},
-{display_name: "Visual styles",
-id: "visual-styles",
-    array: visual_styles
-}
+    {
+        display_name: "Tropes",
+        id: "tropes",
+        array: tropes
+    },
+    {
+        display_name: "Visual styles",
+        id: "visual-styles",
+        array: visual_styles
+    }
 ]
 
-function getScopeNote(json_obj){
+function getScopeNote(json_obj) {
 
-   if (json_obj.scope_note !== "") {    //if there's a scope note...
+    if (json_obj.scope_note !== "") {    //if there's a scope note...
         return json_obj.scope_note;
 
     } else if (json_obj.use.length) { //if there's no scope note, hopefully there's a "use" term....
@@ -59,51 +69,51 @@ function getScopeNote(json_obj){
     }
 }
 
-function getExamples(json_obj){
-     if (json_obj.example !== "") { //IF there are examples, show them
-            
-            return json_obj.example;
-        } else {
-            return false;
-        }
+function getExamples(json_obj) {
+    if (json_obj.example !== "") { //IF there are examples, show them
+
+        return json_obj.example;
+    } else {
+        return false;
+    }
 
 }
 
-function getTypeTerm(json_obj){
-       if (json_obj.type !== "") {//if there is a type, show it 
-            return json_obj.type;
-        } else {
-            return false
-        }
+function getTypeTerm(json_obj) {
+    if (json_obj.type !== "") {//if there is a type, show it 
+        return json_obj.type;
+    } else {
+        return false
+    }
 }
 
-function getUseForTerms(json_obj){
+function getUseForTerms(json_obj) {
 
-        if (json_obj.use_for.length) {//if there are "use for", show them
+    if (json_obj.use_for.length) {//if there are "use for", show them
 
-            return  getStringFullOfLinks(json_obj.use_for);
-        } else {
-            return false;
-        }
+        return getStringFullOfLinks(json_obj.use_for);
+    } else {
+        return false;
+    }
 
- 
+
 
 }
 
-function getBroaderTerm(json_obj){
-       if (json_obj.broader_term !== "") {//if is a "browder term", show them
-            return getStringFullOfLinks(json_obj.broader_term);
-        } else {
-            return false;
-        }
+function getBroaderTerm(json_obj) {
+    if (json_obj.broader_term !== "") {//if is a "browder term", show them
+        return getStringFullOfLinks(json_obj.broader_term);
+    } else {
+        return false;
+    }
 }
 
-function getNarrowerTerm(json_obj){
-        if (json_obj.narrower_term.length) {//if there are "narrower terms", show them
-            return getStringFullOfLinks(json_obj.narrower_term);
-        } else {
-            return false;
-        }
+function getNarrowerTerm(json_obj) {
+    if (json_obj.narrower_term.length) {//if there are "narrower terms", show them
+        return getStringFullOfLinks(json_obj.narrower_term);
+    } else {
+        return false;
+    }
 }
 
 //returns a string full of <span>s that use the openLInkedItem function. Able to take in either an array or a string
@@ -117,7 +127,7 @@ function getStringFullOfLinks(array, structure) {
         array.push("" + save_string);
     }
 
-    
+
     for (var y = 0; y < array.length; y++) {
         //Do a sweet little trick here to send back a list of arrays, but each page can set their own onListOfLinksClick function since visualizer.js and term_search.js need to do different things on click.
         //SO the function "onlistoflinksclick" can be found on both term_search.js and visualizer.js
